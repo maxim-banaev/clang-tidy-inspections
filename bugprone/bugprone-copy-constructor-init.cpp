@@ -6,11 +6,11 @@
 // https://clang.llvm.org/extra/clang-tidy/checks/bugprone-copy-constructor-init.html
 
 #include "../include/bugprone/bugprone-copy-constructor-init.h"
-#include <climits>
 #include <iostream>
 
 
 #pragma clang diagnostic push
+#pragma ide diagnostic ignored "OCUnusedGlobalDeclarationInspection"
 #pragma ide diagnostic ignored "cppcoreguidelines-special-member-functions"
 #pragma ide diagnostic ignored "hicpp-special-member-functions"
 
@@ -35,8 +35,8 @@ namespace bugprone {
 
         void check() {
             std::cout << "-- check bugprone-copy-constructor-init FIXME" << std::endl;
-            X2 __unused x2();
-            X4 __unused x4();
+            X2 x2();
+            X4 x4();
         }
     } // namespace copy_constructor_init
 } // namespace bugprone

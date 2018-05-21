@@ -18,10 +18,10 @@
 // https://clang.llvm.org/extra/clang-tidy/checks/bugprone-forwarding-reference-overload.html
 
 #include "../include/bugprone/bugprone-forwarding-reference-overload.h"
-#include <climits>
 #include <iostream>
 
 #pragma clang diagnostic push
+#pragma ide diagnostic ignored "OCUnusedStructInspection"
 #pragma ide diagnostic ignored "fuchsia-default-arguments"
 #pragma ide diagnostic ignored "misc-unused-parameters"
 #pragma ide diagnostic ignored "OCUnusedGlobalDeclarationInspection"
@@ -42,7 +42,7 @@ namespace bugprone {
 
             // (possibly compiler generated) copy ctor
             Person(const Person &rhs) = default;
-        } __unused;
+        };
 
         void check() {
             std::cout << "-- check bugprone-forwarding-reference-overload" << std::endl;

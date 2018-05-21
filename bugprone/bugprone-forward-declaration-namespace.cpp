@@ -8,21 +8,25 @@
 // https://clang.llvm.org/extra/clang-tidy/checks/bugprone-forward-declaration-namespace.html
 
 #include "../include/bugprone/bugprone-forward-declaration-namespace.h"
-#include <climits>
 #include <iostream>
+
+#pragma clang diagnostic push
+#pragma ide diagnostic ignored "OCUnusedStructInspection"
+#pragma clang diagnostic ignored "-Wunused-variable"
 
 namespace  bugprone {
     namespace forward_declaration_namespace {
 
-        namespace na { struct A __unused; }
+        namespace na { struct A; }
 
         namespace nb { struct A {}; }
 
         void check(){
             std::cout << "-- check bugprone-forward-declaration-namespace" << std::endl;
-            nb::A  __unused a;
+            nb::A a;
             // warning : no definition found for 'A', but a definition with the same name
             // 'A' found in another namespace 'nb::'
         }
     } // namespace forward_declaration_namespace
 } // namespace bugprone
+#pragma clang diagnostic pop
