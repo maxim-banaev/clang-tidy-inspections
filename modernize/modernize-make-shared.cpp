@@ -23,6 +23,7 @@
 #include "../include/modernize/modernize-make-shared.h"
 #include <iostream>
 #include <vector>
+#include <memory>
 
 namespace modernize {
     namespace make_shared {
