@@ -42,7 +42,9 @@ namespace modernize {
             const std::string &ReadOnly;
         };
 
-        std::string get_cwd();
+        std::string get_cwd() {
+            return "";
+        }
 
         void f(const std::string &Path) {
             // The parameter corresponding to 'get_cwd()' is move-constructed. By

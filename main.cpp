@@ -77,6 +77,8 @@
 #include "include/modernize/modernize-avoid-bind.h"
 #include "include/modernize/modernize-deprecated-headers.h"
 #include "include/modernize/modernize-loop-convert.h"
+#include "include/modernize/modernize-raw-string-literal.h"
+#include "include/modernize/modernize-redundant-void-arg.h"
 
 int main() {
     abseil_string_find_startswith::check();
@@ -109,6 +111,8 @@ int main() {
     modernize::avoid_bind::check();
     modernize::deprecated_headers::check();
     modernize::loop_convert::check();
+    modernize::raw_string_literal::check();
+    modernize::redundant_void_arg::check();
 
 
     return 0;

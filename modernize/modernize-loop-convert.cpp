@@ -66,16 +66,16 @@ namespace modernize {
             v.push_back(3);
 
             // safe conversion
-            for (int i = 0; i < N; ++i)
-                std::cout << arr[i];
+            for (int i = 0; i < N; ++i) {}
+                //std::cout << arr[i];
 
             // reasonable conversion
-            for (std::vector<int>::iterator it = v.begin(); it != v.end(); ++it)
-                std::cout << *it;
+            for (std::vector<int>::iterator it = v.begin(); it != v.end(); ++it) {}
+                //std::cout << *it;
 
             // reasonable conversion
-            for (int i = 0; i < v.size(); ++i)
-                std::cout << v[i];
+            for (int i = 0; i < v.size(); ++i) {}
+                //std::cout << v[i];
         }
     } // loop_convert
 } // modernize
