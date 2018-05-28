@@ -1,7 +1,10 @@
-cmake_minimum_required( VERSION 3.10 )
+cmake_minimum_required(VERSION 3.5)
 project( CPP_12784 )
 
-set( CMAKE_CXX_STANDARD 17 )
+if ( CMAKE_VERSION VERSION_GREATER "3.10" )
+    set( CMAKE_CXX_STANDARD 17 )
+endif()
+
 set( CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 file(GLOB BUGPRONE_SRC "bugprone/*.cpp")
