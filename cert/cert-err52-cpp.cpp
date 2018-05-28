@@ -4,7 +4,6 @@
 
 // https://clang.llvm.org/extra/clang-tidy/checks/cert-err52-cpp.html
 
-#include "../include/cert/cert-err52-cpp.h"
 #include <csetjmp>
 #include <iostream>
 

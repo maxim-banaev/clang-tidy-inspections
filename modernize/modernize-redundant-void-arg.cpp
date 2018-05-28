@@ -3,7 +3,6 @@
 
 // https://clang.llvm.org/extra/clang-tidy/checks/modernize-redundant-void-arg.html
 
-#include "../include/modernize/modernize-redundant-void-arg.h"
 #include <iostream>
 
 #pragma clang diagnostic push

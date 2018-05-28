@@ -10,7 +10,6 @@
 
 // https://clang.llvm.org/extra/clang-tidy/checks/bugprone-misplaced-widening-cast.html
 
-#include "../include/bugprone/bugprone-misplaced-widening-cast.h"
 #include <iostream>
 
 namespace bugprone {

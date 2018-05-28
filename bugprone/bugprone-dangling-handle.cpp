@@ -11,7 +11,6 @@
 
 // https://clang.llvm.org/extra/clang-tidy/checks/bugprone-dangling-handle.html
 
-#include "../include/bugprone/bugprone-dangling-handle.h"
 #include <iostream>
 #include <vector>
 

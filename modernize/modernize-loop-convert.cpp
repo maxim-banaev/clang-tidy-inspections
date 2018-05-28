@@ -48,7 +48,6 @@
 
 // https://clang.llvm.org/extra/clang-tidy/checks/modernize-loop-convert.html
 
-#include "../include/modernize/modernize-loop-convert.h"
 #include <iostream>
 #include <vector>
 

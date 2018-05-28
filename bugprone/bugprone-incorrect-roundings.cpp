@@ -4,7 +4,6 @@
 
 // https://clang.llvm.org/extra/clang-tidy/checks/bugprone-incorrect-roundings.html
 
-#include "../include/bugprone/bugprone-incorrect-roundings.h"
 #include <iostream>
 
 namespace  bugprone {

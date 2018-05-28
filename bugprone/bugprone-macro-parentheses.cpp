@@ -17,7 +17,6 @@
 #pragma ide diagnostic ignored "fuchsia-default-arguments"
 #pragma ide diagnostic ignored "bugprone-inaccurate-erase"
 
-#include "../include/bugprone/bugprone-macro-parentheses.h"
 #include <iostream>
 #include <vector>
 

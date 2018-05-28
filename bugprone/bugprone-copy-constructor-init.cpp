@@ -5,9 +5,7 @@
 
 // https://clang.llvm.org/extra/clang-tidy/checks/bugprone-copy-constructor-init.html
 
-#include "../include/bugprone/bugprone-copy-constructor-init.h"
 #include <iostream>
-
 
 #pragma clang diagnostic push
 #pragma ide diagnostic ignored "OCUnusedGlobalDeclarationInspection"

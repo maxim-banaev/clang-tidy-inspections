@@ -20,7 +20,6 @@
 
 // https://clang.llvm.org/extra/clang-tidy/checks/modernize-make-shared.html
 
-#include "../include/modernize/modernize-make-shared.h"
 #include <iostream>
 #include <vector>
 #include <memory>

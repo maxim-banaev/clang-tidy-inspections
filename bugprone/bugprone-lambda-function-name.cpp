@@ -7,7 +7,6 @@
 #pragma clang diagnostic push
 #pragma ide diagnostic ignored "cppcoreguidelines-pro-bounds-array-to-pointer-decay"
 
-#include "../include/bugprone/bugprone-lambda-function-name.h"
 #include <iostream>
 
 namespace bugprone {

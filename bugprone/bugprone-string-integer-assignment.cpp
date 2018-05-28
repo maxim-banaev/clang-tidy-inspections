@@ -5,7 +5,6 @@
 // https://clang.llvm.org/extra/clang-tidy/checks/bugprone-string-integer-assignment.html
 
 #include <string>
-#include "../include/bugprone/bugprone-string-integer-assignment.h"
 #include <iostream>
 
 namespace bugprone {

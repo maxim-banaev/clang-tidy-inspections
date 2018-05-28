@@ -28,7 +28,6 @@
 
 #include <string>
 #include <iostream>
-#include "../include/modernize/modernize-pass-by-value.h"
 
 namespace modernize {
     namespace pass_by_value {

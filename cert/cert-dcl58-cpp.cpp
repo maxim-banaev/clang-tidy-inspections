@@ -4,7 +4,6 @@
 
 // https://clang.llvm.org/extra/clang-tidy/checks/cert-dcl58-cpp.html
 
-#include "../include/cert/cert-dcl58-cpp.h"
 #include <iostream>
 
 namespace std {

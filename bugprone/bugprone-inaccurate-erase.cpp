@@ -12,7 +12,6 @@
 #pragma ide diagnostic ignored "OCUnusedMacroInspection"
 #pragma ide diagnostic ignored "fuchsia-default-arguments"
 
-#include "../include/bugprone/bugprone-inaccurate-erase.h"
 #include <iostream>
 #include <vector>
 

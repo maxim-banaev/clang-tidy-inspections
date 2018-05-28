@@ -4,7 +4,6 @@
 
 // https://clang.llvm.org/extra/clang-tidy/checks/google-default-arguments.html
 
-#include "../include/google/google-default-arguments.h"
 #include <iostream>
 
 namespace google {

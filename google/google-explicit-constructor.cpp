@@ -4,7 +4,6 @@
 
 // https://clang.llvm.org/extra/clang-tidy/checks/google-explicit-constructor.html
 
-#include "../include/google/google-explicit-constructor.h"
 #include <iostream>
 
 namespace google {

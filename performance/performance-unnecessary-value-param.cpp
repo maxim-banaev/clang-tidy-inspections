@@ -13,7 +13,6 @@
 
 // https://clang.llvm.org/extra/clang-tidy/checks/performance-unnecessary-value-param.html
 
-#include "../include/performance/performance-unnecessary-value-param.h"
 #include <iostream>
 
 #pragma clang diagnostic push

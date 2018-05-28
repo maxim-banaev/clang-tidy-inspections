@@ -3,7 +3,6 @@
 
 // https://clang.llvm.org/extra/clang-tidy/checks/bugprone-macro-repeated-side-effects.html
 
-#include "../include/bugprone/bugprone-macro-repeated-side-effects.h"
 #include <iostream>
 
 namespace  bugprone {

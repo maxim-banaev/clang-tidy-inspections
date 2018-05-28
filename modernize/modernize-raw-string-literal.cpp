@@ -12,7 +12,6 @@
 
 // https://clang.llvm.org/extra/clang-tidy/checks/modernize-raw-string-literal.html
 
-#include "../include/modernize/modernize-raw-string-literal.h"
 #include <iostream>
 
 #pragma clang diagnostic push

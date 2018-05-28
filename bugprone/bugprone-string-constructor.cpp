@@ -17,7 +17,6 @@
 
 // https://clang.llvm.org/extra/clang-tidy/checks/bugprone-string-constructor.html
 
-#include "../include/bugprone/bugprone-string-constructor.h"
 #include <iostream>
 
 namespace bugprone {

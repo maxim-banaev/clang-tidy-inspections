@@ -7,7 +7,6 @@
 
 // https://clang.llvm.org/extra/clang-tidy/checks/bugprone-forward-declaration-namespace.html
 
-#include "../include/bugprone/bugprone-forward-declaration-namespace.h"
 #include <iostream>
 
 #pragma clang diagnostic push

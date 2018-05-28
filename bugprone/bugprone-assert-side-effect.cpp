@@ -13,7 +13,6 @@
 
 // https://clang.llvm.org/extra/clang-tidy/checks/bugprone-assert-side-effect.html
 
-#include "../include/bugprone/bugprone-assert-side-effect.h"
 #include <cassert>
 #include <iostream>
 

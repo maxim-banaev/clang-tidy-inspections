@@ -8,7 +8,6 @@
 
 // https://clang.llvm.org/extra/clang-tidy/checks/bugprone-fold-init-type.html
 
-#include "../include/bugprone/bugprone-fold-init-type.h"
 #include <iostream>
 #include <numeric>
 

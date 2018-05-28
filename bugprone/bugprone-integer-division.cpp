@@ -11,7 +11,6 @@
 
 // https://clang.llvm.org/extra/clang-tidy/checks/bugprone-integer-division.html
 
-#include "../include/bugprone/bugprone-integer-division.h"
 #include <iostream>
 
 #pragma clang diagnostic push

@@ -8,7 +8,6 @@
 #pragma ide diagnostic ignored "clang-analyzer-core.uninitialized.Branch"
 #pragma ide diagnostic ignored "readability-implicit-bool-conversion"
 
-#include "../include/bugprone/bugprone-bool-pointer-implicit-conversion.h"
 #include <iostream>
 
 namespace bugprone {

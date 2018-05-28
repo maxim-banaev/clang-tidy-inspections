@@ -7,7 +7,6 @@
 
 // https://clang.llvm.org/extra/clang-tidy/checks/bugprone-move-forwarding-reference.html
 
-#include "../include/bugprone/bugprone-move-forwarding-reference.h"
 #include <iostream>
 
 namespace bugprone {

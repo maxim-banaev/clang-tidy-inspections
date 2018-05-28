@@ -10,7 +10,6 @@
 
 // https://clang.llvm.org/extra/clang-tidy/checks/bugprone-argument-comment.html
 
-#include "../include/bugprone/bugprone-argument-comment.h"
 #include <iostream>
 
 namespace bugprone {
