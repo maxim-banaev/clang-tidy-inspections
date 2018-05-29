@@ -16,7 +16,7 @@ namespace modernize {
             std::cout << "-- check modernize-avoid-bind" << std::endl;
 
             int x = 2;
-            auto clj = [=] { return add(x, 1); };;
+            auto clj = std::bind(add, x);
         }
-    } // avoid_bind
-} // modernize
+    } // namespace avoid_bind
+} // namespace modernize
