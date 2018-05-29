@@ -84,6 +84,8 @@
 
 #include "include/performance/performance-unnecessary-value-param.h"
 
+#include "include/readability/readability-avoid-const-params-in-decls.h"
+
 int main() {
     abseil_string_find_startswith::check();
 
@@ -121,6 +123,8 @@ int main() {
     modernize::redundant_void_arg::check();
 
     performance::unnecessary_value_param::check();
+
+    readability::avoid_const_params_in_decls::check();
 
     return 0;
 }

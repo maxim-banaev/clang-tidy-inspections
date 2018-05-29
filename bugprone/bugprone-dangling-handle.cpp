@@ -11,6 +11,10 @@
 
 // https://clang.llvm.org/extra/clang-tidy/checks/bugprone-dangling-handle.html
 
+#pragma clang diagnostic push
+#pragma ide diagnostic ignored "UnusedValue"
+#pragma clang diagnostic ignored "-Wunused-variable"
+
 #include <iostream>
 #include <vector>
 
@@ -29,3 +33,5 @@ namespace bugprone {
         }
     } // namespace dangling_handle
 } // namespace bugprone
+
+#pragma clang diagnostic pop

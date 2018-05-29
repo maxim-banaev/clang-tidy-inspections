@@ -4,8 +4,8 @@
 
 // https://clang.llvm.org/extra/clang-tidy/checks/bugprone-string-integer-assignment.html
 
-#include <string>
 #include <iostream>
+#include <string>
 
 namespace bugprone {
     namespace string_integer_assignment {

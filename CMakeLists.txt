@@ -22,6 +22,9 @@ file(GLOB MODERNIZE_HEADERS "include/modernize/*.h")
 file(GLOB PERFORMANCE_SRC "performance/*.cpp")
 file(GLOB PERFORMANCE_HEADERS "include/performance/*.h")
 
+file(GLOB READABILITY_SRC "readability/*.cpp")
+file(GLOB READABILITY_HEADERS "include/readability/*.h")
+
 file(GLOB CPP_12784_SRC "*.cpp")
 file(GLOB CPP_12784_HEADERS "include/*.h")
 
@@ -32,4 +35,5 @@ add_executable( CPP_12784 main.cpp
         ${GOOGLE_SRC} ${GOOGLE_HEADERS}
         ${MODERNIZE_SRC} ${MODERNIZE_HEADERS}
         ${PERFORMANCE_SRC} ${PERFORMANCE_HEADERS}
+        ${READABILITY_SRC} ${READABILITY_HEADERS}
         )
