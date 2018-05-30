@@ -7,8 +7,8 @@
 
 // Turn off by default!
 
-#include <iostream>
 #include <cstdarg>
+#include <iostream>
 
 namespace cert {
     namespace dcl50_cpp {
