@@ -4,7 +4,7 @@
 namespace modernize {
     namespace loop_convert {
         void check();
-    } // loop_convert
-} // modernize
+    } // namespace loop_convert
+} // namespace modernize
 
 #endif //CPP_12784_MODERNIZE_LOOP_CONVERT_H

@@ -5,7 +5,7 @@
 namespace modernize {
     namespace avoid_bind {
         void check();
-    } // avoid_bind
-} // modernize
+    } // namespace avoid_bind
+} // namespace modernize
 
 #endif //CPP_12784_MODERNIZE_AVOID_BIND_H

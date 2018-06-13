@@ -4,7 +4,7 @@
 namespace modernize {
     namespace make_shared {
         void check();
-    } // make_shared
-} // modernize
+    } // namespace make_shared
+} // namespace modernize
 
 #endif //CPP_12784_MODERNIZE_MAKE_SHARED_H

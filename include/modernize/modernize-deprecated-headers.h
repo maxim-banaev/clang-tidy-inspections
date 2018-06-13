@@ -5,7 +5,7 @@
 namespace modernize {
     namespace deprecated_headers {
         void check();
-    } // deprecated_headers
-} // modernize
+    } // namespace deprecated_headers
+} // namespace modernize
 
 #endif //CPP_12784_MODERNIZE_DEPRECATED_HEADERS_H

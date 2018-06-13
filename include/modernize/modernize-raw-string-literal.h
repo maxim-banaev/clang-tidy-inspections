@@ -4,7 +4,7 @@
 namespace modernize {
     namespace raw_string_literal {
         void check();
-    } // raw_string_literal
-} // modernize
+    } // namespace raw_string_literal
+} // namespace modernize
 
 #endif //CPP_12784_MODERNIZE_RAW_STRING_LITERAL_H

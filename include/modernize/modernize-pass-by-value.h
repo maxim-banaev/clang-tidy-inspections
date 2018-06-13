@@ -4,7 +4,7 @@
 namespace modernize {
     namespace pass_by_value {
         void check();
-    } // pass_by_value
-} // modernize
+    } // namespace pass_by_value
+} // namespace modernize
 
 #endif //CPP_12784_MODERNIZE_PASS_BY_VALUE_H

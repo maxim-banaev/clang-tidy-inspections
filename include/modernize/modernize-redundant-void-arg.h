@@ -4,7 +4,7 @@
 namespace modernize {
     namespace redundant_void_arg {
         void check();
-    } // redundant_void_arg
-} // modernize
+    } // namespace redundant_void_arg
+} // namespace modernize
 
 #endif //CPP_12784_MODERNIZE_REDUNDANT_VOID_ARG_H
