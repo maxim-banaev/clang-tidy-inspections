@@ -11,9 +11,10 @@ file(GLOB GOOGLE_SRC "google/*.cpp")
 file(GLOB MODERNIZE_SRC "modernize/*.cpp")
 file(GLOB PERFORMANCE_SRC "performance/*.cpp")
 file(GLOB READABILITY_SRC "readability/*.cpp")
+file(GLOB PORTABILITY_SRC "portability/*.cpp")
 file(GLOB CPP_12784_SRC "*.cpp")
 
 add_executable( CPP_12784 main.cpp
         ${CPP_12784_SRC} ${BUGPRONE_SRC} ${CERT_SRC} ${GOOGLE_SRC}
-        ${MODERNIZE_SRC} ${PERFORMANCE_SRC} ${READABILITY_SRC}
+        ${MODERNIZE_SRC} ${PERFORMANCE_SRC} ${READABILITY_SRC} ${PORTABILITY_SRC}
         )

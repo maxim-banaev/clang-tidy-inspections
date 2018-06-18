@@ -85,6 +85,13 @@
 #include "include/performance/performance-unnecessary-value-param.h"
 
 #include "include/readability/readability-avoid-const-params-in-decls.h"
+#include "include/readability/readability-braces-around-statements.h"
+#include "include/readability/readability-container-size-empty.h"
+#include "include/readability/readability-delete-null-pointer.h"
+#include "include/readability/readability-else-after-return.h"
+#include "include/readability/readability-function-size.h"
+
+#include "include/portability/portability-simd-intrinsics.h"
 
 int main() {
     abseil_string_find_startswith::check();
