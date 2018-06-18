@@ -32,9 +32,9 @@
 #include <iostream>
 
 namespace readability {
-    namespace readability_function_size {
+    namespace function_size {
         void check() {
             std::cout << "-- check readability-function-size turn off by default" << std::endl;
         }
-    } // namespace readability_function_size
+    } // namespace function_size
 } // namespace readability

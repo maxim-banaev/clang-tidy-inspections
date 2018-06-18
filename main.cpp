@@ -88,12 +88,15 @@
 #include "include/readability/readability-braces-around-statements.h"
 #include "include/readability/readability-container-size-empty.h"
 #include "include/readability/readability-delete-null-pointer.h"
+#include "include/readability/readability-deleted-default.h"
 #include "include/readability/readability-else-after-return.h"
 #include "include/readability/readability-function-size.h"
 #include "include/readability/readability-identifier-naming.h"
 #include "include/readability/readability-implicit-bool-conversion.h"
 #include "include/readability/readability-inconsistent-declaration-parameter-name.h"
 #include "include/readability/readability-misleading-indentation.h"
+#include "include/readability/readability-misplaced-array-index.h"
+#include "include/readability/readability-named-parameter.h"
 
 #include "include/portability/portability-simd-intrinsics.h"
 
@@ -136,6 +139,16 @@ int main() {
     performance::unnecessary_value_param::check();
 
     readability::avoid_const_params_in_decls::check();
-
+    readability::brace_around_statements::check();
+    readability::container_size_empty::check();
+    readability::deleted_default::check();
+    readability::else_after_return::check();
+    readability::function_size::check();
+    readability::identifier_naming::check();
+    readability::implicit_bool_conversion::check();
+    readability::inconsistent_declaration_parameter_name::check();
+    readability::misleading_indentation::check();
+    readability::misplaced_array_index::check();
+    readability::named_parameter::check();
     return 0;
 }

@@ -10,7 +10,7 @@
 #include <iostream>
 
 namespace readability {
-    namespace readability_inconsistent_declaration_parameter_name {
+    namespace inconsistent_declaration_parameter_name {
 
         int foo(int a); // warning and fix-it hint (replace "a" to "b")
         int foo(int b) { return b + 2; }
@@ -44,6 +44,6 @@ namespace readability {
             foo(0);
             templateFunctionWithSeparateDeclarationAndDefinition<int>(0);
         }
-    } // namespace readability_inconsistent_declaration_parameter_name
+    } // namespace inconsistent_declaration_parameter_name
 } // namespace readability
 

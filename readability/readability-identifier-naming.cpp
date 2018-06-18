@@ -14,9 +14,9 @@
 #include <iostream>
 
 namespace readability {
-    namespace readability_identifier_naming {
+    namespace identifier_naming {
         void check() {
             std::cout << "-- check readability-identifier-naming turn off by default" << std::endl;
         }
-    } // namespace readability_identifier_naming
+    } // namespace identifier_naming
 } // namespace readability

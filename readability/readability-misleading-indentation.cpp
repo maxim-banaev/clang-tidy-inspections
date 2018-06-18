@@ -18,12 +18,12 @@
 #pragma ide diagnostic ignored "cert-msc30-c"
 
 namespace readability {
-    namespace readability_misleading_indentation {
+    namespace misleading_indentation {
         void foo1() {}
         void foo2() {}
 
         void check() {
-            std::cout << "-- check readability_misleading_indentation" << std::endl;
+            std::cout << "-- check misleading_indentation" << std::endl;
 
             srand(static_cast<unsigned int>(time(nullptr)));
 
@@ -42,7 +42,7 @@ namespace readability {
                 foo1();
                 foo2();  // Not guarded by if(cond1).
         }
-    } // namespace readability_misleading_indentation
+    } // namespace misleading_indentation
 } // namespace readability
 
 #pragma clang diagnostic pop

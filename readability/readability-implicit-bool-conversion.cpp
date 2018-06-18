@@ -8,7 +8,7 @@
 #include <iostream>
 
 namespace readability {
-    namespace readability_implicit_bool_conversion {
+    namespace implicit_bool_conversion {
 
         class Foo {
             int m_foo;
@@ -25,5 +25,5 @@ namespace readability {
         void check() {
             std::cout << "-- check readability-implicit-bool-conversion turn off by default" << std::endl;
         }
-    } // namespace readability_implicit_bool_conversion
+    } // namespace implicit_bool_conversion
 } // namespace readability
