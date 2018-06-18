@@ -158,5 +158,104 @@
   "directory": "/mnt/c/Users/maxim/CLionProjects/clang-tidy-inspections",
   "command": "/usr/bin/c++ -O3 -DNDEBUG -std=gnu++14 -o modernize/modernize-redundant-void-arg.cpp.o -c modernize/modernize-redundant-void-arg.cpp",
    "file": "modernize/modernize-redundant-void-arg.cpp"
+},
+{
+  "directory": "/mnt/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+  "command": "/usr/bin/c++ -O3 -DNDEBUG -std=gnu++14 -o modernize/modernize-replace-auto-ptr.cpp.o -c modernize/modernize-replace-auto-ptr.cpp",
+  "file": "modernize/modernize-replace-auto-ptr.cpp"
+},
+{
+  "directory": "/mnt/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+  "command": "/usr/bin/c++ -O3 -DNDEBUG -std=gnu++14 -o performance/performance-unnecessary-value-param.cpp.o -c performance/performance-unnecessary-value-param.cpp",
+  "file": "performance/performance-unnecessary-value-param.cpp"
+},
+{
+  "directory": "/mnt/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+  "command": "/usr/bin/c++ -O3 -DNDEBUG -std=gnu++14 -o readability/readability-avoid-const-params-in-decls.cpp.o -c readability/readability-avoid-const-params-in-decls.cpp",
+  "file": "readability/readability-avoid-const-params-in-decls.cpp"
+},
+{
+  "directory": "/mnt/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+  "arguments": [
+                  "/usr/bin/c++",
+                  "-O3",
+                  "-DNDEBUG",
+                  "-std=gnu++14",
+                  "-o",
+                  "readability/readability-braces-around-statements.cpp.o",
+                  "-c",
+                  "readability/readability-braces-around-statements.cpp"
+                ],
+  "file": "readability/readability-braces-around-statements.cpp"
+},
+{
+  "directory": "/mnt/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+  "arguments": [
+    "/usr/bin/c++",
+    "-O3",
+    "-DNDEBUG",
+    "-std=gnu++14",
+    "-o",
+    "readability/readability-container-size-empty.cpp.o",
+    "-c",
+    "readability/readability-container-size-empty.cpp"
+  ],
+  "file": "readability/readability-container-size-empty.cpp"
+},
+{
+  "directory": "/mnt/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+  "arguments": [
+    "/usr/bin/c++",
+    "-O3",
+    "-DNDEBUG",
+    "-std=gnu++14",
+    "-o",
+    "readability/readability-delete-null-pointer.cpp.o",
+    "-c",
+    "readability/readability-delete-null-pointer.cpp"
+  ],
+  "file": "readability/readability-delete-null-pointer.cpp"
+},
+{
+  "directory": "/mnt/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+  "arguments": [
+    "/usr/bin/c++",
+    "-O3",
+    "-DNDEBUG",
+    "-std=gnu++14",
+    "-o",
+    "readability/readability-deleted-default.cpp.o",
+    "-c",
+    "readability/readability-deleted-default.cpp"
+  ],
+  "file": "readability/readability-deleted-default.cpp"
+},
+{
+  "directory": "/mnt/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+  "arguments": [
+    "/usr/bin/c++",
+    "-O3",
+    "-DNDEBUG",
+    "-std=gnu++14",
+    "-o",
+    "readability/readability-else-after-return.cpp.o",
+    "-c",
+    "readability/readability-else-after-return.cpp"
+  ],
+  "file": "readability/readability-else-after-return.cpp"
+},
+{
+  "directory": "/mnt/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+  "arguments": [
+    "/usr/bin/c++",
+    "-O3",
+    "-DNDEBUG",
+    "-std=gnu++14",
+    "-o",
+    "readability/readability-function-size.cpp.o",
+    "-c",
+    "readability/readability-function-size.cpp"
+  ],
+  "file": "readability/readability-function-size.cpp"
 }
 ]
