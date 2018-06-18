@@ -32,7 +32,7 @@ namespace readability {
         }
 
         void check() {
-            std::cout << "-- check readability-else-after-return" << std::endl;
+            std::cout << "-- check readability-else-after-return turn off by default" << std::endl;
 
             foo(0);
         }

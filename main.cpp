@@ -90,6 +90,10 @@
 #include "include/readability/readability-delete-null-pointer.h"
 #include "include/readability/readability-else-after-return.h"
 #include "include/readability/readability-function-size.h"
+#include "include/readability/readability-identifier-naming.h"
+#include "include/readability/readability-implicit-bool-conversion.h"
+#include "include/readability/readability-inconsistent-declaration-parameter-name.h"
+#include "include/readability/readability-misleading-indentation.h"
 
 #include "include/portability/portability-simd-intrinsics.h"
 
