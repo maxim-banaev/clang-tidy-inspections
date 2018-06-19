@@ -97,6 +97,12 @@
 #include "include/readability/readability-misleading-indentation.h"
 #include "include/readability/readability-misplaced-array-index.h"
 #include "include/readability/readability-named-parameter.h"
+#include "include/readability/readability-non-const-parameter.h"
+#include "include/readability/readability-redundant-control-flow.h"
+#include "include/readability/readability-redundant-declaration.h"
+#include "include/readability/readability-redundant-function-ptr-dereference.h"
+#include "include/readability/readability-redundant-member-init.h"
+#include "include/readability/readability-redundant-smartptr-get.h"
 
 #include "include/portability/portability-simd-intrinsics.h"
 
@@ -150,5 +156,12 @@ int main() {
     readability::misleading_indentation::check();
     readability::misplaced_array_index::check();
     readability::named_parameter::check();
+    readability::non_const_parameter::check();
+    readability::redundant_control_flow::check();
+    readability::redundant_declaration::check();
+    readability::redundant_function_ptr_dereference::check();
+    readability::redundant_member_init::check();
+    readability::redundant_smartptr_get::check();
+
     return 0;
 }
