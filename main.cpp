@@ -103,6 +103,8 @@
 #include "include/readability/readability-redundant-function-ptr-dereference.h"
 #include "include/readability/readability-redundant-member-init.h"
 #include "include/readability/readability-redundant-smartptr-get.h"
+#include "include/readability/readability-redundant-string-cstr.h"
+#include "include/readability/readability-redundant-string-init.h"
 
 #include "include/portability/portability-simd-intrinsics.h"
 
@@ -162,6 +164,9 @@ int main() {
     readability::redundant_function_ptr_dereference::check();
     readability::redundant_member_init::check();
     readability::redundant_smartptr_get::check();
+    readability::redundant_string_cstr::check();
+    readability::redundant_string_init::check();
+
 
     return 0;
 }
