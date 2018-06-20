@@ -12,12 +12,7 @@
 
 // https://clang.llvm.org/extra/clang-tidy/checks/readability-braces-around-statements.html
 
-#pragma clang diagnostic push
-#pragma ide diagnostic ignored "cert-msc30-c"
-
 #include <iostream>
-#include <random>
-#include <ctime>
 
 namespace readability {
     namespace brace_around_statements {
@@ -26,10 +21,8 @@ namespace readability {
 
             srand(static_cast<unsigned int>(time(nullptr)));
 
-            if(rand() % 2 == 0)
+            if(random() % 2 == 0)
                std::cout << "";
         }
     } // namespace brace_around_statements
 } // namespace readability
-
-#pragma clang diagnostic pop

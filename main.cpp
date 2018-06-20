@@ -105,6 +105,8 @@
 #include "include/readability/readability-redundant-smartptr-get.h"
 #include "include/readability/readability-redundant-string-cstr.h"
 #include "include/readability/readability-redundant-string-init.h"
+#include "include/readability/readability-simplify-boolean-expr.h"
+#include "include/readability/readability-simplify-subscript-expr.h"
 
 #include "include/portability/portability-simd-intrinsics.h"
 
@@ -166,7 +168,8 @@ int main() {
     readability::redundant_smartptr_get::check();
     readability::redundant_string_cstr::check();
     readability::redundant_string_init::check();
-
+    readability::simplify_boolean_expr::check();
+    readability::simplify_subscript_expr::check();
 
     return 0;
 }
