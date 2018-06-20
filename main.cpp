@@ -107,6 +107,7 @@
 #include "include/readability/readability-redundant-string-init.h"
 #include "include/readability/readability-simplify-boolean-expr.h"
 #include "include/readability/readability-simplify-subscript-expr.h"
+#include "include/readability/readability-static-accessed-through-instance.h"
 
 #include "include/portability/portability-simd-intrinsics.h"
 
@@ -170,6 +171,7 @@ int main() {
     readability::redundant_string_init::check();
     readability::simplify_boolean_expr::check();
     readability::simplify_subscript_expr::check();
+    readability::static_accessed_through_instance::check();
 
     return 0;
 }

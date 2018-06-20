@@ -16,11 +16,11 @@ namespace readability {
         void check() {
             std::cout << "-- check readability-simplify-subscript-expr" << std::endl;
 
-            std::string s = "helllllllllllllllo";
-            auto i = random() % s.size();
+            std::string s = "check readability-simplify-subscript-expr";
+            int i = random() % s.size();
             char c = s.data()[i];  // char c = s[i];
 
-            if(c == 0) {}
+            if (c == 0) {}
         }
     } // namespace simplify_subscript_expr
 } // namespace readability
