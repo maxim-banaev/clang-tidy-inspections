@@ -21,8 +21,8 @@
 // https://clang.llvm.org/extra/clang-tidy/checks/modernize-make-shared.html
 
 #include <iostream>
-#include <vector>
 #include <memory>
+#include <vector>
 
 namespace modernize {
     namespace make_shared {

@@ -45,7 +45,9 @@ namespace modernize {
     namespace use_auto {
         void check(){
             std::cout << "-- check modernize-use-auto" << std::endl;
-            // TODO: add examples for check
+            std::string str("Please split this sentence into tokens");
+
+            char *cstr = new char[str.length() + 1];
         }
     } // namespace use_auto
 } // namespace modernize
