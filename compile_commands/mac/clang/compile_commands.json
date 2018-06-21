@@ -158,5 +158,150 @@
   "directory": "/Users/jetbrains/CLionProjects/clang-tidy-inspections",
   "command": "/usr/bin/clang++ -g -std=gnu++11 -o modernize/modernize-redundant-void-arg.cpp.o -c modernize/modernize-redundant-void-arg.cpp",
   "file": "modernize/modernize-redundant-void-arg.cpp"
+},
+{
+  "directory": "/Users/jetbrains/CLionProjects/clang-tidy-inspections",
+  "command": "/usr/bin/clang++ -g -std=gnu++11 -o modernize/modernize-replace-auto-ptr.cpp.o -c modernize/modernize-replace-auto-ptr.cpp",
+  "file": "modernize/modernize-replace-auto-ptr.cpp"
+},
+{
+  "directory": "/Users/jetbrains/CLionProjects/clang-tidy-inspections",
+  "command": "/usr/bin/clang++ -g -std=gnu++11 -o modernize/modernize-replace-random-shuffle.cpp.o -c modernize/modernize-replace-random-shuffle.cpp",
+  "file": "modernize/modernize-replace-random-shuffle.cpp"
+},
+{
+  "directory": "/Users/jetbrains/CLionProjects/clang-tidy-inspections",
+  "command": "/usr/bin/clang++ -g -std=gnu++11 -o modernize/modernize-use-auto.cpp.o -c modernize/modernize-use-auto.cpp",
+  "file": "modernize/modernize-use-auto.cpp"
+},
+{
+  "directory": "/Users/jetbrains/CLionProjects/clang-tidy-inspections",
+  "command": "/usr/bin/clang++ -g -std=gnu++11 -o performance/performance-unnecessary-value-param.cpp.o -c performance/performance-unnecessary-value-param.cpp",
+  "file": "performance/performance-unnecessary-value-param.cpp"
+},
+{
+  "directory": "/Users/jetbrains/CLionProjects/clang-tidy-inspections",
+  "command": "/usr/bin/clang++ -g -std=gnu++11 -o readability/readability-avoid-const-params-in-decls.cpp.o -c readability/readability-avoid-const-params-in-decls.cpp",
+  "file": "readability/readability-avoid-const-params-in-decls.cpp"
+},
+{
+  "directory": "/Users/jetbrains/CLionProjects/clang-tidy-inspections",
+  "command": "/usr/bin/clang++ -g -std=gnu++11 -o readability/readability-braces-around-statements.cpp.o -c readability/readability-braces-around-statements.cpp",
+  "file": "readability/readability-braces-around-statements.cpp"
+},
+{
+  "directory": "/Users/jetbrains/CLionProjects/clang-tidy-inspections",
+  "command": "/usr/bin/clang++ -g -std=gnu++11 -o readability/readability-container-size-empty.cpp.o -c readability/readability-container-size-empty.cpp",
+  "file": "readability/readability-container-size-empty.cpp"
+},
+{
+  "directory": "/Users/jetbrains/CLionProjects/clang-tidy-inspections",
+  "command": "/usr/bin/clang++ -g -std=gnu++11 -o readability/readability-delete-null-pointer.cpp.o -c readability/readability-delete-null-pointer.cpp",
+  "file": "readability/readability-delete-null-pointer.cpp"
+},
+{
+  "directory": "/Users/jetbrains/CLionProjects/clang-tidy-inspections",
+  "command": "/usr/bin/clang++ -g -std=gnu++11 -o readability/readability-deleted-default.cpp.o -c readability/readability-deleted-default.cpp",
+  "file": "readability/readability-deleted-default.cpp"
+},
+{
+  "directory": "/Users/jetbrains/CLionProjects/clang-tidy-inspections",
+  "command": "/usr/bin/clang++ -g -std=gnu++11 -o readability/readability-else-after-return.cpp.o -c readability/readability-else-after-return.cpp",
+  "file": "readability/readability-else-after-return.cpp"
+},
+{
+  "directory": "/Users/jetbrains/CLionProjects/clang-tidy-inspections",
+  "command": "/usr/bin/clang++ -g -std=gnu++11 -o readability/readability-function-size.cpp.o -c readability/readability-function-size.cpp",
+  "file": "readability/readability-function-size.cpp"
+},
+{
+  "directory": "/Users/jetbrains/CLionProjects/clang-tidy-inspections",
+  "command": "/usr/bin/clang++ -g -std=gnu++11 -o readability/readability-identifier-naming.cpp.o -c readability/readability-identifier-naming.cpp",
+  "file": "readability/readability-identifier-naming.cpp"
+},
+{
+  "directory": "/Users/jetbrains/CLionProjects/clang-tidy-inspections",
+  "command": "/usr/bin/clang++ -g -std=gnu++11 -o readability/readability-implicit-bool-conversion.cpp.o -c readability/readability-implicit-bool-conversion.cpp",
+  "file": "readability/readability-implicit-bool-conversion.cpp"
+},
+{
+  "directory": "/Users/jetbrains/CLionProjects/clang-tidy-inspections",
+  "command": "/usr/bin/clang++ -g -std=gnu++11 -o readability/readability-inconsistent-declaration-parameter-name.cpp.o -c readability/readability-inconsistent-declaration-parameter-name.cpp",
+  "file": "readability/readability-inconsistent-declaration-parameter-name.cpp"
+},
+{
+  "directory": "/Users/jetbrains/CLionProjects/clang-tidy-inspections",
+  "command": "/usr/bin/clang++ -g -std=gnu++11 -o readability/readability-misleading-indentation.cpp.o -c readability/readability-misleading-indentation.cpp",
+  "file": "readability/readability-misleading-indentation.cpp"
+},
+{
+  "directory": "/Users/jetbrains/CLionProjects/clang-tidy-inspections",
+  "command": "/usr/bin/clang++ -g -std=gnu++11 -o readability/readability-misplaced-array-index.cpp.o -c readability/readability-misplaced-array-index.cpp",
+  "file": "readability/readability-misplaced-array-index.cpp"
+},
+{
+  "directory": "/Users/jetbrains/CLionProjects/clang-tidy-inspections",
+  "command": "/usr/bin/clang++ -g -std=gnu++11 -o readability/readability-named-parameter.cpp.o -c readability/readability-named-parameter.cpp",
+  "file": "readability/readability-named-parameter.cpp"
+},
+{
+  "directory": "/Users/jetbrains/CLionProjects/clang-tidy-inspections",
+  "command": "/usr/bin/clang++ -g -std=gnu++11 -o readability/readability-non-const-parameter.cpp.o -c readability/readability-non-const-parameter.cpp",
+  "file": "readability/readability-non-const-parameter.cpp"
+},
+{
+  "directory": "/Users/jetbrains/CLionProjects/clang-tidy-inspections",
+  "command": "/usr/bin/clang++ -g -std=gnu++11 -o readability/readability-redundant-control-flow.cpp.o -c readability/readability-redundant-control-flow.cpp",
+  "file": "readability/readability-redundant-control-flow.cpp"
+},
+{
+  "directory": "/Users/jetbrains/CLionProjects/clang-tidy-inspections",
+  "command": "/usr/bin/clang++ -g -std=gnu++11 -o readability/readability-redundant-declaration.cpp.o -c readability/readability-redundant-declaration.cpp",
+  "file": "readability/readability-redundant-declaration.cpp"
+},
+{
+  "directory": "/Users/jetbrains/CLionProjects/clang-tidy-inspections",
+  "command": "/usr/bin/clang++ -g -std=gnu++11 -o readability/readability-redundant-function-ptr-dereference.cpp.o -c readability/readability-redundant-function-ptr-dereference.cpp",
+  "file": "readability/readability-redundant-function-ptr-dereference.cpp"
+},
+{
+  "directory": "/Users/jetbrains/CLionProjects/clang-tidy-inspections",
+  "command": "/usr/bin/clang++ -g -std=gnu++11 -o readability/readability-redundant-member-init.cpp.o -c readability/readability-redundant-member-init.cpp",
+  "file": "readability/readability-redundant-member-init.cpp"
+},
+{
+  "directory": "/Users/jetbrains/CLionProjects/clang-tidy-inspections",
+  "command": "/usr/bin/clang++ -g -std=gnu++11 -o readability/readability-redundant-smartptr-get.cpp.o -c readability/readability-redundant-smartptr-get.cpp",
+  "file": "readability/readability-redundant-smartptr-get.cpp"
+},
+{
+  "directory": "/Users/jetbrains/CLionProjects/clang-tidy-inspections",
+  "command": "/usr/bin/clang++ -g -std=gnu++11 -o readability/readability-redundant-string-cstr.cpp.o -c readability/readability-redundant-string-cstr.cpp",
+  "file": "readability/readability-redundant-string-cstr.cpp"
+},
+{
+  "directory": "/Users/jetbrains/CLionProjects/clang-tidy-inspections",
+  "command": "/usr/bin/clang++ -g -std=gnu++11 -o readability/readability-redundant-string-init.cpp.o -c readability/readability-redundant-string-init.cpp",
+  "file": "readability/readability-redundant-string-init.cpp"
+},
+{
+  "directory": "/Users/jetbrains/CLionProjects/clang-tidy-inspections",
+  "command": "/usr/bin/clang++ -g -std=gnu++11 -o readability/readability-simplify-boolean-expr.cpp.o -c readability/readability-simplify-boolean-expr.cpp",
+  "file": "readability/readability-simplify-boolean-expr.cpp"
+},
+{
+  "directory": "/Users/jetbrains/CLionProjects/clang-tidy-inspections",
+  "command": "/usr/bin/clang++ -g -std=gnu++11 -o readability/readability-simplify-subscript-expr.cpp.o -c readability/readability-simplify-subscript-expr.cpp",
+  "file": "readability/readability-simplify-subscript-expr.cpp"
+},
+{
+  "directory": "/Users/jetbrains/CLionProjects/clang-tidy-inspections",
+  "command": "/usr/bin/clang++ -g -std=gnu++11 -o readability/readability-static-accessed-through-instance.cpp.o -c readability/readability-static-accessed-through-instance.cpp",
+  "file": "readability/readability-static-accessed-through-instance.cpp"
+},
+{
+  "directory": "/Users/jetbrains/CLionProjects/clang-tidy-inspections",
+  "command": "/usr/bin/clang++ -g -std=gnu++11 -o portability/portability-simd-intrinsics.cpp.o -c portability/portability-simd-intrinsics.cpp",
+  "file": "portability/portability-simd-intrinsics.cpp"
 }
 ]

@@ -5,6 +5,8 @@ if ( CMAKE_VERSION VERSION_GREATER "3.10" )
     set( CMAKE_CXX_STANDARD 17 )
 endif()
 
+set( CMAKE_EXPORT_COMPILE_COMMANDS ON )
+
 file(GLOB BUGPRONE_SRC "bugprone/*.cpp")
 file(GLOB CERT_SRC "cert/*.cpp")
 file(GLOB GOOGLE_SRC "google/*.cpp")
