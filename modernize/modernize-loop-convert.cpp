@@ -58,6 +58,7 @@ namespace modernize {
 
             const int N = 5;
             int arr[] = {1, 2, 3, 4, 5};
+            int tmp = 1;
 
             std::vector<int> v;
             v.push_back(1);
@@ -65,16 +66,20 @@ namespace modernize {
             v.push_back(3);
 
             // safe conversion
-            for (int i = 0; i < N; ++i) {}
-                //std::cout << arr[i];
+            for (int i = 0; i < N; ++i)
+                tmp = arr[i];
 
             // reasonable conversion
-            for (std::vector<int>::iterator it = v.begin(); it != v.end(); ++it) {}
-                //std::cout << *it;
+            for (auto it = v.begin(); it != v.end(); ++it)
+                tmp =  *it;
 
             // reasonable conversion
-            for (int i = 0; i < v.size(); ++i) {}
-                //std::cout << v[i];
+            for (int i = 0; i < v.size(); ++i)
+                tmp = v[i];
+
+            if(tmp == 0 ) {
+                // do smthg
+            }
         }
     } // loop_convert
 } // modernize
