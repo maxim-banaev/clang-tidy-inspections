@@ -10,11 +10,6 @@
   },
   {
     "directory": "/Users/jetbrains/CLionProjects/clang-tidy-inspections",
-    "command": "/usr/bin/clang++ -g -std=gnu++11 -o abseil-string-find-startswith.cpp.o -c abseil-string-find-startswith.cpp",
-    "file": "abseil-string-find-startswith.cpp"
-  },
-  {
-    "directory": "/Users/jetbrains/CLionProjects/clang-tidy-inspections",
     "command": "/usr/bin/clang++ -g -std=gnu++11 -o bugprone/bugprone-argument-comment.cpp.o -c bugprone/bugprone-argument-comment.cpp",
     "file": "bugprone/bugprone-argument-comment.cpp"
   },
