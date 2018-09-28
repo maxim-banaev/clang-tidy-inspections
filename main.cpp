@@ -11,34 +11,34 @@
 // Note that for some of the features, it is not clear whether or not they should be part of the Language Server
 // Protocol, so those features might be eventually developed outside Clangd or as an extension to the protocol.
 //
-// C/C++ Editor feature	LSP	Clangd
-// Formatting	        Yes	Yes
-// Completion	        Yes	Yes
-// Diagnostics	        Yes	Yes
-// Fix-its	            Yes	Yes
-// Go to Definition	    Yes	Yes
-// Signature Help	    Yes	Yes
-// Document Highlights	Yes	Yes
-// Rename	            Yes	Yes
-// Source hover	        Yes	Yes
-// Find References	    Yes	No
-// Code Lens	        Yes	No
-// Document Symbols	    Yes	No
-// Workspace Symbols	Yes	No
+// C/C++ Editor feature LSP Clangd
+// Formatting           Yes Yes
+// Completion           Yes Yes
+// Diagnostics          Yes Yes
+// Fix-its              Yes Yes
+// Go to Definition     Yes Yes
+// Signature Help       Yes Yes
+// Document Highlights  Yes Yes
+// Rename               Yes Yes
+// Source hover         Yes Yes
+// Find References      Yes No
+// Code Lens            Yes No
+// Document Symbols     Yes No
+// Workspace Symbols    Yes No
 // Syntax and Semantic
-// Coloring	            No	No
-// Code folding	        No	No
-// Call hierarchy	    No	No
-// Type hierarchy	    No	No
-// Organize Includes	No	No
-// Quick Assist	        No	No
+// Coloring             No  No
+// Code folding         No  No
+// Call hierarchy       No  No
+// Type hierarchy       No  No
+// Organize Includes    No  No
+// Quick Assist         No  No
 // Extract Local
-// Variable	            No	No
+// Variable             No  No
 // Extract
-// Function/Method	    No	No
-// Hide Method	        No	No
-// Implement Method	    No	No
-// Gen. Getters/Setters	No	No
+// Function/Method      No  No
+// Hide Method          No  No
+// Implement Method     No  No
+// Gen. Getters/Setters No  No
 
 // Registry flags:
 // 1) Enable clangd - set clion.clang.clangd.on
@@ -170,7 +170,9 @@ int main() {
     readability::redundant_string_cstr::check();
     readability::redundant_string_init::check();
     readability::simplify_boolean_expr::check();
+
     readability::simplify_subscript_expr::check();
+
     readability::static_accessed_through_instance::check();
 
     return 0;
