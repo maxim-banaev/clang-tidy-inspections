@@ -23,6 +23,7 @@ namespace bugprone {
         void check() {
             std::cout << "-- check bugprone-argument-comment" << std::endl;
             f(/*bar=*/true);
+            f(/*foo__=*/true); // works only if StrictMode is 1
         }
     } // namespace argument_comment
 } // namespace bugprone
