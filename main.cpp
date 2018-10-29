@@ -48,7 +48,8 @@
 
 // https://clang.llvm.org/extra/clang-tidy/checks/list.html
 
-#include "include/abseil_string_find_startswith.h"
+#include "include/abseil-string-find-startswith.h"
+#include "include/argument-selection-defects.h"
 #include "include/bugprone/bugprone-argument-comment.h"
 #include "include/bugprone/bugprone-assert-side-effect.h"
 #include "include/bugprone/bugprone-bool-pointer-implicit-conversion.h"
@@ -112,6 +113,7 @@
 #include "include/portability/portability-simd-intrinsics.h"
 
 int main() {
+    argument_selection_defects::check();
     abseil_string_find_startswith::check();
 
     bugprone::argument_comment::check();

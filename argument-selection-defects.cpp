@@ -19,14 +19,23 @@
 #include <iostream>
 #include <string>
 
-namespace abseil_string_find_startswith {
-    void check() {
-        std::cout << "-- check abseil-string-find-startswith FIXME" << std::endl;
+namespace argument_selection_defects {
+    void swap(const std::string &str1, const std::string &str2) {
+        std::cout << "I'm here!";
+    }
 
-        std::string s = "...";
-        if (s.find("Hello World") == 0) {
-            /* do something */
-        }
+    void foo(const std::string &str1, const std::string &str2) {}
+
+    void f(const std::string &s1, const std::string &s2) {}
+
+    void check() {
+        std::cout << "-- check argument-selection-defects" << std::endl;
+        std::string str1, str2, s1, s2;
+
+        swap(str2, str1);   // should no warning here
+        foo(str2, str1);    //warn here!
+        f(s2, s1);          //warn here!
+
     }
 } // namespace abseil_string_find_startswith
 
