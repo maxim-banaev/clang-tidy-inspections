@@ -1,21 +1,3 @@
-// abseil-string-find-startswith
-// Checks whether a std::string::find() result is compared with 0, and suggests replacing with absl::StartsWith().
-// This is both a readability and performance issue.
-
-// Options
-//
-// StringLikeClasses
-// Semicolon-separated list of names of string-like classes. By default only std::basic_string is considered.
-// The list of methods to considered is fixed.
-//
-// IncludeStyle
-// A string specifying which include-style is used, llvm or google. Default is llvm.
-//
-// AbseilStringsMatchHeader
-// The location of Abseil’s strings/match.h. Defaults to absl/strings/match.h.
-
-// https://clang.llvm.org/extra/clang-tidy/checks/abseil-string-find-startswith.html
-
 #include <iostream>
 #include <string>
 
@@ -32,7 +14,7 @@ namespace argument_selection_defects {
         std::cout << "-- check argument-selection-defects" << std::endl;
         std::string name, role, one, two;
 
-        int x, y;
+        int x = 1 , y = 2;
 
         swap_me(role, name);    // should no warning here
         foo(role, name);        // warn here!
@@ -40,5 +22,5 @@ namespace argument_selection_defects {
         bar(y, x);              // warn here!
 
     }
-} // namespace abseil_string_find_startswith
+} // namespace argument_selection_defects
 

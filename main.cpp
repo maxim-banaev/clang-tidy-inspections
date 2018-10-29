@@ -50,6 +50,8 @@
 
 #include "include/abseil-string-find-startswith.h"
 #include "include/argument-selection-defects.h"
+#include "include/method-can-be-static.h"
+
 #include "include/bugprone/bugprone-argument-comment.h"
 #include "include/bugprone/bugprone-assert-side-effect.h"
 #include "include/bugprone/bugprone-bool-pointer-implicit-conversion.h"
@@ -115,6 +117,9 @@
 int main() {
     argument_selection_defects::check();
     abseil_string_find_startswith::check();
+    method_can_be_static::check();
+
+    std::cout << std::endl;
 
     bugprone::argument_comment::check();
     bugprone::assert_side_effect::check();
@@ -135,11 +140,17 @@ int main() {
     bugprone::string_constructor::check();
     bugprone::string_integer_assignment::check();
 
+    std::cout << std::endl;
+
     cert::dcl50_cpp::check();
     cert::dcl58_cpp::check();
     cert::err52_cpp::check();
 
+    std::cout << std::endl;
+
     google::default_arguments::check();
+
+    std::cout << std::endl;
 
     modernize::avoid_bind::check();
     modernize::deprecated_headers::check();
@@ -149,7 +160,11 @@ int main() {
     modernize::raw_string_literal::check();
     modernize::redundant_void_arg::check();
 
+    std::cout << std::endl;
+
     performance::unnecessary_value_param::check();
+
+    std::cout << std::endl;
 
     readability::avoid_const_params_in_decls::check();
     readability::brace_around_statements::check();
@@ -176,6 +191,8 @@ int main() {
     readability::simplify_subscript_expr::check();
 
     readability::static_accessed_through_instance::check();
+
+    std::cout << std::endl;
 
     return 0;
 }
