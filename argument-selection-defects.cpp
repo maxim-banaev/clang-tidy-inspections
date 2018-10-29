@@ -20,27 +20,24 @@
 #include <string>
 
 namespace argument_selection_defects {
-    void swap(const std::string &str1, const std::string &str2) {
-        std::cout << "I'm here!";
-    }
+    void swap_me(const std::string &name, const std::string &role) {}
 
-    void foo(const std::string &str1, const std::string &str2) {}
+    void foo(const std::string &name, const std::string &role) {}
 
-    void f(const std::string &s1, const std::string &s2) {}
+    void f(const std::string &one, const std::string &two) {}
 
     void bar(int x, int y) {}
 
     void check() {
         std::cout << "-- check argument-selection-defects" << std::endl;
-        std::string str1, str2, s1, s2;
+        std::string name, role, one, two;
 
         int x, y;
 
-        swap(str2, str1);   // should no warning here
-        foo(str2, str1);    //warn here!
-        f(s2, s1);          //warn here!
-
-        bar(y, x);          //warn here!
+        swap_me(role, name);    // should no warning here
+        foo(role, name);        // warn here!
+        f(two, one);            // warn here!
+        bar(y, x);              // warn here!
 
     }
 } // namespace abseil_string_find_startswith
