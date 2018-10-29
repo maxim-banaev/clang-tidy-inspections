@@ -28,13 +28,19 @@ namespace argument_selection_defects {
 
     void f(const std::string &s1, const std::string &s2) {}
 
+    void bar(int x, int y) {}
+
     void check() {
         std::cout << "-- check argument-selection-defects" << std::endl;
         std::string str1, str2, s1, s2;
 
+        int x, y;
+
         swap(str2, str1);   // should no warning here
         foo(str2, str1);    //warn here!
         f(s2, s1);          //warn here!
+
+        bar(y, x);          //warn here!
 
     }
 } // namespace abseil_string_find_startswith
