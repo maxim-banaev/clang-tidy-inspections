@@ -1,756 +1,756 @@
 [
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "readability/readability-inconsistent-declaration-parameter-name.cpp.o",
-            "readability/readability-inconsistent-declaration-parameter-name.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "readability/readability-inconsistent-declaration-parameter-name.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "google/google-explicit-constructor.cpp.o",
-            "google/google-explicit-constructor.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "google/google-explicit-constructor.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "readability/readability-redundant-string-cstr.cpp.o",
-            "readability/readability-redundant-string-cstr.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "readability/readability-redundant-string-cstr.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "bugprone/bugprone-forward-declaration-namespace.cpp.o",
-            "bugprone/bugprone-forward-declaration-namespace.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "bugprone/bugprone-forward-declaration-namespace.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "modernize/modernize-use-auto.cpp.o",
-            "modernize/modernize-use-auto.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "modernize/modernize-use-auto.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "readability/readability-redundant-string-init.cpp.o",
-            "readability/readability-redundant-string-init.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "readability/readability-redundant-string-init.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "bugprone/bugprone-macro-parentheses.cpp.o",
-            "bugprone/bugprone-macro-parentheses.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "bugprone/bugprone-macro-parentheses.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "bugprone/bugprone-forwarding-reference-overload.cpp.o",
-            "bugprone/bugprone-forwarding-reference-overload.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "bugprone/bugprone-forwarding-reference-overload.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "bugprone/bugprone-macro-repeated-side-effects.cpp.o",
-            "bugprone/bugprone-macro-repeated-side-effects.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "bugprone/bugprone-macro-repeated-side-effects.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "readability/readability-implicit-bool-conversion.cpp.o",
-            "readability/readability-implicit-bool-conversion.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "readability/readability-implicit-bool-conversion.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "readability/readability-delete-null-pointer.cpp.o",
-            "readability/readability-delete-null-pointer.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "readability/readability-delete-null-pointer.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "readability/readability-misplaced-array-index.cpp.o",
-            "readability/readability-misplaced-array-index.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "readability/readability-misplaced-array-index.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "performance/performance-unnecessary-value-param.cpp.o",
-            "performance/performance-unnecessary-value-param.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "performance/performance-unnecessary-value-param.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "readability/readability-redundant-control-flow.cpp.o",
-            "readability/readability-redundant-control-flow.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "readability/readability-redundant-control-flow.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "abseil-string-find-startswith.cpp.o",
-            "abseil-string-find-startswith.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "abseil-string-find-startswith.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "readability/readability-braces-around-statements.cpp.o",
-            "readability/readability-braces-around-statements.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "readability/readability-braces-around-statements.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "bugprone/bugprone-incorrect-roundings.cpp.o",
-            "bugprone/bugprone-incorrect-roundings.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "bugprone/bugprone-incorrect-roundings.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "readability/readability-named-parameter.cpp.o",
-            "readability/readability-named-parameter.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "readability/readability-named-parameter.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "readability/readability-redundant-smartptr-get.cpp.o",
-            "readability/readability-redundant-smartptr-get.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "readability/readability-redundant-smartptr-get.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "bugprone/bugprone-dangling-handle.cpp.o",
-            "bugprone/bugprone-dangling-handle.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "bugprone/bugprone-dangling-handle.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "bugprone/bugprone-bool-pointer-implicit-conversion.cpp.o",
-            "bugprone/bugprone-bool-pointer-implicit-conversion.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "bugprone/bugprone-bool-pointer-implicit-conversion.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "modernize/modernize-redundant-void-arg.cpp.o",
-            "modernize/modernize-redundant-void-arg.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "modernize/modernize-redundant-void-arg.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "bugprone/bugprone-copy-constructor-init.cpp.o",
-            "bugprone/bugprone-copy-constructor-init.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "bugprone/bugprone-copy-constructor-init.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "modernize/modernize-pass-by-value.cpp.o",
-            "modernize/modernize-pass-by-value.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "modernize/modernize-pass-by-value.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "modernize/modernize-make-shared.cpp.o",
-            "modernize/modernize-make-shared.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "modernize/modernize-make-shared.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "portability/portability-simd-intrinsics.cpp.o",
-            "portability/portability-simd-intrinsics.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "portability/portability-simd-intrinsics.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "readability/readability-redundant-function-ptr-dereference.cpp.o",
-            "readability/readability-redundant-function-ptr-dereference.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "readability/readability-redundant-function-ptr-dereference.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "cert/cert-err52-cpp.cpp.o",
-            "cert/cert-err52-cpp.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "cert/cert-err52-cpp.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "main.cpp.o",
-            "main.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "main.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "cert/cert-dcl58-cpp.cpp.o",
-            "cert/cert-dcl58-cpp.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "cert/cert-dcl58-cpp.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "readability/readability-identifier-naming.cpp.o",
-            "readability/readability-identifier-naming.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "readability/readability-identifier-naming.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "bugprone/bugprone-move-forwarding-reference.cpp.o",
-            "bugprone/bugprone-move-forwarding-reference.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "bugprone/bugprone-move-forwarding-reference.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "bugprone/bugprone-argument-comment.cpp.o",
-            "bugprone/bugprone-argument-comment.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "bugprone/bugprone-argument-comment.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "google/google-default-arguments.cpp.o",
-            "google/google-default-arguments.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "google/google-default-arguments.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "readability/readability-redundant-member-init.cpp.o",
-            "readability/readability-redundant-member-init.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "readability/readability-redundant-member-init.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "readability/readability-avoid-const-params-in-decls.cpp.o",
-            "readability/readability-avoid-const-params-in-decls.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "readability/readability-avoid-const-params-in-decls.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "modernize/modernize-replace-auto-ptr.cpp.o",
-            "modernize/modernize-replace-auto-ptr.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "modernize/modernize-replace-auto-ptr.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "modernize/modernize-loop-convert.cpp.o",
-            "modernize/modernize-loop-convert.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "modernize/modernize-loop-convert.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "readability/readability-redundant-declaration.cpp.o",
-            "readability/readability-redundant-declaration.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "readability/readability-redundant-declaration.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "readability/readability-misleading-indentation.cpp.o",
-            "readability/readability-misleading-indentation.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "readability/readability-misleading-indentation.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "readability/readability-container-size-empty.cpp.o",
-            "readability/readability-container-size-empty.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "readability/readability-container-size-empty.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "bugprone/bugprone-string-integer-assignment.cpp.o",
-            "bugprone/bugprone-string-integer-assignment.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "bugprone/bugprone-string-integer-assignment.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "bugprone/bugprone-string-constructor.cpp.o",
-            "bugprone/bugprone-string-constructor.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "bugprone/bugprone-string-constructor.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "bugprone/bugprone-assert-side-effect.cpp.o",
-            "bugprone/bugprone-assert-side-effect.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "bugprone/bugprone-assert-side-effect.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "cert/cert-dcl50-cpp.cpp.o",
-            "cert/cert-dcl50-cpp.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "cert/cert-dcl50-cpp.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "bugprone/bugprone-integer-division.cpp.o",
-            "bugprone/bugprone-integer-division.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "bugprone/bugprone-integer-division.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "bugprone/bugprone-misplaced-widening-cast.cpp.o",
-            "bugprone/bugprone-misplaced-widening-cast.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "bugprone/bugprone-misplaced-widening-cast.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "readability/readability-function-size.cpp.o",
-            "readability/readability-function-size.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "readability/readability-function-size.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "readability/readability-non-const-parameter.cpp.o",
-            "readability/readability-non-const-parameter.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "readability/readability-non-const-parameter.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "readability/readability-else-after-return.cpp.o",
-            "readability/readability-else-after-return.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "readability/readability-else-after-return.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "modernize/modernize-raw-string-literal.cpp.o",
-            "modernize/modernize-raw-string-literal.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "modernize/modernize-raw-string-literal.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "readability/readability-deleted-default.cpp.o",
-            "readability/readability-deleted-default.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "readability/readability-deleted-default.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "bugprone/bugprone-lambda-function-name.cpp.o",
-            "bugprone/bugprone-lambda-function-name.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "bugprone/bugprone-lambda-function-name.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "bugprone/bugprone-fold-init-type.cpp.o",
-            "bugprone/bugprone-fold-init-type.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "bugprone/bugprone-fold-init-type.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "modernize/modernize-deprecated-headers.cpp.o",
-            "modernize/modernize-deprecated-headers.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "modernize/modernize-deprecated-headers.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "modernize/modernize-avoid-bind.cpp.o",
-            "modernize/modernize-avoid-bind.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "modernize/modernize-avoid-bind.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "bugprone/bugprone-inaccurate-erase.cpp.o",
-            "bugprone/bugprone-inaccurate-erase.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "bugprone/bugprone-inaccurate-erase.cpp"
-    },
-    {
-        "arguments": [
-            "c++",
-            "-c",
-            "-g",
-            "-std=gnu++1z",
-            "-o",
-            "modernize/modernize-replace-random-shuffle.cpp.o",
-            "modernize/modernize-replace-random-shuffle.cpp"
-        ],
-        "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-        "file": "modernize/modernize-replace-random-shuffle.cpp"
-    }
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "readability/readability-inconsistent-declaration-parameter-name.cpp.o",
+      "readability/readability-inconsistent-declaration-parameter-name.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "readability/readability-inconsistent-declaration-parameter-name.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "google/google-explicit-constructor.cpp.o",
+      "google/google-explicit-constructor.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "google/google-explicit-constructor.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "readability/readability-redundant-string-cstr.cpp.o",
+      "readability/readability-redundant-string-cstr.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "readability/readability-redundant-string-cstr.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "bugprone/bugprone-forward-declaration-namespace.cpp.o",
+      "bugprone/bugprone-forward-declaration-namespace.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "bugprone/bugprone-forward-declaration-namespace.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "modernize/modernize-use-auto.cpp.o",
+      "modernize/modernize-use-auto.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "modernize/modernize-use-auto.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "readability/readability-redundant-string-init.cpp.o",
+      "readability/readability-redundant-string-init.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "readability/readability-redundant-string-init.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "bugprone/bugprone-macro-parentheses.cpp.o",
+      "bugprone/bugprone-macro-parentheses.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "bugprone/bugprone-macro-parentheses.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "bugprone/bugprone-forwarding-reference-overload.cpp.o",
+      "bugprone/bugprone-forwarding-reference-overload.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "bugprone/bugprone-forwarding-reference-overload.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "bugprone/bugprone-macro-repeated-side-effects.cpp.o",
+      "bugprone/bugprone-macro-repeated-side-effects.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "bugprone/bugprone-macro-repeated-side-effects.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "readability/readability-implicit-bool-conversion.cpp.o",
+      "readability/readability-implicit-bool-conversion.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "readability/readability-implicit-bool-conversion.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "readability/readability-delete-null-pointer.cpp.o",
+      "readability/readability-delete-null-pointer.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "readability/readability-delete-null-pointer.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "readability/readability-misplaced-array-index.cpp.o",
+      "readability/readability-misplaced-array-index.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "readability/readability-misplaced-array-index.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "performance/performance-unnecessary-value-param.cpp.o",
+      "performance/performance-unnecessary-value-param.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "performance/performance-unnecessary-value-param.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "readability/readability-redundant-control-flow.cpp.o",
+      "readability/readability-redundant-control-flow.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "readability/readability-redundant-control-flow.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "abseil-string-find-startswith.cpp.o",
+      "abseil-string-find-startswith.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "abseil-string-find-startswith.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "readability/readability-braces-around-statements.cpp.o",
+      "readability/readability-braces-around-statements.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "readability/readability-braces-around-statements.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "bugprone/bugprone-incorrect-roundings.cpp.o",
+      "bugprone/bugprone-incorrect-roundings.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "bugprone/bugprone-incorrect-roundings.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "readability/readability-named-parameter.cpp.o",
+      "readability/readability-named-parameter.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "readability/readability-named-parameter.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "readability/readability-redundant-smartptr-get.cpp.o",
+      "readability/readability-redundant-smartptr-get.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "readability/readability-redundant-smartptr-get.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "bugprone/bugprone-dangling-handle.cpp.o",
+      "bugprone/bugprone-dangling-handle.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "bugprone/bugprone-dangling-handle.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "bugprone/bugprone-bool-pointer-implicit-conversion.cpp.o",
+      "bugprone/bugprone-bool-pointer-implicit-conversion.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "bugprone/bugprone-bool-pointer-implicit-conversion.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "modernize/modernize-redundant-void-arg.cpp.o",
+      "modernize/modernize-redundant-void-arg.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "modernize/modernize-redundant-void-arg.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "bugprone/bugprone-copy-constructor-init.cpp.o",
+      "bugprone/bugprone-copy-constructor-init.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "bugprone/bugprone-copy-constructor-init.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "modernize/modernize-pass-by-value.cpp.o",
+      "modernize/modernize-pass-by-value.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "modernize/modernize-pass-by-value.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "modernize/modernize-make-shared.cpp.o",
+      "modernize/modernize-make-shared.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "modernize/modernize-make-shared.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "portability/portability-simd-intrinsics.cpp.o",
+      "portability/portability-simd-intrinsics.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "portability/portability-simd-intrinsics.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "readability/readability-redundant-function-ptr-dereference.cpp.o",
+      "readability/readability-redundant-function-ptr-dereference.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "readability/readability-redundant-function-ptr-dereference.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "cert/cert-err52-cpp.cpp.o",
+      "cert/cert-err52-cpp.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "cert/cert-err52-cpp.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "main.cpp.o",
+      "main.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "main.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "cert/cert-dcl58-cpp.cpp.o",
+      "cert/cert-dcl58-cpp.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "cert/cert-dcl58-cpp.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "readability/readability-identifier-naming.cpp.o",
+      "readability/readability-identifier-naming.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "readability/readability-identifier-naming.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "bugprone/bugprone-move-forwarding-reference.cpp.o",
+      "bugprone/bugprone-move-forwarding-reference.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "bugprone/bugprone-move-forwarding-reference.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "bugprone/bugprone-argument-comment.cpp.o",
+      "bugprone/bugprone-argument-comment.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "bugprone/bugprone-argument-comment.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "google/google-default-arguments.cpp.o",
+      "google/google-default-arguments.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "google/google-default-arguments.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "readability/readability-redundant-member-init.cpp.o",
+      "readability/readability-redundant-member-init.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "readability/readability-redundant-member-init.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "readability/readability-avoid-const-params-in-decls.cpp.o",
+      "readability/readability-avoid-const-params-in-decls.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "readability/readability-avoid-const-params-in-decls.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "modernize/modernize-replace-auto-ptr.cpp.o",
+      "modernize/modernize-replace-auto-ptr.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "modernize/modernize-replace-auto-ptr.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "modernize/modernize-loop-convert.cpp.o",
+      "modernize/modernize-loop-convert.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "modernize/modernize-loop-convert.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "readability/readability-redundant-declaration.cpp.o",
+      "readability/readability-redundant-declaration.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "readability/readability-redundant-declaration.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "readability/readability-misleading-indentation.cpp.o",
+      "readability/readability-misleading-indentation.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "readability/readability-misleading-indentation.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "readability/readability-container-size-empty.cpp.o",
+      "readability/readability-container-size-empty.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "readability/readability-container-size-empty.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "bugprone/bugprone-string-integer-assignment.cpp.o",
+      "bugprone/bugprone-string-integer-assignment.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "bugprone/bugprone-string-integer-assignment.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "bugprone/bugprone-string-constructor.cpp.o",
+      "bugprone/bugprone-string-constructor.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "bugprone/bugprone-string-constructor.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "bugprone/bugprone-assert-side-effect.cpp.o",
+      "bugprone/bugprone-assert-side-effect.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "bugprone/bugprone-assert-side-effect.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "cert/cert-dcl50-cpp.cpp.o",
+      "cert/cert-dcl50-cpp.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "cert/cert-dcl50-cpp.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "bugprone/bugprone-integer-division.cpp.o",
+      "bugprone/bugprone-integer-division.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "bugprone/bugprone-integer-division.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "bugprone/bugprone-misplaced-widening-cast.cpp.o",
+      "bugprone/bugprone-misplaced-widening-cast.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "bugprone/bugprone-misplaced-widening-cast.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "readability/readability-function-size.cpp.o",
+      "readability/readability-function-size.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "readability/readability-function-size.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "readability/readability-non-const-parameter.cpp.o",
+      "readability/readability-non-const-parameter.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "readability/readability-non-const-parameter.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "readability/readability-else-after-return.cpp.o",
+      "readability/readability-else-after-return.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "readability/readability-else-after-return.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "modernize/modernize-raw-string-literal.cpp.o",
+      "modernize/modernize-raw-string-literal.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "modernize/modernize-raw-string-literal.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "readability/readability-deleted-default.cpp.o",
+      "readability/readability-deleted-default.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "readability/readability-deleted-default.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "bugprone/bugprone-lambda-function-name.cpp.o",
+      "bugprone/bugprone-lambda-function-name.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "bugprone/bugprone-lambda-function-name.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "bugprone/bugprone-fold-init-type.cpp.o",
+      "bugprone/bugprone-fold-init-type.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "bugprone/bugprone-fold-init-type.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "modernize/modernize-deprecated-headers.cpp.o",
+      "modernize/modernize-deprecated-headers.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "modernize/modernize-deprecated-headers.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "modernize/modernize-avoid-bind.cpp.o",
+      "modernize/modernize-avoid-bind.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "modernize/modernize-avoid-bind.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "bugprone/bugprone-inaccurate-erase.cpp.o",
+      "bugprone/bugprone-inaccurate-erase.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "bugprone/bugprone-inaccurate-erase.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "modernize/modernize-replace-random-shuffle.cpp.o",
+      "modernize/modernize-replace-random-shuffle.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "modernize/modernize-replace-random-shuffle.cpp"
+  }
 ]
