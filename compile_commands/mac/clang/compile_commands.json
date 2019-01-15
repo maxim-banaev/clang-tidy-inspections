@@ -4,13 +4,25 @@
     "arguments": [
       "/usr/bin/clang++",
       "-g",
-      "-std=gnu++11"
+      "-std=gnu++11",
+      "-o",
+      "main.cpp.o",
+      "-c",
+      "main.cpp"
     ],
     "file": "main.cpp"
   },
   {
     "directory": "/Users/jetbrains/CLionProjects/clang-tidy-inspections",
-    "command": "/usr/bin/clang++ -g -std=gnu++11 -o abseil-string-find-startswith.cpp.o -c abseil-string-find-startswith.cpp",
+    "arguments": [
+      "/usr/bin/clang++",
+      "-g",
+      "-std=gnu++11",
+      "-o",
+      "abseil-string-find-startswith.cpp.o",
+      "-c",
+      "abseil-string-find-startswith.cpp"
+    ],
     "file": "abseil-string-find-startswith.cpp"
   },
   {
