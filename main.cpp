@@ -6,10 +6,12 @@
 
 // Current Status
 //
-// Many features could be implemented in Clangd. Here is a list of features that could be useful with the status of
-// whether or not they are already implemented in Clangd and specified in the Language Server Protocol.
-// Note that for some of the features, it is not clear whether or not they should be part of the Language Server
-// Protocol, so those features might be eventually developed outside Clangd or as an extension to the protocol.
+// Many features could be implemented in Clangd. Here is a list of features that
+// could be useful with the status of whether or not they are already
+// implemented in Clangd and specified in the Language Server Protocol. Note
+// that for some of the features, it is not clear whether or not they should be
+// part of the Language Server Protocol, so those features might be eventually
+// developed outside Clangd or as an extension to the protocol.
 //
 // C/C++ Editor feature LSP Clangd
 // Formatting           Yes Yes
@@ -44,12 +46,14 @@
 // 1) Enable clangd - set clion.clang.clangd.on
 // 2) Enable errors from clangd - set clion.clang.show.errors
 // 3) Enable clangd as clang-tidy provider - set clion.clang.tidy.uses.clangd
-// 4) To disable default error annotators - unset clion.default.annotators.enabled
+// 4) To disable default error annotators - unset
+// clion.default.annotators.enabled
 
 // https://clang.llvm.org/extra/clang-tidy/checks/list.html
 
 #include "include/abseil-string-find-startswith.h"
 #include "include/argument-selection-defects.h"
+#include "include/empty-decl-or-stmt.h"
 #include "include/method-can-be-static.h"
 
 #include "include/bugprone/bugprone-argument-comment.h"
@@ -115,84 +119,85 @@
 #include "include/portability/portability-simd-intrinsics.h"
 
 int main() {
-    argument_selection_defects::check();
-    abseil_string_find_startswith::check();
-    method_can_be_static::check();
+  abseil_string_find_startswith::check();
+  argument_selection_defects::check();
+  empty_decl_or_stmt::check();
+  method_can_be_static::check();
 
-    std::cout << std::endl;
+  std::cout << std::endl;
 
-    bugprone::argument_comment::check();
-    bugprone::assert_side_effect::check();
-    bugprone::bool_pointer_implicit_conversion::check();
-    bugprone::copy_constructor_init::check();
-    bugprone::dangling_handle::check();
-    bugprone::fold_init_type::check();
-    bugprone::forward_declaration_namespace::check();
-    bugprone::forwarding_reference_overload::check();
-    bugprone::inaccurate_erase::check();
-    bugprone::incorrect_rounding::check();
-    bugprone::integer_division::check();
-    bugprone::lambda_function_name::check();
-    bugprone::macro_parentheses::check();
-    bugprone::macro_repeated_side_effects::check();
-    bugprone::misplaced_widening_cast::check();
-    bugprone::move_forwarding_reference::check();
-    bugprone::string_constructor::check();
-    bugprone::string_integer_assignment::check();
+  bugprone::argument_comment::check();
+  bugprone::assert_side_effect::check();
+  bugprone::bool_pointer_implicit_conversion::check();
+  bugprone::copy_constructor_init::check();
+  bugprone::dangling_handle::check();
+  bugprone::fold_init_type::check();
+  bugprone::forward_declaration_namespace::check();
+  bugprone::forwarding_reference_overload::check();
+  bugprone::inaccurate_erase::check();
+  bugprone::incorrect_rounding::check();
+  bugprone::integer_division::check();
+  bugprone::lambda_function_name::check();
+  bugprone::macro_parentheses::check();
+  bugprone::macro_repeated_side_effects::check();
+  bugprone::misplaced_widening_cast::check();
+  bugprone::move_forwarding_reference::check();
+  bugprone::string_constructor::check();
+  bugprone::string_integer_assignment::check();
 
-    std::cout << std::endl;
+  std::cout << std::endl;
 
-    cert::dcl50_cpp::check();
-    cert::dcl58_cpp::check();
-    cert::err52_cpp::check();
+  cert::dcl50_cpp::check();
+  cert::dcl58_cpp::check();
+  cert::err52_cpp::check();
 
-    std::cout << std::endl;
+  std::cout << std::endl;
 
-    google::default_arguments::check();
+  google::default_arguments::check();
 
-    std::cout << std::endl;
+  std::cout << std::endl;
 
-    modernize::avoid_bind::check();
-    modernize::deprecated_headers::check();
-    modernize::loop_convert::check();
-    modernize::make_shared::check();
-    modernize::pass_by_value::check();
-    modernize::raw_string_literal::check();
-    modernize::redundant_void_arg::check();
+  modernize::avoid_bind::check();
+  modernize::deprecated_headers::check();
+  modernize::loop_convert::check();
+  modernize::make_shared::check();
+  modernize::pass_by_value::check();
+  modernize::raw_string_literal::check();
+  modernize::redundant_void_arg::check();
 
-    std::cout << std::endl;
+  std::cout << std::endl;
 
-    performance::unnecessary_value_param::check();
+  performance::unnecessary_value_param::check();
 
-    std::cout << std::endl;
+  std::cout << std::endl;
 
-    readability::avoid_const_params_in_decls::check();
-    readability::brace_around_statements::check();
-    readability::container_size_empty::check();
-    readability::deleted_default::check();
-    readability::else_after_return::check();
-    readability::function_size::check();
-    readability::identifier_naming::check();
-    readability::implicit_bool_conversion::check();
-    readability::inconsistent_declaration_parameter_name::check();
-    readability::misleading_indentation::check();
-    readability::misplaced_array_index::check();
-    readability::named_parameter::check();
-    readability::non_const_parameter::check();
-    readability::redundant_control_flow::check();
-    readability::redundant_declaration::check();
-    readability::redundant_function_ptr_dereference::check();
-    readability::redundant_member_init::check();
-    readability::redundant_smartptr_get::check();
-    readability::redundant_string_cstr::check();
-    readability::redundant_string_init::check();
-    readability::simplify_boolean_expr::check();
+  readability::avoid_const_params_in_decls::check();
+  readability::brace_around_statements::check();
+  readability::container_size_empty::check();
+  readability::deleted_default::check();
+  readability::else_after_return::check();
+  readability::function_size::check();
+  readability::identifier_naming::check();
+  readability::implicit_bool_conversion::check();
+  readability::inconsistent_declaration_parameter_name::check();
+  readability::misleading_indentation::check();
+  readability::misplaced_array_index::check();
+  readability::named_parameter::check();
+  readability::non_const_parameter::check();
+  readability::redundant_control_flow::check();
+  readability::redundant_declaration::check();
+  readability::redundant_function_ptr_dereference::check();
+  readability::redundant_member_init::check();
+  readability::redundant_smartptr_get::check();
+  readability::redundant_string_cstr::check();
+  readability::redundant_string_init::check();
+  readability::simplify_boolean_expr::check();
 
-    readability::simplify_subscript_expr::check();
+  readability::simplify_subscript_expr::check();
 
-    readability::static_accessed_through_instance::check();
+  readability::static_accessed_through_instance::check();
 
-    std::cout << std::endl;
+  std::cout << std::endl;
 
-    return 0;
+  return 0;
 }
