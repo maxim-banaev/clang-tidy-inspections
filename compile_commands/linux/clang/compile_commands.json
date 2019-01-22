@@ -11,12 +11,41 @@
   },
   {
     "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "/usr/bin/clang++ -g -std=gnu++11 -o argument-selection-defects.cpp.o -c argument-selection-defects.cpp",
+    "arguments": [
+      "/usr/bin/clang++",
+      "-g",
+      "-std=gnu++11",
+      "-o",
+      "argument-selection-defects.cpp.o",
+      "-c",
+      "argument-selection-defects.cpp"
+    ],
     "file": "argument-selection-defects.cpp"
   },
   {
     "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "/usr/bin/clang++ -g -std=gnu++11 -o method-can-be-static.cpp.o -c method-can-be-static.cpp",
+    "arguments": [
+      "/usr/bin/clang++",
+      "-g",
+      "-std=gnu++11",
+      "-o",
+      "empty-decl-or-stmt.cpp.o",
+      "-c",
+      "empty-decl-or-stmt.cpp"
+    ],
+    "file": "empty-decl-or-stmt.cpp"
+  },
+  {
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "arguments": [
+      "/usr/bin/clang++",
+      "-g",
+      "-std=gnu++11",
+      "-o",
+      "method-can-be-static.cpp.o",
+      "-c",
+      "method-can-be-static.cpp"
+    ],
     "file": "method-can-be-static.cpp"
   },
   {
