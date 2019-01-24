@@ -22,12 +22,12 @@
 #include <string>
 
 namespace abseil_string_find_startswith {
-    void check() {
-        std::cout << "-- check abseil-string-find-startswith FIXME" << std::endl;
+void check() {
+  std::cout << "-- check abseil-string-find-startswith " << std::endl;
 
-        std::string s = "...";
-        if (s.find("Hello World") == 0) {
-            /* do something */
-        }
-    }
+  std::string s = "...";
+  if (s.find("Hello World") == 0) { // warn here!
+    /* do something */
+  }
+}
 } // namespace abseil_string_find_startswith

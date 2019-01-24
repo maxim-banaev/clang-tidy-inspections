@@ -5,30 +5,25 @@
 #pragma clang diagnostic ignored "-Wunused-variable"
 #pragma ide diagnostic ignored "OCUnusedGlobalDeclarationInspection"
 namespace method_can_be_static {
-    class Foo {
-        int i;
-        static char p;
-    public:
-        char getP() {
-            return p;
-        }
+class Foo {
+  int i;
+  static char p;
 
-        int getI() const {
-            return i;
-        }
+public:
+  char getP() { return p; }
 
-        void bar() {
-            // do something
-        }
+  int getI() const { return i; }
 
-    };
+  void bar() {
+    // do something
+  }
+};
 
-    void check() {
-        std::cout << "-- check method-can-be-static" << std::endl;
+void check() {
+  std::cout << "-- check method-can-be-static" << std::endl;
 
-        Foo f{};
-    }
+  Foo f{};
+}
 } // namespace method_can_be_static
-
 
 #pragma clang diagnostic pop

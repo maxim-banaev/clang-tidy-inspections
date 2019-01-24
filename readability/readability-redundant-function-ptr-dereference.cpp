@@ -8,17 +8,15 @@
 #pragma clang diagnostic push
 #pragma ide diagnostic ignored "OCUnusedGlobalDeclarationInspection"
 
-namespace readability {
-    namespace redundant_function_ptr_dereference {
+namespace readability::redundant_function_ptr_dereference {
 
         int f(int i, int j) {}
         int (*p)(int, int) = &f;
-        int i = (**p)(10, 50);
+        int i = (**p)(10, 50); // NOLINT(readability-redundant-function-ptr-dereference)
 
         void check() {
             std::cout << "-- check readability-redundant-function-ptr-dereference" << std::endl;
         }
-    } // namespace redundant_function_ptr_dereference
-} // namespace readability
+    } // namespace readability
 
 #pragma clang diagnostic pop

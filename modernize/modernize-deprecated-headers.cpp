@@ -1,11 +1,14 @@
 // modernize-deprecated-headers
-// Some headers from C library were deprecated in C++ and are no longer welcome in C++ codebases.
-// Some have no effect in C++. For more details refer to the C++ 14 Standard [depr.c.headers] section.
+// Some headers from C library were deprecated in C++ and are no longer welcome
+// in C++ codebases. Some have no effect in C++. For more details refer to the
+// C++ 14 Standard [depr.c.headers] section.
 //
-// This check replaces C standard library headers with their C++ alternatives and removes redundant ones.
+// This check replaces C standard library headers with their C++ alternatives
+// and removes redundant ones.
 //
-// Important note: the Standard doesn’t guarantee that the C++ headers declare all the same functions in the global
-// namespace. The check in its current form can break the code that uses library symbols from the global namespace.
+// Important note: the Standard doesn’t guarantee that the C++ headers declare
+// all the same functions in the global namespace. The check in its current form
+// can break the code that uses library symbols from the global namespace.
 
 // https://clang.llvm.org/extra/clang-tidy/checks/modernize-deprecated-headers.html
 
@@ -35,10 +38,8 @@
 #include <wchar.h>
 #include <wctype.h>
 
-namespace modernize {
-    namespace deprecated_headers {
-        void check(){
-            std::cout << "-- check modernize-deprecated-headers" << std::endl;
-        }
-    } // deprecated_headers
-} // modernize
+namespace modernize::deprecated_headers {
+void check() {
+  std::cout << "-- check modernize-deprecated-headers" << std::endl;
+}
+} // namespace modernize::deprecated_headers

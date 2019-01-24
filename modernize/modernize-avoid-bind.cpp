@@ -8,17 +8,15 @@
 #include <functional>
 #include <iostream>
 
-namespace modernize {
-    namespace avoid_bind {
-        int add(int x, int y) { return x + y; }
+namespace modernize::avoid_bind {
+int add(int x, int y) { return x + y; }
 
-        void check() {
-            std::cout << "-- check modernize-avoid-bind" << std::endl;
+void check() {
+  std::cout << "-- check modernize-avoid-bind" << std::endl;
 
-            int x = 2;
+  int x = 2;
 #ifdef __clang__
-            auto clj = std::bind(add, x);
+  auto clj = std::bind(add, x);
 #endif
-        }
-    } // namespace avoid_bind
-} // namespace modernize
+}
+} // namespace modernize::avoid_bind

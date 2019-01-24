@@ -8,27 +8,14 @@
 #pragma clang diagnostic push
 #pragma ide diagnostic ignored "OCUnusedGlobalDeclarationInspection"
 
-namespace modernize {
-    namespace redundant_void_arg {
-        int f(void);
-        int (*fu(void))(void);
-        typedef int (*f_t(void))(void);
+namespace modernize::redundant_void_arg {
+int f(void);                    // warn here!
+int (*fu(void))(void);          // warn here!
+typedef int (*f_t(void))(void); // warn here!
 
-//        class C {
-//
-//         public:
-//            C(void);
-//            ~C(void);
-//        };
-//
-//        void (C::*p)(void);
-//        C::C(void) {}
-//        C::~C(void) {}
-
-        void check(){
-            std::cout << "-- check modernize-redundant-void-arg" << std::endl;
-        }
-    } // redundant_void_arg
-} // modernize
+void check() {
+  std::cout << "-- check modernize-redundant-void-arg" << std::endl;
+}
+} // namespace modernize::redundant_void_arg
 
 #pragma clang diagnostic pop

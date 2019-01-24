@@ -6,10 +6,8 @@
 
 #include <iostream>
 
-namespace google {
-    namespace default_arguments {
-        void check(){
-            std::cout << "-- check google-default-arguments TODO" << std::endl;
-        }
-    } // namespace default_arguments
-} // namespace google
+namespace google::default_arguments {
+void check() {
+  std::cout << "-- check google-default-arguments TODO" << std::endl;
+}
+} // namespace google::default_arguments

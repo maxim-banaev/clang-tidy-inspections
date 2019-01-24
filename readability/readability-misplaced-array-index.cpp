@@ -5,20 +5,18 @@
 
 #include <iostream>
 
-namespace readability {
-    namespace misplaced_array_index {
+namespace readability::misplaced_array_index {
 
-        void f(int *X, int Y) {
-            Y[X] = 0;
-        }
+void f(int *X, int Y) {
+  Y[X] = 0; // NOLINT(readability-misplaced-array-index)
+}
 
-        void check() {
-            std::cout << "-- check readability-misplaced-array-index" << std::endl;
+void check() {
+  std::cout << "-- check readability-misplaced-array-index" << std::endl;
 
-            auto * x = new int[1];
-            int y = 0;
+  auto *x = new int[1];
+  int y = 0;
 
-            f(x, y);
-        }
-    } // namespace misplaced_array_index
-} // namespace readability
+  f(x, y);
+}
+} // namespace readability::misplaced_array_index
