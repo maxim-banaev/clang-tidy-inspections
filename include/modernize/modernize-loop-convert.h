@@ -1,10 +1,8 @@
 #ifndef CPP_12784_MODERNIZE_LOOP_CONVERT_H
 #define CPP_12784_MODERNIZE_LOOP_CONVERT_H
 
-namespace modernize {
-    namespace loop_convert {
-        void check();
-    } // namespace loop_convert
-} // namespace modernize
+namespace modernize::loop_convert {
+void check();
+} // namespace modernize::loop_convert
 
-#endif //CPP_12784_MODERNIZE_LOOP_CONVERT_H
+#endif // CPP_12784_MODERNIZE_LOOP_CONVERT_H

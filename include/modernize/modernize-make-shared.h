@@ -1,10 +1,8 @@
 #ifndef CPP_12784_MODERNIZE_MAKE_SHARED_H
 #define CPP_12784_MODERNIZE_MAKE_SHARED_H
 
-namespace modernize {
-    namespace make_shared {
-        void check();
-    } // namespace make_shared
-} // namespace modernize
+namespace modernize::make_shared {
+void check();
+} // namespace modernize::make_shared
 
-#endif //CPP_12784_MODERNIZE_MAKE_SHARED_H
+#endif // CPP_12784_MODERNIZE_MAKE_SHARED_H

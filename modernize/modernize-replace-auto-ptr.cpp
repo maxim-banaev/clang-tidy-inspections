@@ -14,7 +14,9 @@
 namespace modernize::replace_auto_ptr {
 void check() {
   std::cout << "-- check modernize-replace-auto-ptr" << std::endl;
+#ifndef __clang__
   std::auto_ptr<int> a(new int(1)); // warn here!
   std::auto_ptr<int> b;             // warn here!
+#endif
 }
 } // namespace modernize::replace_auto_ptr

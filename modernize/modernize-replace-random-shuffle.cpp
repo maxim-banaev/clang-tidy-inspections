@@ -13,7 +13,8 @@ namespace modernize::replace_random_shuffle {
 void check() {
   std::cout << "-- check modernize-replace-random-shuffle" << std::endl;
   std::vector<int> vec;
-
+#ifndef __clang__
   std::random_shuffle(vec.begin(), vec.end()); // warn here!
+#endif
 }
 } // namespace modernize::replace_random_shuffle

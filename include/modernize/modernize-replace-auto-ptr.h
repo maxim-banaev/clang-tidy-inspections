@@ -1,10 +1,8 @@
 #ifndef CPP_12784_MODERNIZE_REPLACE_AUTO_PTR_H
 #define CPP_12784_MODERNIZE_REPLACE_AUTO_PTR_H
 
-namespace modernize {
-    namespace replace_auto_ptr {
-        void check();
-    } // namespace replace_auto_ptr
-} // namespace modernize
+namespace modernize::replace_auto_ptr {
+void check();
+} // namespace modernize::replace_auto_ptr
 
-#endif //CPP_12784_MODERNIZE_REPLACE_AUTO_PTR_H
+#endif // CPP_12784_MODERNIZE_REPLACE_AUTO_PTR_H
