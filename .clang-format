@@ -1,0 +1,6 @@
+---
+Language: Cpp
+BasedOnStyle: LLVM
+---
+Language: ObjC
+BasedOnStyle: LLVM
