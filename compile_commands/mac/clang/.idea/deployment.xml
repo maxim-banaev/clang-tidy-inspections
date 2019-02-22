@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" traceLevel="BRIEF" uploadOnCheckin="977c36c1-e94a-42af-b9b0-6c34077ac444">
+    <serverData>
+      <paths name="Remote Host (977c36c1-e94a-42af-b9b0-6c34077ac444)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/tmp.Dd5fcH895i" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myUploadOnCheckinName" value="Remote Host (977c36c1-e94a-42af-b9b0-6c34077ac444)" />
+  </component>
+</project>

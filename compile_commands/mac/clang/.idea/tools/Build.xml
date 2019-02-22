@@ -1,0 +1,9 @@
+<toolSet name="Build">
+  <tool name="CMake Build" description="build all with cmake " showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/usr/local/bin/cmake" />
+      <option name="PARAMETERS" value="--build . --target all" />
+      <option name="WORKING_DIRECTORY" value="$ContentRoot$/cmake-build-debug" />
+    </exec>
+  </tool>
+</toolSet>

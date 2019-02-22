@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CLionExternalBuildManager">
+    <target name="Default" projectName="clang">
+      <configuration name="Default">
+        <build type="TOOL">
+          <tool actionId="Tool_Build_CMake Build" />
+        </build>
+        <clean type="TOOL">
+          <tool actionId="Tool_Clean_CMake Clean" />
+        </clean>
+      </configuration>
+    </target>
+  </component>
+</project>
