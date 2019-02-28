@@ -1,177 +1,327 @@
 [
   {
-    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
-    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -O3 -DNDEBUG -std=gnu++1z -o main.cpp.obj -c main.cpp",
-    "file": "main.cpp"
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\main.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\main.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/main.cpp"
   },
   {
-    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
-    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -O3 -DNDEBUG -std=gnu++1z -o abseil-string-find-startswith.cpp.obj -c abseil-string-find-startswith.cpp",
-    "file": "abseil-string-find-startswith.cpp"
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\abseil-string-find-startswith.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\abseil-string-find-startswith.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/abseil-string-find-startswith.cpp"
   },
   {
-    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
-    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -O3 -DNDEBUG -std=gnu++1z -o argument-selection-defects.cpp.obj -c argument-selection-defects.cpp",
-    "file": "argument-selection-defects.cpp"
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\argument-selection-defects.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\argument-selection-defects.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/argument-selection-defects.cpp"
   },
   {
-    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
-    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -O3 -DNDEBUG -std=gnu++1z -o empty-decl-or-stmt.cpp.obj -c empty-decl-or-stmt.cpp",
-    "file": "empty-decl-or-stmt.cpp"
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\empty-decl-or-stmt.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\empty-decl-or-stmt.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/empty-decl-or-stmt.cpp"
   },
   {
-    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
-    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -O3 -DNDEBUG -std=gnu++1z -o method-can-be-static.cpp.obj -c method-can-be-static.cpp",
-    "file": "method-can-be-static.cpp"
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\method-can-be-static.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\method-can-be-static.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/method-can-be-static.cpp"
   },
   {
-    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
-    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -O3 -DNDEBUG -std=gnu++1z -o bugprone\\bugprone-argument-comment.cpp.obj -c bugprone\\bugprone-argument-comment.cpp",
-    "file": "bugprone/bugprone-argument-comment.cpp"
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\bugprone\\bugprone-argument-comment.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\bugprone\\bugprone-argument-comment.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/bugprone/bugprone-argument-comment.cpp"
   },
   {
-    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
-    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -O3 -DNDEBUG -std=gnu++1z -o bugprone\\bugprone-assert-side-effect.cpp.obj -c bugprone\\bugprone-assert-side-effect.cpp",
-    "file": "bugprone/bugprone-assert-side-effect.cpp"
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\bugprone\\bugprone-assert-side-effect.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\bugprone\\bugprone-assert-side-effect.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/bugprone/bugprone-assert-side-effect.cpp"
   },
   {
-    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
-    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -O3 -DNDEBUG -std=gnu++1z -o bugprone\\bugprone-bool-pointer-implicit-conversion.cpp.obj -c bugprone\\bugprone-bool-pointer-implicit-conversion.cpp",
-    "file": "bugprone/bugprone-bool-pointer-implicit-conversion.cpp"
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\bugprone\\bugprone-bool-pointer-implicit-conversion.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\bugprone\\bugprone-bool-pointer-implicit-conversion.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/bugprone/bugprone-bool-pointer-implicit-conversion.cpp"
   },
   {
-    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
-    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -O3 -DNDEBUG -std=gnu++1z -o bugprone\\bugprone-copy-constructor-init.cpp.obj -c bugprone\\bugprone-copy-constructor-init.cpp",
-    "file": "bugprone/bugprone-copy-constructor-init.cpp"
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\bugprone\\bugprone-copy-constructor-init.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\bugprone\\bugprone-copy-constructor-init.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/bugprone/bugprone-copy-constructor-init.cpp"
   },
   {
-    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
-    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -O3 -DNDEBUG -std=gnu++1z -o bugprone\\bugprone-dangling-handle.cpp.obj -c bugprone\\bugprone-dangling-handle.cpp",
-    "file": "bugprone/bugprone-dangling-handle.cpp"
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\bugprone\\bugprone-dangling-handle.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\bugprone\\bugprone-dangling-handle.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/bugprone/bugprone-dangling-handle.cpp"
   },
   {
-    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
-    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -O3 -DNDEBUG -std=gnu++1z -o bugprone\\bugprone-fold-init-type.cpp.obj -c bugprone\\bugprone-fold-init-type.cpp",
-    "file": "bugprone/bugprone-fold-init-type.cpp"
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\bugprone\\bugprone-fold-init-type.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\bugprone\\bugprone-fold-init-type.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/bugprone/bugprone-fold-init-type.cpp"
   },
   {
-    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
-    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -O3 -DNDEBUG -std=gnu++1z -o bugprone\\bugprone-forward-declaration-namespace.cpp.obj -c bugprone\\bugprone-forward-declaration-namespace.cpp",
-    "file": "bugprone/bugprone-forward-declaration-namespace.cpp"
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\bugprone\\bugprone-forward-declaration-namespace.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\bugprone\\bugprone-forward-declaration-namespace.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/bugprone/bugprone-forward-declaration-namespace.cpp"
   },
   {
-    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
-    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -O3 -DNDEBUG -std=gnu++1z -o bugprone\\bugprone-forwarding-reference-overload.cpp.obj -c bugprone\\bugprone-forwarding-reference-overload.cpp",
-    "file": "bugprone/bugprone-forwarding-reference-overload.cpp"
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\bugprone\\bugprone-forwarding-reference-overload.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\bugprone\\bugprone-forwarding-reference-overload.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/bugprone/bugprone-forwarding-reference-overload.cpp"
   },
   {
-    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
-    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -O3 -DNDEBUG -std=gnu++1z -o bugprone\\bugprone-inaccurate-erase.cpp.obj -c bugprone\\bugprone-inaccurate-erase.cpp",
-    "file": "bugprone/bugprone-inaccurate-erase.cpp"
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\bugprone\\bugprone-inaccurate-erase.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\bugprone\\bugprone-inaccurate-erase.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/bugprone/bugprone-inaccurate-erase.cpp"
   },
   {
-    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
-    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -O3 -DNDEBUG -std=gnu++1z -o bugprone\\bugprone-incorrect-roundings.cpp.obj -c bugprone\\bugprone-incorrect-roundings.cpp",
-    "file": "bugprone/bugprone-incorrect-roundings.cpp"
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\bugprone\\bugprone-incorrect-roundings.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\bugprone\\bugprone-incorrect-roundings.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/bugprone/bugprone-incorrect-roundings.cpp"
   },
   {
-    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
-    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -O3 -DNDEBUG -std=gnu++1z -o bugprone\\bugprone-integer-division.cpp.obj -c bugprone\\bugprone-integer-division.cpp",
-    "file": "bugprone/bugprone-integer-division.cpp"
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\bugprone\\bugprone-integer-division.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\bugprone\\bugprone-integer-division.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/bugprone/bugprone-integer-division.cpp"
   },
   {
-    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
-    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -O3 -DNDEBUG -std=gnu++1z -o bugprone\\bugprone-lambda-function-name.cpp.obj -c bugprone\\bugprone-lambda-function-name.cpp",
-    "file": "bugprone/bugprone-lambda-function-name.cpp"
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\bugprone\\bugprone-lambda-function-name.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\bugprone\\bugprone-lambda-function-name.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/bugprone/bugprone-lambda-function-name.cpp"
   },
   {
-    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
-    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -O3 -DNDEBUG -std=gnu++1z -o bugprone\\bugprone-macro-parentheses.cpp.obj -c bugprone\\bugprone-macro-parentheses.cpp",
-    "file": "bugprone/bugprone-macro-parentheses.cpp"
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\bugprone\\bugprone-macro-parentheses.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\bugprone\\bugprone-macro-parentheses.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/bugprone/bugprone-macro-parentheses.cpp"
   },
   {
-    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
-    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -O3 -DNDEBUG -std=gnu++1z -o bugprone\\bugprone-macro-repeated-side-effects.cpp.obj -c bugprone\\bugprone-macro-repeated-side-effects.cpp",
-    "file": "bugprone/bugprone-macro-repeated-side-effects.cpp"
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\bugprone\\bugprone-macro-repeated-side-effects.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\bugprone\\bugprone-macro-repeated-side-effects.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/bugprone/bugprone-macro-repeated-side-effects.cpp"
   },
   {
-    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
-    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -O3 -DNDEBUG -std=gnu++1z -o bugprone\\bugprone-misplaced-widening-cast.cpp.obj -c bugprone\\bugprone-misplaced-widening-cast.cpp",
-    "file": "bugprone/bugprone-misplaced-widening-cast.cpp"
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\bugprone\\bugprone-misplaced-widening-cast.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\bugprone\\bugprone-misplaced-widening-cast.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/bugprone/bugprone-misplaced-widening-cast.cpp"
   },
   {
-    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
-    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -O3 -DNDEBUG -std=gnu++1z -o bugprone\\bugprone-move-forwarding-reference.cpp.obj -c bugprone\\bugprone-move-forwarding-reference.cpp",
-    "file": "bugprone/bugprone-move-forwarding-reference.cpp"
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\bugprone\\bugprone-move-forwarding-reference.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\bugprone\\bugprone-move-forwarding-reference.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/bugprone/bugprone-move-forwarding-reference.cpp"
   },
   {
-    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
-    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -O3 -DNDEBUG -std=gnu++1z -o bugprone\\bugprone-string-constructor.cpp.obj -c bugprone\\bugprone-string-constructor.cpp",
-    "file": "bugprone/bugprone-string-constructor.cpp"
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\bugprone\\bugprone-string-constructor.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\bugprone\\bugprone-string-constructor.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/bugprone/bugprone-string-constructor.cpp"
   },
   {
-    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
-    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -O3 -DNDEBUG -std=gnu++1z -o bugprone\\bugprone-string-integer-assignment.cpp.obj -c bugprone\\bugprone-string-integer-assignment.cpp",
-    "file": "bugprone/bugprone-string-integer-assignment.cpp"
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\bugprone\\bugprone-string-integer-assignment.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\bugprone\\bugprone-string-integer-assignment.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/bugprone/bugprone-string-integer-assignment.cpp"
   },
   {
-    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
-    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -O3 -DNDEBUG -std=gnu++1z -o cert\\cert-dcl50-cpp.cpp.obj -c cert\\cert-dcl50-cpp.cpp",
-    "file": "cert/cert-dcl50-cpp.cpp"
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\cert\\cert-dcl50-cpp.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\cert\\cert-dcl50-cpp.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cert/cert-dcl50-cpp.cpp"
   },
   {
-    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
-    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -O3 -DNDEBUG -std=gnu++1z -o cert\\cert-dcl58-cpp.cpp.obj -c cert\\cert-dcl58-cpp.cpp",
-    "file": "cert/cert-dcl58-cpp.cpp"
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\cert\\cert-dcl58-cpp.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\cert\\cert-dcl58-cpp.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cert/cert-dcl58-cpp.cpp"
   },
   {
-    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
-    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -O3 -DNDEBUG -std=gnu++1z -o cert\\cert-err52-cpp.cpp.obj -c cert\\cert-err52-cpp.cpp",
-    "file": "cert/cert-err52-cpp.cpp"
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\cert\\cert-err52-cpp.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\cert\\cert-err52-cpp.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cert/cert-err52-cpp.cpp"
   },
   {
-    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
-    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -O3 -DNDEBUG -std=gnu++1z -o google\\google-default-arguments.cpp.obj -c google\\google-default-arguments.cpp",
-    "file": "google/google-default-arguments.cpp"
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\google\\google-default-arguments.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\google\\google-default-arguments.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/google/google-default-arguments.cpp"
   },
   {
-    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
-    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -O3 -DNDEBUG -std=gnu++1z -o google\\google-explicit-constructor.cpp.obj -c google\\google-explicit-constructor.cpp",
-    "file": "google/google-explicit-constructor.cpp"
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\google\\google-explicit-constructor.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\google\\google-explicit-constructor.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/google/google-explicit-constructor.cpp"
   },
   {
-    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
-    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -O3 -DNDEBUG -std=gnu++1z -o modernize\\modernize-avoid-bind.cpp.obj -c modernize\\modernize-avoid-bind.cpp",
-    "file": "modernize/modernize-avoid-bind.cpp"
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\modernize\\modernize-avoid-bind.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\modernize\\modernize-avoid-bind.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/modernize/modernize-avoid-bind.cpp"
   },
   {
-    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
-    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -O3 -DNDEBUG -std=gnu++1z -o modernize\\modernize-deprecated-headers.cpp.obj -c modernize\\modernize-deprecated-headers.cpp",
-    "file": "modernize/modernize-deprecated-headers.cpp"
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\modernize\\modernize-deprecated-headers.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\modernize\\modernize-deprecated-headers.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/modernize/modernize-deprecated-headers.cpp"
   },
   {
-    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
-    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -O3 -DNDEBUG -std=gnu++1z -o modernize\\modernize-loop-convert.cpp.obj -c modernize\\modernize-loop-convert.cpp",
-    "file": "modernize/modernize-loop-convert.cpp"
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\modernize\\modernize-loop-convert.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\modernize\\modernize-loop-convert.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/modernize/modernize-loop-convert.cpp"
   },
   {
-    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
-    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -O3 -DNDEBUG -std=gnu++1z -o modernize\\modernize-make-shared.cpp.obj -c modernize\\modernize-make-shared.cpp",
-    "file": "modernize/modernize-make-shared.cpp"
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\modernize\\modernize-make-shared.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\modernize\\modernize-make-shared.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/modernize/modernize-make-shared.cpp"
   },
   {
-    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
-    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -O3 -DNDEBUG -std=gnu++1z -o modernize\\modernize-pass-by-value.cpp.obj -c modernize\\modernize-pass-by-value.cpp",
-    "file": "modernize/modernize-pass-by-value.cpp"
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\modernize\\modernize-pass-by-value.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\modernize\\modernize-pass-by-value.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/modernize/modernize-pass-by-value.cpp"
   },
   {
-    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
-    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -O3 -DNDEBUG -std=gnu++1z -o modernize\\modernize-raw-string-literal.cpp.obj -c modernize\\modernize-raw-string-literal.cpp",
-    "file": "modernize/modernize-raw-string-literal.cpp"
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\modernize\\modernize-raw-string-literal.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\modernize\\modernize-raw-string-literal.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/modernize/modernize-raw-string-literal.cpp"
   },
   {
-    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
-    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -O3 -DNDEBUG -std=gnu++1z -o modernize\\modernize-redundant-void-arg.cpp.obj -c modernize\\modernize-redundant-void-arg.cpp",
-    "file": "modernize/modernize-redundant-void-arg.cpp"
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\modernize\\modernize-redundant-void-arg.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\modernize\\modernize-redundant-void-arg.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/modernize/modernize-redundant-void-arg.cpp"
+  },
+  {
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\modernize\\modernize-replace-auto-ptr.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\modernize\\modernize-replace-auto-ptr.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/modernize/modernize-replace-auto-ptr.cpp"
+  },
+  {
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\modernize\\modernize-replace-random-shuffle.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\modernize\\modernize-replace-random-shuffle.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/modernize/modernize-replace-random-shuffle.cpp"
+  },
+  {
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\modernize\\modernize-use-auto.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\modernize\\modernize-use-auto.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/modernize/modernize-use-auto.cpp"
+  },
+  {
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\modernize\\modernize-use-bool-literals.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\modernize\\modernize-use-bool-literals.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/modernize/modernize-use-bool-literals.cpp"
+  },
+  {
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\performance\\performance-unnecessary-value-param.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\performance\\performance-unnecessary-value-param.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/performance/performance-unnecessary-value-param.cpp"
+  },
+  {
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\readability\\readability-avoid-const-params-in-decls.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\readability\\readability-avoid-const-params-in-decls.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/readability/readability-avoid-const-params-in-decls.cpp"
+  },
+  {
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\readability\\readability-braces-around-statements.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\readability\\readability-braces-around-statements.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/readability/readability-braces-around-statements.cpp"
+  },
+  {
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\readability\\readability-container-size-empty.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\readability\\readability-container-size-empty.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/readability/readability-container-size-empty.cpp"
+  },
+  {
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\readability\\readability-delete-null-pointer.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\readability\\readability-delete-null-pointer.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/readability/readability-delete-null-pointer.cpp"
+  },
+  {
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\readability\\readability-deleted-default.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\readability\\readability-deleted-default.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/readability/readability-deleted-default.cpp"
+  },
+  {
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\readability\\readability-else-after-return.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\readability\\readability-else-after-return.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/readability/readability-else-after-return.cpp"
+  },
+  {
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\readability\\readability-function-size.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\readability\\readability-function-size.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/readability/readability-function-size.cpp"
+  },
+  {
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\readability\\readability-identifier-naming.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\readability\\readability-identifier-naming.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/readability/readability-identifier-naming.cpp"
+  },
+  {
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\readability\\readability-implicit-bool-conversion.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\readability\\readability-implicit-bool-conversion.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/readability/readability-implicit-bool-conversion.cpp"
+  },
+  {
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\readability\\readability-inconsistent-declaration-parameter-name.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\readability\\readability-inconsistent-declaration-parameter-name.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/readability/readability-inconsistent-declaration-parameter-name.cpp"
+  },
+  {
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\readability\\readability-misleading-indentation.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\readability\\readability-misleading-indentation.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/readability/readability-misleading-indentation.cpp"
+  },
+  {
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\readability\\readability-misplaced-array-index.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\readability\\readability-misplaced-array-index.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/readability/readability-misplaced-array-index.cpp"
+  },
+  {
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\readability\\readability-named-parameter.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\readability\\readability-named-parameter.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/readability/readability-named-parameter.cpp"
+  },
+  {
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\readability\\readability-non-const-parameter.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\readability\\readability-non-const-parameter.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/readability/readability-non-const-parameter.cpp"
+  },
+  {
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\readability\\readability-redundant-control-flow.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\readability\\readability-redundant-control-flow.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/readability/readability-redundant-control-flow.cpp"
+  },
+  {
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\readability\\readability-redundant-declaration.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\readability\\readability-redundant-declaration.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/readability/readability-redundant-declaration.cpp"
+  },
+  {
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\readability\\readability-redundant-function-ptr-dereference.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\readability\\readability-redundant-function-ptr-dereference.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/readability/readability-redundant-function-ptr-dereference.cpp"
+  },
+  {
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\readability\\readability-redundant-member-init.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\readability\\readability-redundant-member-init.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/readability/readability-redundant-member-init.cpp"
+  },
+  {
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\readability\\readability-redundant-smartptr-get.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\readability\\readability-redundant-smartptr-get.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/readability/readability-redundant-smartptr-get.cpp"
+  },
+  {
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\readability\\readability-redundant-string-cstr.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\readability\\readability-redundant-string-cstr.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/readability/readability-redundant-string-cstr.cpp"
+  },
+  {
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\readability\\readability-redundant-string-init.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\readability\\readability-redundant-string-init.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/readability/readability-redundant-string-init.cpp"
+  },
+  {
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\readability\\readability-simplify-boolean-expr.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\readability\\readability-simplify-boolean-expr.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/readability/readability-simplify-boolean-expr.cpp"
+  },
+  {
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\readability\\readability-simplify-subscript-expr.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\readability\\readability-simplify-subscript-expr.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/readability/readability-simplify-subscript-expr.cpp"
+  },
+  {
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\readability\\readability-static-accessed-through-instance.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\readability\\readability-static-accessed-through-instance.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/readability/readability-static-accessed-through-instance.cpp"
+  },
+  {
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\portability\\portability-simd-intrinsics.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\portability\\portability-simd-intrinsics.cpp",
+    "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/portability/portability-simd-intrinsics.cpp"
   }
 ]
