@@ -1,176 +1,176 @@
 [
   {
-    "directory": "/cygdrive/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+    "directory": "/cygdrive/c/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
     "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o main.cpp.o -c main.cpp",
     "file": "main.cpp"
   },
   {
-    "directory": "/cygdrive/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+    "directory": "/cygdrive/c/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
     "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o abseil-string-find-startswith.cpp.o -c abseil-string-find-startswith.cpp",
     "file": "abseil-string-find-startswith.cpp"
   },
   {
-    "directory": "/cygdrive/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+    "directory": "/cygdrive/c/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
     "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o argument-selection-defects.cpp.o -c argument-selection-defects.cpp",
     "file": "argument-selection-defects.cpp"
   },
   {
-    "directory": "/cygdrive/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+    "directory": "/cygdrive/c/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
     "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o empty-decl-or-stmt.cpp.o -c empty-decl-or-stmt.cpp",
     "file": "empty-decl-or-stmt.cpp"
   },
   {
-    "directory": "/cygdrive/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+    "directory": "/cygdrive/c/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
     "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o method-can-be-static.cpp.o -c method-can-be-static.cpp",
     "file": "method-can-be-static.cpp"
   },
   {
-    "directory": "/cygdrive/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+    "directory": "/cygdrive/c/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
     "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o bugprone/bugprone-argument-comment.cpp.o -c bugprone/bugprone-argument-comment.cpp",
     "file": "bugprone/bugprone-argument-comment.cpp"
   },
   {
-    "directory": "/cygdrive/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+    "directory": "/cygdrive/c/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
     "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o bugprone/bugprone-assert-side-effect.cpp.o -c bugprone/bugprone-assert-side-effect.cpp",
     "file": "bugprone/bugprone-assert-side-effect.cpp"
   },
   {
-    "directory": "/cygdrive/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+    "directory": "/cygdrive/c/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
     "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o bugprone/bugprone-bool-pointer-implicit-conversion.cpp.o -c bugprone/bugprone-bool-pointer-implicit-conversion.cpp",
     "file": "bugprone/bugprone-bool-pointer-implicit-conversion.cpp"
   },
   {
-    "directory": "/cygdrive/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+    "directory": "/cygdrive/c/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
     "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o bugprone/bugprone-copy-constructor-init.cpp.o -c bugprone/bugprone-copy-constructor-init.cpp",
     "file": "bugprone/bugprone-copy-constructor-init.cpp"
   },
   {
-    "directory": "/cygdrive/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+    "directory": "/cygdrive/c/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
     "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o bugprone/bugprone-dangling-handle.cpp.o -c bugprone/bugprone-dangling-handle.cpp",
     "file": "bugprone/bugprone-dangling-handle.cpp"
   },
   {
-    "directory": "/cygdrive/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+    "directory": "/cygdrive/c/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
     "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o bugprone/bugprone-fold-init-type.cpp.o -c bugprone/bugprone-fold-init-type.cpp",
     "file": "bugprone/bugprone-fold-init-type.cpp"
   },
   {
-    "directory": "/cygdrive/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+    "directory": "/cygdrive/c/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
     "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o bugprone/bugprone-forward-declaration-namespace.cpp.o -c bugprone/bugprone-forward-declaration-namespace.cpp",
     "file": "bugprone/bugprone-forward-declaration-namespace.cpp"
   },
   {
-    "directory": "/cygdrive/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+    "directory": "/cygdrive/c/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
     "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o bugprone/bugprone-forwarding-reference-overload.cpp.o -c bugprone/bugprone-forwarding-reference-overload.cpp",
     "file": "bugprone/bugprone-forwarding-reference-overload.cpp"
   },
   {
-    "directory": "/cygdrive/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+    "directory": "/cygdrive/c/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
     "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o bugprone/bugprone-inaccurate-erase.cpp.o -c bugprone/bugprone-inaccurate-erase.cpp",
     "file": "bugprone/bugprone-inaccurate-erase.cpp"
   },
   {
-    "directory": "/cygdrive/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+    "directory": "/cygdrive/c/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
     "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o bugprone/bugprone-incorrect-roundings.cpp.o -c bugprone/bugprone-incorrect-roundings.cpp",
     "file": "bugprone/bugprone-incorrect-roundings.cpp"
   },
   {
-    "directory": "/cygdrive/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+    "directory": "/cygdrive/c/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
     "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o bugprone/bugprone-integer-division.cpp.o -c bugprone/bugprone-integer-division.cpp",
     "file": "bugprone/bugprone-integer-division.cpp"
   },
   {
-    "directory": "/cygdrive/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+    "directory": "/cygdrive/c/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
     "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o bugprone/bugprone-lambda-function-name.cpp.o -c bugprone/bugprone-lambda-function-name.cpp",
     "file": "bugprone/bugprone-lambda-function-name.cpp"
   },
   {
-    "directory": "/cygdrive/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+    "directory": "/cygdrive/c/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
     "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o bugprone/bugprone-macro-parentheses.cpp.o -c bugprone/bugprone-macro-parentheses.cpp",
     "file": "bugprone/bugprone-macro-parentheses.cpp"
   },
   {
-    "directory": "/cygdrive/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+    "directory": "/cygdrive/c/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
     "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o bugprone/bugprone-macro-repeated-side-effects.cpp.o -c bugprone/bugprone-macro-repeated-side-effects.cpp",
     "file": "bugprone/bugprone-macro-repeated-side-effects.cpp"
   },
   {
-    "directory": "/cygdrive/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+    "directory": "/cygdrive/c/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
     "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o bugprone/bugprone-misplaced-widening-cast.cpp.o -c bugprone/bugprone-misplaced-widening-cast.cpp",
     "file": "bugprone/bugprone-misplaced-widening-cast.cpp"
   },
   {
-    "directory": "/cygdrive/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+    "directory": "/cygdrive/c/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
     "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o bugprone/bugprone-move-forwarding-reference.cpp.o -c bugprone/bugprone-move-forwarding-reference.cpp",
     "file": "bugprone/bugprone-move-forwarding-reference.cpp"
   },
   {
-    "directory": "/cygdrive/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+    "directory": "/cygdrive/c/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
     "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o bugprone/bugprone-string-constructor.cpp.o -c bugprone/bugprone-string-constructor.cpp",
     "file": "bugprone/bugprone-string-constructor.cpp"
   },
   {
-    "directory": "/cygdrive/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+    "directory": "/cygdrive/c/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
     "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o bugprone/bugprone-string-integer-assignment.cpp.o -c bugprone/bugprone-string-integer-assignment.cpp",
     "file": "bugprone/bugprone-string-integer-assignment.cpp"
   },
   {
-    "directory": "/cygdrive/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+    "directory": "/cygdrive/c/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
     "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o cert/cert-dcl50-cpp.cpp.o -c cert/cert-dcl50-cpp.cpp",
     "file": "cert/cert-dcl50-cpp.cpp"
   },
   {
-    "directory": "/cygdrive/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+    "directory": "/cygdrive/c/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
     "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o cert/cert-dcl58-cpp.cpp.o -c cert/cert-dcl58-cpp.cpp",
     "file": "cert/cert-dcl58-cpp.cpp"
   },
   {
-    "directory": "/cygdrive/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+    "directory": "/cygdrive/c/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
     "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o cert/cert-err52-cpp.cpp.o -c cert/cert-err52-cpp.cpp",
     "file": "cert/cert-err52-cpp.cpp"
   },
   {
-    "directory": "/cygdrive/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+    "directory": "/cygdrive/c/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
     "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o google/google-default-arguments.cpp.o -c google/google-default-arguments.cpp",
     "file": "google/google-default-arguments.cpp"
   },
   {
-    "directory": "/cygdrive/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+    "directory": "/cygdrive/c/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
     "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o google/google-explicit-constructor.cpp.o -c google/google-explicit-constructor.cpp",
     "file": "google/google-explicit-constructor.cpp"
   },
   {
-    "directory": "/cygdrive/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+    "directory": "/cygdrive/c/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
     "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o modernize/modernize-avoid-bind.cpp.o -c modernize/modernize-avoid-bind.cpp",
     "file": "modernize/modernize-avoid-bind.cpp"
   },
   {
-    "directory": "/cygdrive/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+    "directory": "/cygdrive/c/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
     "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o modernize/modernize-deprecated-headers.cpp.o -c modernize/modernize-deprecated-headers.cpp",
     "file": "modernize/modernize-deprecated-headers.cpp"
   },
   {
-    "directory": "/cygdrive/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+    "directory": "/cygdrive/c/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
     "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o modernize/modernize-loop-convert.cpp.o -c modernize/modernize-loop-convert.cpp",
     "file": "modernize/modernize-loop-convert.cpp"
   },
   {
-    "directory": "/cygdrive/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+    "directory": "/cygdrive/c/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
     "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o modernize/modernize-make-shared.cpp.o -c modernize/modernize-make-shared.cpp",
     "file": "modernize/modernize-make-shared.cpp"
   },
   {
-    "directory": "/cygdrive/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+    "directory": "/cygdrive/c/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
     "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o modernize/modernize-pass-by-value.cpp.o -c modernize/modernize-pass-by-value.cpp",
     "file": "modernize/modernize-pass-by-value.cpp"
   },
   {
-    "directory": "/cygdrive/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+    "directory": "/cygdrive/c/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
     "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o modernize/modernize-raw-string-literal.cpp.o -c modernize/modernize-raw-string-literal.cpp",
     "file": "modernize/modernize-raw-string-literal.cpp"
   },
   {
-    "directory": "/cygdrive/c/Users/maxim/CLionProjects/clang-tidy-inspections",
+    "directory": "/cygdrive/c/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
     "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o modernize/modernize-redundant-void-arg.cpp.o -c modernize/modernize-redundant-void-arg.cpp",
     "file": "modernize/modernize-redundant-void-arg.cpp"
   }

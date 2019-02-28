@@ -1,0 +1,738 @@
+<problems>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../bugprone/bugprone-incorrect-roundings.cpp</file>
+  <line>9</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../bugprone/bugprone-incorrect-roundings.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Nested namespaces can be concatenated</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../bugprone/bugprone-incorrect-roundings.cpp</file>
+  <line>13</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../bugprone/bugprone-incorrect-roundings.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Casting (double + 0.5) to integer leads to incorrect rounding; consider using lround (#include &lt;cmath&gt;) instead</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../bugprone/bugprone-forwarding-reference-overload.cpp</file>
+  <line>30</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../bugprone/bugprone-forwarding-reference-overload.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Nested namespaces can be concatenated</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../bugprone/bugprone-forwarding-reference-overload.cpp</file>
+  <line>36</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../bugprone/bugprone-forwarding-reference-overload.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Constructor accepting a forwarding reference can hide the copy and move constructors</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../bugprone/bugprone-forwarding-reference-overload.cpp</file>
+  <line>40</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../bugprone/bugprone-forwarding-reference-overload.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Constructor accepting a forwarding reference can hide the copy and move constructors</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../bugprone/bugprone-inaccurate-erase.cpp</file>
+  <line>18</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../bugprone/bugprone-inaccurate-erase.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Macro argument should be enclosed in parentheses</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../bugprone/bugprone-inaccurate-erase.cpp</file>
+  <line>18</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../bugprone/bugprone-inaccurate-erase.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Macro argument should be enclosed in parentheses</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../bugprone/bugprone-inaccurate-erase.cpp</file>
+  <line>20</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../bugprone/bugprone-inaccurate-erase.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Nested namespaces can be concatenated</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../modernize/modernize-make-shared.cpp</file>
+  <line>45</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../modernize/modernize-make-shared.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Use std::make_shared instead</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp</file>
+  <line>17</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'assert.h'; consider using 'cassert' instead</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp</file>
+  <line>18</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'complex.h'; consider using 'complex' instead</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp</file>
+  <line>19</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'ctype.h'; consider using 'cctype' instead</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp</file>
+  <line>20</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'errno.h'; consider using 'cerrno' instead</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp</file>
+  <line>21</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'fenv.h'; consider using 'cfenv' instead</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp</file>
+  <line>22</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'float.h'; consider using 'cfloat' instead</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp</file>
+  <line>23</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'inttypes.h'; consider using 'cinttypes' instead</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp</file>
+  <line>24</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'limits.h'; consider using 'climits' instead</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp</file>
+  <line>25</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'locale.h'; consider using 'clocale' instead</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp</file>
+  <line>26</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'math.h'; consider using 'cmath' instead</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp</file>
+  <line>27</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'setjmp.h'; consider using 'csetjmp' instead</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp</file>
+  <line>28</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'signal.h'; consider using 'csignal' instead</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp</file>
+  <line>29</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'stdarg.h'; consider using 'cstdarg' instead</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp</file>
+  <line>30</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'stddef.h'; consider using 'cstddef' instead</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp</file>
+  <line>31</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'stdint.h'; consider using 'cstdint' instead</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp</file>
+  <line>32</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'stdio.h'; consider using 'cstdio' instead</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp</file>
+  <line>33</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'stdlib.h'; consider using 'cstdlib' instead</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp</file>
+  <line>34</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'string.h'; consider using 'cstring' instead</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp</file>
+  <line>35</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'tgmath.h'; consider using 'ctgmath' instead</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp</file>
+  <line>36</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'time.h'; consider using 'ctime' instead</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp</file>
+  <line>38</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'wchar.h'; consider using 'cwchar' instead</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp</file>
+  <line>39</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../modernize/modernize-deprecated-headers.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'wctype.h'; consider using 'cwctype' instead</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../modernize/modernize-redundant-void-arg.cpp</file>
+  <line>12</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../modernize/modernize-redundant-void-arg.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Redundant void argument list in function declaration</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../modernize/modernize-redundant-void-arg.cpp</file>
+  <line>13</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../modernize/modernize-redundant-void-arg.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Redundant void argument list in function declaration</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../modernize/modernize-redundant-void-arg.cpp</file>
+  <line>13</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../modernize/modernize-redundant-void-arg.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Redundant void argument list in function declaration</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../modernize/modernize-redundant-void-arg.cpp</file>
+  <line>14</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../modernize/modernize-redundant-void-arg.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Redundant void argument list in typedef</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../modernize/modernize-redundant-void-arg.cpp</file>
+  <line>14</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../modernize/modernize-redundant-void-arg.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Redundant void argument list in typedef</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../modernize/modernize-pass-by-value.cpp</file>
+  <line>40</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../modernize/modernize-pass-by-value.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Pass by value and use std::move</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../modernize/modernize-loop-convert.cpp</file>
+  <line>73</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../modernize/modernize-loop-convert.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Use range-based for loop instead</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../modernize/modernize-loop-convert.cpp</file>
+  <line>77</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../modernize/modernize-loop-convert.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Use range-based for loop instead</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../modernize/modernize-loop-convert.cpp</file>
+  <line>81</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../modernize/modernize-loop-convert.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Use range-based for loop instead</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../modernize/modernize-raw-string-literal.cpp</file>
+  <line>30</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../modernize/modernize-raw-string-literal.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Escaped string literal can be written as a raw string literal</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../modernize/modernize-raw-string-literal.cpp</file>
+  <line>31</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../modernize/modernize-raw-string-literal.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Escaped string literal can be written as a raw string literal</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../empty-decl-or-stmt.cpp</file>
+  <line>15</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../empty-decl-or-stmt.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Empty declaration</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../empty-decl-or-stmt.cpp</file>
+  <line>19</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../empty-decl-or-stmt.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Empty statement</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../empty-decl-or-stmt.cpp</file>
+  <line>20</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../empty-decl-or-stmt.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Empty declaration</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../method-can-be-static.cpp</file>
+  <line>13</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../method-can-be-static.cpp" />
+  <problem_class severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Member function can be static</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../method-can-be-static.cpp</file>
+  <line>17</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../method-can-be-static.cpp" />
+  <problem_class severity="WEAK WARNING" attribute_key="INFO_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Member function can be static</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../argument-selection-defects.cpp</file>
+  <line>20</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../argument-selection-defects.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Arguments passed in possibly wrong order. Review following parameters and their corresponding arguments: name(role), role(name)</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../argument-selection-defects.cpp</file>
+  <line>21</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../argument-selection-defects.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Arguments passed in possibly wrong order. Review following parameters and their corresponding arguments: one(two), two(one)</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../argument-selection-defects.cpp</file>
+  <line>22</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../argument-selection-defects.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Arguments passed in possibly wrong order. Review following parameters and their corresponding arguments: x(y), y(x)</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../abseil-string-find-startswith.cpp</file>
+  <line>29</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../abseil-string-find-startswith.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Use absl::StartsWith instead of find() == 0</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../bugprone/bugprone-copy-constructor-init.cpp</file>
+  <line>15</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../bugprone/bugprone-copy-constructor-init.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Nested namespaces can be concatenated</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../bugprone/bugprone-dangling-handle.cpp</file>
+  <line>21</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../bugprone/bugprone-dangling-handle.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Nested namespaces can be concatenated</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../bugprone/bugprone-string-constructor.cpp</file>
+  <line>22</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../bugprone/bugprone-string-constructor.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Nested namespaces can be concatenated</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../bugprone/bugprone-string-constructor.cpp</file>
+  <line>27</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../bugprone/bugprone-string-constructor.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>String constructor parameters are probably swapped; expecting string(count, character)</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../bugprone/bugprone-string-constructor.cpp</file>
+  <line>29</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../bugprone/bugprone-string-constructor.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Length is bigger then string literal size</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../bugprone/bugprone-string-constructor.cpp</file>
+  <line>31</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../bugprone/bugprone-string-constructor.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Constructor creating an empty string</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../bugprone/bugprone-macro-parentheses.cpp</file>
+  <line>23</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../bugprone/bugprone-macro-parentheses.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Macro argument should be enclosed in parentheses</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../bugprone/bugprone-macro-parentheses.cpp</file>
+  <line>23</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../bugprone/bugprone-macro-parentheses.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Macro argument should be enclosed in parentheses</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../bugprone/bugprone-macro-parentheses.cpp</file>
+  <line>25</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../bugprone/bugprone-macro-parentheses.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Nested namespaces can be concatenated</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../bugprone/bugprone-macro-repeated-side-effects.cpp</file>
+  <line>8</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../bugprone/bugprone-macro-repeated-side-effects.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Nested namespaces can be concatenated</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../bugprone/bugprone-forward-declaration-namespace.cpp</file>
+  <line>16</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../bugprone/bugprone-forward-declaration-namespace.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Nested namespaces can be concatenated</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../bugprone/bugprone-forward-declaration-namespace.cpp</file>
+  <line>19</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../bugprone/bugprone-forward-declaration-namespace.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>No definition found for 'A', but a definition with the same name 'A' found in another namespace 'bugprone::forward_declaration_namespace::nb'</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../bugprone/bugprone-string-integer-assignment.cpp</file>
+  <line>10</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../bugprone/bugprone-string-integer-assignment.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Nested namespaces can be concatenated</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../bugprone/bugprone-string-integer-assignment.cpp</file>
+  <line>17</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../bugprone/bugprone-string-integer-assignment.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>An integer is interpreted as a character code when assigning it to a string; if this is intended, cast the integer to the appropriate character type; if you want a string representation, use the appropriate conversion facility</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../bugprone/bugprone-string-integer-assignment.cpp</file>
+  <line>18</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../bugprone/bugprone-string-integer-assignment.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>An integer is interpreted as a character code when assigning it to a string; if this is intended, cast the integer to the appropriate character type; if you want a string representation, use the appropriate conversion facility</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../bugprone/bugprone-assert-side-effect.cpp</file>
+  <line>19</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../bugprone/bugprone-assert-side-effect.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Nested namespaces can be concatenated</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../bugprone/bugprone-move-forwarding-reference.cpp</file>
+  <line>12</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../bugprone/bugprone-move-forwarding-reference.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Nested namespaces can be concatenated</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../bugprone/bugprone-move-forwarding-reference.cpp</file>
+  <line>21</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../bugprone/bugprone-move-forwarding-reference.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Forwarding reference passed to std::move(), which may unexpectedly cause lvalues to be moved; use std::forward() instead</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../bugprone/bugprone-misplaced-widening-cast.cpp</file>
+  <line>15</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../bugprone/bugprone-misplaced-widening-cast.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Nested namespaces can be concatenated</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../bugprone/bugprone-misplaced-widening-cast.cpp</file>
+  <line>19</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../bugprone/bugprone-misplaced-widening-cast.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Either cast from 'int' to 'long' is ineffective, or there is loss of precision before the conversion</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../bugprone/bugprone-lambda-function-name.cpp</file>
+  <line>12</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../bugprone/bugprone-lambda-function-name.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Nested namespaces can be concatenated</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../bugprone/bugprone-lambda-function-name.cpp</file>
+  <line>18</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../bugprone/bugprone-lambda-function-name.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inside a lambda, '__func__' expands to the name of the function call operator; consider capturing the name of the enclosing function explicitly</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../bugprone/bugprone-lambda-function-name.cpp</file>
+  <line>19</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../bugprone/bugprone-lambda-function-name.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inside a lambda, '__FUNCTION__' expands to the name of the function call operator; consider capturing the name of the enclosing function explicitly</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../bugprone/bugprone-bool-pointer-implicit-conversion.cpp</file>
+  <line>13</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../bugprone/bugprone-bool-pointer-implicit-conversion.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Nested namespaces can be concatenated</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../bugprone/bugprone-integer-division.cpp</file>
+  <line>20</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../bugprone/bugprone-integer-division.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Nested namespaces can be concatenated</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../bugprone/bugprone-integer-division.cpp</file>
+  <line>34</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../bugprone/bugprone-integer-division.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Result of integer division used in a floating point context; possible loss of precision</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../bugprone/bugprone-integer-division.cpp</file>
+  <line>35</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../bugprone/bugprone-integer-division.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Result of integer division used in a floating point context; possible loss of precision</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../bugprone/bugprone-integer-division.cpp</file>
+  <line>36</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../bugprone/bugprone-integer-division.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Result of integer division used in a floating point context; possible loss of precision</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../bugprone/bugprone-integer-division.cpp</file>
+  <line>36</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../bugprone/bugprone-integer-division.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Use of a signed integer operand with a binary bitwise operator</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../bugprone/bugprone-argument-comment.cpp</file>
+  <line>15</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../bugprone/bugprone-argument-comment.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Nested namespaces can be concatenated</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../bugprone/bugprone-argument-comment.cpp</file>
+  <line>25</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../bugprone/bugprone-argument-comment.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Argument name 'bar' in comment does not match parameter name 'foo'</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../bugprone/bugprone-fold-init-type.cpp</file>
+  <line>14</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../bugprone/bugprone-fold-init-type.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Nested namespaces can be concatenated</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../bugprone/bugprone-fold-init-type.cpp</file>
+  <line>18</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../bugprone/bugprone-fold-init-type.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Folding type 'float' into type 'int' might result in loss of precision</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../google/google-explicit-constructor.cpp</file>
+  <line>14</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../google/google-explicit-constructor.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Single-argument constructors must be marked explicit to avoid unintentional implicit conversions</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../google/google-explicit-constructor.cpp</file>
+  <line>16</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../google/google-explicit-constructor.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>'operator bool' must be marked explicit to avoid unintentional implicit conversions</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../cert/cert-dcl58-cpp.cpp</file>
+  <line>9</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../cert/cert-dcl58-cpp.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Modification of 'std' namespace can result in undefined behavior</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../cert/cert-dcl58-cpp.cpp</file>
+  <line>13</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../cert/cert-dcl58-cpp.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Nested namespaces can be concatenated</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../cert/cert-err52-cpp.cpp</file>
+  <line>10</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../cert/cert-err52-cpp.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Nested namespaces can be concatenated</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../cert/cert-err52-cpp.cpp</file>
+  <line>26</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../cert/cert-err52-cpp.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Do not call 'longjmp'; consider using exception handling instead</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../cert/cert-err52-cpp.cpp</file>
+  <line>31</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../cert/cert-err52-cpp.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Do not call 'setjmp'; consider using exception handling instead</description>
+</problem>
+  <problem>
+  <file>file://$PROJECT_DIR$/../../../cert/cert-dcl50-cpp.cpp</file>
+  <line>13</line>
+  <module>mingw</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/../../../cert/cert-dcl50-cpp.cpp" />
+  <problem_class severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Nested namespaces can be concatenated</description>
+</problem>
+</problems>

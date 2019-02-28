@@ -11,6 +11,21 @@
   },
   {
     "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -O3 -DNDEBUG -std=gnu++1z -o argument-selection-defects.cpp.obj -c argument-selection-defects.cpp",
+    "file": "argument-selection-defects.cpp"
+  },
+  {
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -O3 -DNDEBUG -std=gnu++1z -o empty-decl-or-stmt.cpp.obj -c empty-decl-or-stmt.cpp",
+    "file": "empty-decl-or-stmt.cpp"
+  },
+  {
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -O3 -DNDEBUG -std=gnu++1z -o method-can-be-static.cpp.obj -c method-can-be-static.cpp",
+    "file": "method-can-be-static.cpp"
+  },
+  {
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
     "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -O3 -DNDEBUG -std=gnu++1z -o bugprone\\bugprone-argument-comment.cpp.obj -c bugprone\\bugprone-argument-comment.cpp",
     "file": "bugprone/bugprone-argument-comment.cpp"
   },
