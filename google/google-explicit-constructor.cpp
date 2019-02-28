@@ -27,4 +27,4 @@ void check() {
     a.getX();
   }
 }
-} // namespace google
+} // namespace google::explicit_constructor

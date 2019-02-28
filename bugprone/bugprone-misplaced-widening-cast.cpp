@@ -1,7 +1,8 @@
 // bugprone-misplaced-widening-cast
-// This check will warn when there is a cast of a calculation result to a bigger type.
-// If the intention of the cast is to avoid loss of precision then the cast is misplaced,
-// and there can be loss of precision. Otherwise the cast is ineffective.
+// This check will warn when there is a cast of a calculation result to a bigger
+// type. If the intention of the cast is to avoid loss of precision then the
+// cast is misplaced, and there can be loss of precision. Otherwise the cast is
+// ineffective.
 
 // Options
 //
@@ -12,16 +13,14 @@
 
 #include <iostream>
 
-namespace bugprone {
-    namespace misplaced_widening_cast {
+namespace bugprone::misplaced_widening_cast {
 
-        long f(int x) { // NOLINT(google-runtime-int)
-            return static_cast<long>(x * 1000); // NOLINT(google-runtime-int)
-        }
+long f(int x) {                       // NOLINT(google-runtime-int)
+  return static_cast<long>(x * 1000); // NOLINT(google-runtime-int)
+}
 
-        void check() {
-            std::cout << "-- check bugprone-misplaced-widening-cast" << std::endl;
-            f(1);
-        }
-    } // namespace misplaced_widening_cast
-} // namespace bugprone
+void check() {
+  std::cout << "-- check bugprone-misplaced-widening-cast" << std::endl;
+  f(1);
+}
+} // namespace bugprone::misplaced_widening_cast

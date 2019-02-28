@@ -1,36 +1,35 @@
 // cert-err52-cpp
 // This check flags all call expressions involving setjmp() and longjmp().
-// This check corresponds to the CERT C++ Coding Standard rule ERR52-CPP. Do not use setjmp() or longjmp().
+// This check corresponds to the CERT C++ Coding Standard rule ERR52-CPP. Do not
+// use setjmp() or longjmp().
 
 // https://clang.llvm.org/extra/clang-tidy/checks/cert-err52-cpp.html
 
 #include <csetjmp>
 #include <iostream>
 
-namespace cert {
-    namespace err52_cpp {
+namespace cert::err52_cpp {
 
-        static jmp_buf env;
+static jmp_buf env;
 
-        struct Counter {
-            static int instances;
+struct Counter {
+  static int instances;
 
-            Counter() { ++instances; }
-            ~Counter() { --instances; }
-        };
+  Counter() { ++instances; }
+  ~Counter() { --instances; }
+};
 
-        int Counter::instances = 0;
+int Counter::instances = 0;
 
-        void f() {
-            Counter c;
-            std::longjmp(env, 1);
-        }
+void f() {
+  Counter c;
+  std::longjmp(env, 1);
+}
 
-        void check() {
-            std::cout << "-- check cert-err52-cpp" << std::endl;
-            if (setjmp(env) == 0) {
-                f();
-            }
-        }
-    } // namespace err52_cpp
-} // namespace cert
+void check() {
+  std::cout << "-- check cert-err52-cpp" << std::endl;
+  if (setjmp(env) == 0) {
+    f();
+  }
+}
+} // namespace cert::err52_cpp

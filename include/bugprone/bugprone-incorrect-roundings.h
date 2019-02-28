@@ -2,10 +2,8 @@
 #ifndef CPP_12784_BUGPRONE_INCORRECT_ROUNDINGS_H
 #define CPP_12784_BUGPRONE_INCORRECT_ROUNDINGS_H
 
-namespace bugprone {
-    namespace incorrect_rounding {
-        void check();
-    } // namespace incorrect_rounding
-} // namespace bugprone
+namespace bugprone::incorrect_rounding {
+void check();
+} // namespace bugprone::incorrect_rounding
 
-#endif //CPP_12784_BUGPRONE_INCORRECT_ROUNDINGS_H
+#endif // CPP_12784_BUGPRONE_INCORRECT_ROUNDINGS_H

@@ -80,6 +80,7 @@
 #include "include/cert/cert-err52-cpp.h"
 
 #include "include/google/google-default-arguments.h"
+#include "include/google/google-explicit-constructor.h"
 
 #include "include/modernize/modernize-avoid-bind.h"
 #include "include/modernize/modernize-deprecated-headers.h"
@@ -158,6 +159,7 @@ int main() {
   std::cout << std::endl;
 
   google::default_arguments::check();
+  google::explicit_constructor::check();
 
   std::cout << std::endl;
 

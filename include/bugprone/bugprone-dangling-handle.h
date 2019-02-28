@@ -4,11 +4,9 @@
 
 #include <string_view>
 
-namespace bugprone {
-    namespace dangling_handle {
-        std::string_view f();
-        void check();
-    } // namespace dangling_handle
-} // namespace bugprone
+namespace bugprone::dangling_handle {
+std::string_view f();
+void check();
+} // namespace bugprone::dangling_handle
 
-#endif //CPP_12784_BUGPRONE_DANGLING_HANDLE_H
+#endif // CPP_12784_BUGPRONE_DANGLING_HANDLE_H

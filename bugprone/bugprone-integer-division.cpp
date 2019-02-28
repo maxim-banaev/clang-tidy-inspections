@@ -1,5 +1,6 @@
 // bugprone-integer-division
-// Finds cases where integer division in a floating point context is likely to cause unintended loss of precision.
+// Finds cases where integer division in a floating point context is likely to
+// cause unintended loss of precision.
 //
 // No reports are made if divisions are part of the following expressions:
 //
@@ -17,33 +18,31 @@
 #pragma ide diagnostic ignored "clang-analyzer-deadcode.DeadStores"
 #pragma ide diagnostic ignored "UnusedValue"
 #pragma clang diagnostic ignored "-Wunused-variable"
-namespace bugprone {
-    namespace integer_division {
+namespace bugprone::integer_division {
 
-        float floatFunc(double) { return 0; }
-        int intFunc(int) { return 0; }
+float floatFunc(double) { return 0; }
+int intFunc(int) { return 0; }
 
-        void check() {
+void check() {
 
-            std::cout << "-- check bugprone-integer-division" << std::endl;
+  std::cout << "-- check bugprone-integer-division" << std::endl;
 
-            double d;
-            int i = 42;
+  double d;
+  int i = 42;
 
-            // Warn, floating-point values expected.
-            d = 32 * 8 / (2 + i);
-            d = 8 * floatFunc(1 + 7 / 2);
-            d = i / (1 << 4);
+  // Warn, floating-point values expected.
+  d = 32 * 8 / (2 + i);
+  d = 8 * floatFunc(1 + 7 / 2);
+  d = i / (1 << 4);
 
-            // OK, no integer division.
-            d = 32 * 8.0 / (2 + i);
-            d = 8 * floatFunc(1 + 7.0 / 2);
-            d = static_cast<double>(i) / (1 << 4); // NOLINT(hicpp-signed-bitwise)
+  // OK, no integer division.
+  d = 32 * 8.0 / (2 + i);
+  d = 8 * floatFunc(1 + 7.0 / 2);
+  d = static_cast<double>(i) / (1 << 4); // NOLINT(hicpp-signed-bitwise)
 
-            // OK, there are signs of deliberateness.
-            d = 1 << (i / 2); // NOLINT(hicpp-signed-bitwise)
-            d = 9 + intFunc(6 * i / 32);
-        }
-    } // namespace integer_division
-} // namespace bugprone
+  // OK, there are signs of deliberateness.
+  d = 1 << (i / 2); // NOLINT(hicpp-signed-bitwise)
+  d = 9 + intFunc(6 * i / 32);
+}
+} // namespace bugprone::integer_division
 #pragma clang diagnostic pop

@@ -2,10 +2,8 @@
 #ifndef CPP_12784_BUGPRONE_FORWARD_DECLARATION_NAMESPACE_H
 #define CPP_12784_BUGPRONE_FORWARD_DECLARATION_NAMESPACE_H
 
-namespace bugprone {
-    namespace forward_declaration_namespace {
-        void check();
-    } // namespace forward_declaration_namespace
-} // namespace bugprone
+namespace bugprone::forward_declaration_namespace {
+void check();
+} // namespace bugprone::forward_declaration_namespace
 
-#endif //CPP_12784_BUGPRONE_FORWARD_DECLARATION_NAMESPACE_H
+#endif // CPP_12784_BUGPRONE_FORWARD_DECLARATION_NAMESPACE_H

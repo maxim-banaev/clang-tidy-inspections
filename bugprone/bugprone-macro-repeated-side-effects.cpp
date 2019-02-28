@@ -5,10 +5,8 @@
 
 #include <iostream>
 
-namespace  bugprone {
-    namespace macro_repeated_side_effects {
-        void check() {
-            // TODO(unknown): Add check
-        }
-    } // namespace macro_repeated_side_effects
-} // namespace bugprone
+namespace bugprone::macro_repeated_side_effects {
+void check() {
+  // TODO(unknown): Add check
+}
+} // namespace bugprone::macro_repeated_side_effects

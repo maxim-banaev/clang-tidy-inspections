@@ -2,10 +2,8 @@
 #ifndef CPP_12784_CERT_DCL50_CPP_H
 #define CPP_12784_CERT_DCL50_CPP_H
 
-namespace cert {
-    namespace dcl50_cpp {
-        void check();
-    } // namespace dcl50_cpp
-} // namespace cert
+namespace cert::dcl50_cpp {
+void check();
+} // namespace cert::dcl50_cpp
 
-#endif //CPP_12784_CERT_DCL50_CPP_H
+#endif // CPP_12784_CERT_DCL50_CPP_H

@@ -2,10 +2,8 @@
 #ifndef CPP_12784_BUGPRONE_BOOL_POINTER_IMPLICIT_CONVERSION_H
 #define CPP_12784_BUGPRONE_BOOL_POINTER_IMPLICIT_CONVERSION_H
 
-namespace bugprone {
-    namespace bool_pointer_implicit_conversion {
-        void check();
-    } // namespace bool_pointer_implicit_conversion
-} // namespace bugprone
+namespace bugprone::bool_pointer_implicit_conversion {
+void check();
+} // namespace bugprone::bool_pointer_implicit_conversion
 
-#endif //CPP_12784_BUGPRONE_BOOL_POINTER_IMPLICIT_CONVERSION_H
+#endif // CPP_12784_BUGPRONE_BOOL_POINTER_IMPLICIT_CONVERSION_H

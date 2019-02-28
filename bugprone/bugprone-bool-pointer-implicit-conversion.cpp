@@ -1,5 +1,6 @@
 // bugprone-bool-pointer-implicit-conversion
-// Checks for conditions based on implicit conversion from a bool pointer to bool.
+// Checks for conditions based on implicit conversion from a bool pointer to
+// bool.
 
 //  https://clang.llvm.org/extra/clang-tidy/checks/bugprone-bool-pointer-implicit-conversion.html
 
@@ -10,15 +11,15 @@
 
 #include <iostream>
 
-namespace bugprone {
-    namespace bool_pointer_implicit_conversion {
-        void check() {
-            std::cout << "-- check bugprone-bool-pointer-implicit-conversion" << std::endl;
+namespace bugprone::bool_pointer_implicit_conversion {
+void check() {
+  std::cout << "-- check bugprone-bool-pointer-implicit-conversion"
+            << std::endl;
 
-            bool *p;
-            if (p) { /* Never used in a pointer-specific way. */ }
-        }
-    } // namespace bool_pointer_implicit_conversion
-} // namespace bugprone
+  bool *p;
+  if (p) { /* Never used in a pointer-specific way. */
+  }
+}
+} // namespace bugprone::bool_pointer_implicit_conversion
 
 #pragma clang diagnostic pop

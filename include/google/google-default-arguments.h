@@ -2,10 +2,8 @@
 #ifndef CPP_12784_GOOGLE_DEFAULT_ARGUMENTS_H
 #define CPP_12784_GOOGLE_DEFAULT_ARGUMENTS_H
 
-namespace google {
-    namespace default_arguments {
-        void check();
-    } // namespace default_arguments
-} // namespace google
+namespace google::default_arguments {
+void check();
+} // namespace google::default_arguments
 
-#endif //CPP_12784_GOOGLE_DEFAULT_ARGUMENTS_H
+#endif // CPP_12784_GOOGLE_DEFAULT_ARGUMENTS_H

@@ -2,10 +2,8 @@
 #ifndef CPP_12784_GOOGLE_EXPLICIT_CONSTRUCTOR_H
 #define CPP_12784_GOOGLE_EXPLICIT_CONSTRUCTOR_H
 
-namespace google {
-    namespace explicit_constructor {
-        void check();
-    } // namespace explicit_constructor
-} // namespace google
+namespace google::explicit_constructor {
+void check();
+} // namespace google::explicit_constructor
 
-#endif //CPP_12784_GOOGLE_EXPLICIT_CONSTRUCTOR_H
+#endif // CPP_12784_GOOGLE_EXPLICIT_CONSTRUCTOR_H

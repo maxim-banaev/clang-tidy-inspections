@@ -2,10 +2,8 @@
 #ifndef CPP_12784_BUGPRONE_INTEGER_DIVISION_H
 #define CPP_12784_BUGPRONE_INTEGER_DIVISION_H
 
-namespace bugprone {
-    namespace integer_division {
-        void check();
-    } // namespace integer_division
-} // namespace bugprone
+namespace bugprone::integer_division {
+void check();
+} // namespace bugprone::integer_division
 
-#endif //CPP_12784_BUGPRONE_INTEGER_DIVISION_H
+#endif // CPP_12784_BUGPRONE_INTEGER_DIVISION_H

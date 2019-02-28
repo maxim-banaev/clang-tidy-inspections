@@ -6,12 +6,11 @@
 
 #include <iostream>
 
-namespace  bugprone {
-    namespace incorrect_rounding {
-        void check() {
-            std::cout << "-- check bugprone-incorrect-roundings" << std::endl;
-            auto a = static_cast<int>(1.00000000001 + 0.5);
-            if ( a < 1.5 ) { /* do nothing*/}
-        }
-    } // namespace incorrect_rounding
-} // namespace bugprone
+namespace bugprone::incorrect_rounding {
+void check() {
+  std::cout << "-- check bugprone-incorrect-roundings" << std::endl;
+  auto a = static_cast<int>(1.00000000001 + 0.5);
+  if (a < 1.5) { /* do nothing*/
+  }
+}
+} // namespace bugprone::incorrect_rounding

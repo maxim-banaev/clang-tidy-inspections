@@ -44,6 +44,6 @@ void check() {
     foo1();
   foo2(); // Not guarded by if(cond1).
 }
-} // namespace readability
+} // namespace readability::misleading_indentation
 
 #pragma clang diagnostic pop

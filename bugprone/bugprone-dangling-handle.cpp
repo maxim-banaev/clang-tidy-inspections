@@ -1,7 +1,8 @@
 // bugprone-dangling-handle
-// Detect dangling references in value handles like std::experimental::string_view.
-// These dangling references can be a result of constructing handles from temporary values,
-// where the temporary is destroyed soon after the handle is created.
+// Detect dangling references in value handles like
+// std::experimental::string_view. These dangling references can be a result of
+// constructing handles from temporary values, where the temporary is destroyed
+// soon after the handle is created.
 
 // Options
 //
@@ -18,20 +19,18 @@
 #include <iostream>
 #include <vector>
 
-namespace bugprone {
-    namespace dangling_handle {
-        void check() {
-            std::string_view View = std::string();  // View will dangle.
-            std::string A;
-            View = A + "A";  // still dangle.
+namespace bugprone::dangling_handle {
+void check() {
+  std::string_view View = std::string(); // View will dangle.
+  std::string A;
+  View = A + "A"; // still dangle.
 
-            std::vector<std::string_view> V;
-            V.push_back (std::string()); // V[0] is dangling.
-            V.resize(3, std::string());  // V[1] and V[2] will also dangle.
+  std::vector<std::string_view> V;
+  V.push_back(std::string()); // V[0] is dangling.
+  V.resize(3, std::string()); // V[1] and V[2] will also dangle.
 
-            std::cout << "-- check bugprone-dangling-handle FIXME" << std::endl;
-        }
-    } // namespace dangling_handle
-} // namespace bugprone
+  std::cout << "-- check bugprone-dangling-handle FIXME" << std::endl;
+}
+} // namespace bugprone::dangling_handle
 
 #pragma clang diagnostic pop
