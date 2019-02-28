@@ -3,6 +3,6 @@
 
 namespace readability::misleading_indentation {
 void check();
-} // namespace readability
+} // namespace readability::misleading_indentation
 
 #endif // CPP_12784_READABILITY_MISLEADING_INDENTATION_H

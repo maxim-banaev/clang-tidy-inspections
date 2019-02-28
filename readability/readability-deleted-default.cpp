@@ -29,6 +29,6 @@ private:
 void check() {
   std::cout << "-- check readability-deleted-default" << std::endl;
 }
-} // namespace readability
+} // namespace readability::deleted_default
 
 #pragma clang diagnostic pop

@@ -1,10 +1,8 @@
 #ifndef CPP_12784_READABILITY_REDUNDANT_DECLARATION_H
 #define CPP_12784_READABILITY_REDUNDANT_DECLARATION_H
 
-namespace readability {
-    namespace redundant_declaration {
-        void check();
-    } // namespace redundant_declaration
-} // namespace readability
+namespace readability::redundant_declaration {
+void check();
+} // namespace readability::redundant_declaration
 
-#endif //CPP_12784_READABILITY_REDUNDANT_DECLARATION_H
+#endif // CPP_12784_READABILITY_REDUNDANT_DECLARATION_H

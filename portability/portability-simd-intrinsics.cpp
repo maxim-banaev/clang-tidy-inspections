@@ -44,4 +44,4 @@ void check() {
   std::vector<int> b = {4};
   // vec_add(a, b);
 }
-} // namespace portability
+} // namespace portability::portability_simd_intrinsics

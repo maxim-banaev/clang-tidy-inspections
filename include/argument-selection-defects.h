@@ -3,7 +3,7 @@
 #define CPP_12784_ARGUMENT_SELECTION_DEFECTS_H
 
 namespace argument_selection_defects {
-    void check();
+void check();
 } // namespace argument_selection_defects
 
-#endif //CPP_12784_ARGUMENT_SELECTION_DEFECTS_H
+#endif // CPP_12784_ARGUMENT_SELECTION_DEFECTS_H

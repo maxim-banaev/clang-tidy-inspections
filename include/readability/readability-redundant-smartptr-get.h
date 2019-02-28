@@ -1,10 +1,8 @@
 #ifndef CPP_12784_READABILITY_REDUNDANT_SMARTPTR_GET_H
 #define CPP_12784_READABILITY_REDUNDANT_SMARTPTR_GET_H
 
-namespace readability {
-    namespace redundant_smartptr_get {
-        void check();
-    } // namespace redundant_smartptr_get
-} // namespace readability
+namespace readability::redundant_smartptr_get {
+void check();
+} // namespace readability::redundant_smartptr_get
 
-#endif //CPP_12784_READABILITY_REDUNDANT_SMARTPTR_GET_H
+#endif // CPP_12784_READABILITY_REDUNDANT_SMARTPTR_GET_H

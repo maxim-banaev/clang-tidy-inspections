@@ -3,10 +3,8 @@
 
 #include <string>
 
-namespace performance {
-    namespace unnecessary_value_param {
-        void check();
-    } // namespace unnecessary_value_param
-} // namespace performance
+namespace performance::unnecessary_value_param {
+void check();
+} // namespace performance::unnecessary_value_param
 
-#endif //CPP_12784_PERFORMANCE_UNNECESSARY_VALUE_PARAM_H
+#endif // CPP_12784_PERFORMANCE_UNNECESSARY_VALUE_PARAM_H

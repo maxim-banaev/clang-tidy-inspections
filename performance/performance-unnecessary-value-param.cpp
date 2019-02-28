@@ -40,7 +40,8 @@ ExpensiveToCopy::ExpensiveToCopy() { a = 0; }
 
 ExpensiveToCopy::ExpensiveToCopy(const ExpensiveToCopy &value) { a = value.a; }
 
-void ExpensiveToCopy::ConstMethd() { /*do nothing*/ }
+void ExpensiveToCopy::ConstMethd() { /*do nothing*/
+}
 
 void ExpensiveToCopy::setValue(std::string s) {
   // a = static_cast<int>(s.length());
@@ -59,6 +60,6 @@ void g(ExpensiveToCopy value) {
 void check() {
   std::cout << "-- check performance-unnecessary-value-param" << std::endl;
 }
-} // namespace performance
+} // namespace performance::unnecessary_value_param
 
 #pragma clang diagnostic pop
