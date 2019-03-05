@@ -1,8 +1,8 @@
-#ifndef CPP_12784_READABILITY_DELETED_DEFAULT_H
-#define CPP_12784_READABILITY_DELETED_DEFAULT_H
+#ifndef READABILITY_DELETED_DEFAULT_H
+#define READABILITY_DELETED_DEFAULT_H
 
 namespace readability::deleted_default {
 void check();
 } // namespace readability::deleted_default
 
-#endif // CPP_12784_READABILITY_DELETED_DEFAULT_H
+#endif // READABILITY_DELETED_DEFAULT_H
