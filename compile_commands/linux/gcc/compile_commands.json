@@ -71,6 +71,19 @@
       "-g",
       "-std=gnu++1z",
       "-o",
+      "modernize/modernize-use-bool-literals.cpp.o",
+      "modernize/modernize-use-bool-literals.cpp"
+    ],
+    "directory": "/home/maxim/CLionProjects/clang-tidy-inspections",
+    "file": "modernize/modernize-use-bool-literals.cpp"
+  },
+  {
+    "arguments": [
+      "c++",
+      "-c",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
       "readability/readability-redundant-string-init.cpp.o",
       "readability/readability-redundant-string-init.cpp"
     ],
