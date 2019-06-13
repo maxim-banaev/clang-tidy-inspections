@@ -6,8 +6,8 @@ extern "C" {
 char const *p;
 
 void test() {
-  char const str[] = "string";
-  p = str; // warn
+  char const kStr[] = "string";
+  p = kStr; // warn
 }
 
 void *test1() {
@@ -22,6 +22,7 @@ void test2() {
 }
 
 void check() {
-  std::cout << "-- check clang-analyzer-core.StackAddrEscapeBase fixme" << std::endl;
+  std::cout << "-- check clang-analyzer-core.StackAddrEscapeBase"
+            << std::endl;
 }
 }
