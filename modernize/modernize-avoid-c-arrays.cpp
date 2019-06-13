@@ -38,4 +38,17 @@ using k =
     int[4]; // warning: do not declare C-style arrays, use std::array<> instead
 
 void check() { std::cout << "-- check modernize-avoid-c-arrays" << std::endl; }
+
+extern "C" {
+
+int f[] = {1, 2}; // not diagnosed
+
+int j[1]; // not diagnosed
+
+inline void bar() {
+  {
+    int j[j[0]]; // not diagnosed
+  }
+}
+}
 } // namespace modernize::avoid_c_arrays
