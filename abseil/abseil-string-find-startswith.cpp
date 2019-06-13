@@ -23,7 +23,7 @@
 
 namespace abseil::string_find_startswith {
 void check() {
-  std::cout << "-- check abseil-string-find-startswith " << std::endl;
+  std::cout << "-- check abseil-string-find-startswith" << std::endl;
 
   std::string s = "...";
   if (s.find("Hello World") == 0) { // warn here!
