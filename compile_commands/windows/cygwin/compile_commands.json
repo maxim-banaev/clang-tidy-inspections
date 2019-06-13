@@ -1,7 +1,17 @@
 [
   {
     "directory": "/cygdrive/c/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
-    "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o main.cpp.o -c main.cpp",
+    "arguments": 
+    [
+      "/usr/bin/c++.exe",
+      "-O2",
+      "-DNDEBUG",
+      "-std=gnu++1z",
+      "-o",
+      "main.cpp.o",
+      "-c",
+      "main.cpp"
+    ],
     "file": "main.cpp"
   },
   {

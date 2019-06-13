@@ -2,8 +2,8 @@
 #ifndef ABSEIL_DURATION_ADDITION_H
 #define ABSEIL_DURATION_ADDITION_H
 
-namespace abseil_string_find_startswith {
+namespace abseil::duration_addition {
 void check();
-} // namespace abseil_string_find_startswith
+} // namespace abseil::string_find_startswith
 
 #endif // ABSEIL_DURATION_ADDITION_H

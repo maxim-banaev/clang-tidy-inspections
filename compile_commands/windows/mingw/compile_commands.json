@@ -1,7 +1,7 @@
 [
   {
     "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/cmake-build-debug",
-    "command": "\"C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe\" -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\main.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\main.cpp",
+    "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\G__~1.EXE -g   -std=gnu++17 -o CMakeFiles\\run_inspections.dir\\main.cpp.obj -c C:\\Users\\maxim.banaev\\CLionProjects\\clang-tidy-inspections\\main.cpp",
     "file": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections/main.cpp"
   },
   {
