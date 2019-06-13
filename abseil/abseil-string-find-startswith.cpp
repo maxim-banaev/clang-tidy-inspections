@@ -21,7 +21,7 @@
 #include <iostream>
 #include <string>
 
-namespace abseil_string_find_startswith {
+namespace abseil::string_find_startswith {
 void check() {
   std::cout << "-- check abseil-string-find-startswith " << std::endl;
 
@@ -30,4 +30,4 @@ void check() {
     /* do something */
   }
 }
-} // namespace abseil_string_find_startswith
+} // namespace abseil::string_find_startswith

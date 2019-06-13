@@ -4,6 +4,6 @@
 
 namespace abseil::duration_addition {
 void check();
-} // namespace abseil::string_find_startswith
+} // namespace abseil::duration_addition
 
 #endif // ABSEIL_DURATION_ADDITION_H

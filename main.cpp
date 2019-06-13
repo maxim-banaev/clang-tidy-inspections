@@ -51,7 +51,6 @@
 
 // https://clang.llvm.org/extra/clang-tidy/checks/list.html
 
-#include "include/abseil-string-find-startswith.h"
 #include "include/argument-selection-defects.h"
 #include "include/empty-decl-or-stmt.h"
 #include "include/method-can-be-static.h"
@@ -89,7 +88,6 @@
 #include "include/portability/portability-simd-intrinsics.h"
 
 int main() {
-  abseil_string_find_startswith::check();
   argument_selection_defects::check();
   empty_decl_or_stmt::check();
   method_can_be_static::check();
