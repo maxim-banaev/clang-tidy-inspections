@@ -12,7 +12,7 @@ if (ADD_ABSEIL)
     add_subdirectory(abseil)
 endif ()
 add_subdirectory(bugprone)
-file(GLOB CERT_SRC "cert/*.cpp")
+add_subdirectory(cert)
 file(GLOB GOOGLE_SRC "google/*.cpp")
 file(GLOB MODERNIZE_SRC "modernize/*.cpp")
 file(GLOB PERFORMANCE_SRC "performance/*.cpp")
@@ -21,6 +21,6 @@ file(GLOB PORTABILITY_SRC "portability/*.cpp")
 file(GLOB SRC "*.cpp")
 
 add_executable(run_inspections main.cpp
-        ${SRC} ${CERT_SRC} ${GOOGLE_SRC}
+        ${SRC} ${GOOGLE_SRC}
         ${MODERNIZE_SRC} ${PERFORMANCE_SRC} ${READABILITY_SRC} ${PORTABILITY_SRC}
         )

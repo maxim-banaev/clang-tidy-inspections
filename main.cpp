@@ -56,29 +56,6 @@
 #include "include/empty-decl-or-stmt.h"
 #include "include/method-can-be-static.h"
 
-#include "include/bugprone/bugprone-argument-comment.h"
-#include "include/bugprone/bugprone-assert-side-effect.h"
-#include "include/bugprone/bugprone-bool-pointer-implicit-conversion.h"
-#include "include/bugprone/bugprone-copy-constructor-init.h"
-#include "include/bugprone/bugprone-dangling-handle.h"
-#include "include/bugprone/bugprone-fold-init-type.h"
-#include "include/bugprone/bugprone-forward-declaration-namespace.h"
-#include "include/bugprone/bugprone-forwarding-reference-overload.h"
-#include "include/bugprone/bugprone-inaccurate-erase.h"
-#include "include/bugprone/bugprone-incorrect-roundings.h"
-#include "include/bugprone/bugprone-integer-division.h"
-#include "include/bugprone/bugprone-lambda-function-name.h"
-#include "include/bugprone/bugprone-macro-parentheses.h"
-#include "include/bugprone/bugprone-macro-repeated-side-effects.h"
-#include "include/bugprone/bugprone-misplaced-widening-cast.h"
-#include "include/bugprone/bugprone-move-forwarding-reference.h"
-#include "include/bugprone/bugprone-string-constructor.h"
-#include "include/bugprone/bugprone-string-integer-assignment.h"
-
-#include "include/cert/cert-dcl50-cpp.h"
-#include "include/cert/cert-dcl58-cpp.h"
-#include "include/cert/cert-err52-cpp.h"
-
 #include "include/google/google-default-arguments.h"
 #include "include/google/google-explicit-constructor.h"
 
@@ -128,27 +105,6 @@ int main() {
   argument_selection_defects::check();
   empty_decl_or_stmt::check();
   method_can_be_static::check();
-
-  std::cout << std::endl;
-
-  bugprone::argument_comment::check();
-  bugprone::assert_side_effect::check();
-  bugprone::bool_pointer_implicit_conversion::check();
-  bugprone::copy_constructor_init::check();
-  bugprone::dangling_handle::check();
-  bugprone::fold_init_type::check();
-  bugprone::forward_declaration_namespace::check();
-  bugprone::forwarding_reference_overload::check();
-  bugprone::inaccurate_erase::check();
-  bugprone::incorrect_rounding::check();
-  bugprone::integer_division::check();
-  bugprone::lambda_function_name::check();
-  bugprone::macro_parentheses::check();
-  bugprone::macro_repeated_side_effects::check();
-  bugprone::misplaced_widening_cast::check();
-  bugprone::move_forwarding_reference::check();
-  bugprone::string_constructor::check();
-  bugprone::string_integer_assignment::check();
 
   std::cout << std::endl;
 
