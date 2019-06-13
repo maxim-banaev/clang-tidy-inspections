@@ -1,6 +1,3 @@
-//
-// Created by Maxim.Banaev on 6/13/2019.
-//
 #include <abseil-duration-addition.h>
 #include <iostream>
 

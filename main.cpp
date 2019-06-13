@@ -59,18 +59,6 @@
 #include "include/google/google-default-arguments.h"
 #include "include/google/google-explicit-constructor.h"
 
-#include "include/modernize/modernize-avoid-bind.h"
-#include "include/modernize/modernize-deprecated-headers.h"
-#include "include/modernize/modernize-loop-convert.h"
-#include "include/modernize/modernize-make-shared.h"
-#include "include/modernize/modernize-pass-by-value.h"
-#include "include/modernize/modernize-raw-string-literal.h"
-#include "include/modernize/modernize-redundant-void-arg.h"
-#include "include/modernize/modernize-replace-auto-ptr.h"
-#include "include/modernize/modernize-replace-random-shuffle.h"
-#include "include/modernize/modernize-use-auto.h"
-#include "include/modernize/modernize-use-bool-literals.h"
-
 #include "include/performance/performance-unnecessary-value-param.h"
 
 #include "include/readability/readability-avoid-const-params-in-decls.h"
@@ -108,28 +96,8 @@ int main() {
 
   std::cout << std::endl;
 
-  cert::dcl50_cpp::check();
-  cert::dcl58_cpp::check();
-  cert::err52_cpp::check();
-
-  std::cout << std::endl;
-
   google::default_arguments::check();
   google::explicit_constructor::check();
-
-  std::cout << std::endl;
-
-  modernize::avoid_bind::check();
-  modernize::deprecated_headers::check();
-  modernize::loop_convert::check();
-  modernize::make_shared::check();
-  modernize::pass_by_value::check();
-  modernize::raw_string_literal::check();
-  modernize::redundant_void_arg::check();
-  modernize::replace_auto_ptr::check();
-  modernize::replace_random_shuffle::check();
-  modernize::use_auto::check();
-  modernize::use_bool_literals::check();
 
   std::cout << std::endl;
 

@@ -1,4 +1,3 @@
-// NOLINTNEXTLINE(llvm-header-guard)
 #ifndef MODERNIZE_AVOID_BIND_H
 #define MODERNIZE_AVOID_BIND_H
 
