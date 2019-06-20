@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-namespace argument_selection_defects {
+namespace clion::argument_selection_defects {
 void swap_me(const std::string &name, const std::string &role) {}
 
 void foo(const std::string &name, const std::string &role) {}
@@ -28,4 +28,4 @@ void check() {
   f(two, one);         // warn here!
   bar(y, x);           // warn here!
 }
-} // namespace argument_selection_defects
+} // namespace clion::argument_selection_defects

@@ -51,10 +51,6 @@
 
 // https://clang.llvm.org/extra/clang-tidy/checks/list.html
 
-#include "include/argument-selection-defects.h"
-#include "include/empty-decl-or-stmt.h"
-#include "include/method-can-be-static.h"
-
 #include "include/google/google-default-arguments.h"
 #include "include/google/google-explicit-constructor.h"
 
@@ -88,12 +84,6 @@
 #include "include/portability/portability-simd-intrinsics.h"
 
 int main() {
-  argument_selection_defects::check();
-  empty_decl_or_stmt::check();
-  method_can_be_static::check();
-
-  std::cout << std::endl;
-
   google::default_arguments::check();
   google::explicit_constructor::check();
 

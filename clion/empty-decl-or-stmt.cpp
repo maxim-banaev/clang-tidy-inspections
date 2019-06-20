@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-namespace empty_decl_or_stmt {
+namespace clion::empty_decl_or_stmt {
 
 struct foo {
   int x;
@@ -18,4 +18,4 @@ void check() {
   std::cout << "-- check empty-decl-or-stmt" << std::endl;
   ; // should warn here
 };  // should warn here
-} // namespace empty_decl_or_stmt
+} // namespace clion::empty_decl_or_stmt
