@@ -6,9 +6,9 @@
 
 // https://clang.llvm.org/extra/clang-tidy/checks/abseil-duration-addition.html
 
+#include <absl/time/time.h>
 #include <iostream>
 #include <string>
-#include <absl/time/time.h>
 
 namespace abseil::duration_addition {
 void check() {
@@ -17,5 +17,5 @@ void check() {
   int x;
   absl::Time t;
   int result = absl::ToUnixSeconds(t) + x;
-  }
-} // namespace abseil_duration_addition
+}
+} // namespace abseil::duration_addition
