@@ -2,10 +2,8 @@
 #ifndef BUGPRONE_ARGUMENT_COMMENT_H
 #define BUGPRONE_ARGUMENT_COMMENT_H
 
-namespace bugprone {
-    namespace argument_comment {
-        void check();
-    } // namespace argument_comment
-} // namespace bugprone
+namespace bugprone::argument_comment {
+void check();
+} // namespace bugprone::argument_comment
 
-#endif //BUGPRONE_ARGUMENT_COMMENT_H
+#endif // BUGPRONE_ARGUMENT_COMMENT_H

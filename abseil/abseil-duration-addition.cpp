@@ -8,7 +8,6 @@
 
 #include <absl/time/time.h>
 #include <iostream>
-#include <string>
 
 namespace abseil::duration_addition {
 void check() {

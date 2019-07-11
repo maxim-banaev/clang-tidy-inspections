@@ -1,7 +1,7 @@
 #include <argument-selection-defects.h>
 #include <empty-decl-or-stmt.h>
-#include <method-can-be-static.h>
 #include <iostream>
+#include <method-can-be-static.h>
 
 int main() {
   clion::argument_selection_defects::check();

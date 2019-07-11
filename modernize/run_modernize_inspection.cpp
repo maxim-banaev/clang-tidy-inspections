@@ -1,4 +1,5 @@
 #include <modernize-avoid-bind.h>
+#include <modernize-avoid-c-arrays.h>
 #include <modernize-deprecated-headers.h>
 #include <modernize-loop-convert.h>
 #include <modernize-make-shared.h>
@@ -9,7 +10,6 @@
 #include <modernize-replace-random-shuffle.h>
 #include <modernize-use-auto.h>
 #include <modernize-use-bool-literals.h>
-#include <modernize-avoid-c-arrays.h>
 
 int main() {
   modernize::avoid_bind::check();

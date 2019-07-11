@@ -11,7 +11,6 @@
 
 // https://clang.llvm.org/extra/clang-tidy/checks/modernize-avoid-c-arrays.html
 
-#include <functional>
 #include <iostream>
 
 namespace modernize::avoid_c_arrays {

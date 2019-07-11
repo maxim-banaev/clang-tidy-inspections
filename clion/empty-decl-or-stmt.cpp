@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string>
 
 namespace clion::empty_decl_or_stmt {
 
