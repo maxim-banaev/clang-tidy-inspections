@@ -1,4 +1,4 @@
-// bugprone-argument-comment
+  // bugprone-argument-comment
 // Checks that argument comments match parameter names.
 // The check understands argument comments in the form /*parameter_name=*/ that
 // are placed right before the argument. The check tries to detect typos and
@@ -16,15 +16,28 @@
 #include <iostream>
 
 namespace bugprone::argument_comment {
-void f(bool foo) {
+void f1(bool foo) {
   if (foo) {
     /* do something */
   }
 }
 
+void f2(int MeaningOfLife) {
+  if (MeaningOfLife) {
+    /* do something */
+  }
+}
+
+
 void check() {
   std::cout << "-- check bugprone-argument-comment" << std::endl;
-  f(/*bar=*/true);
-  f(/*foo__=*/true); // works only if StrictMode is 1
+  f1(/*bar=*/true); // should warn here
+  f1(/*foo=*/true); // shouldn't warn here
+  f1(/*FOO=*/true); // shouldn't warn here
+  f1(/*Foo=*/true); // shouldn't warn here
+  f1(/*foo__=*/true); // works only if StrictMode is 1
+
+  f2(/*MeaningOfLife_bad=*/1); // shouldn't warn here
+  f2(/*MeaningOfLife=*/1); // shouldn't warn here
 }
 } // namespace bugprone::argument_comment
