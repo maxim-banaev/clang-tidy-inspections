@@ -16,23 +16,23 @@
   },
   {
     "directory": "/cygdrive/c/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
-    "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o abseil-string-find-startswith.cpp.o -c abseil-string-find-startswith.cpp",
-    "file": "abseil-string-find-startswith.cpp"
+    "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o abseil/abseil-string-find-startswith.cpp.o -c abseil/abseil-string-find-startswith.cpp",
+    "file": "abseil/abseil-string-find-startswith.cpp"
   },
   {
     "directory": "/cygdrive/c/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
-    "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o argument-selection-defects.cpp.o -c argument-selection-defects.cpp",
-    "file": "argument-selection-defects.cpp"
+    "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o clion/argument-selection-defects.cpp.o -c clion/argument-selection-defects.cpp",
+    "file": "clion/argument-selection-defects.cpp"
   },
   {
     "directory": "/cygdrive/c/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
-    "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o empty-decl-or-stmt.cpp.o -c empty-decl-or-stmt.cpp",
-    "file": "empty-decl-or-stmt.cpp"
+    "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o clion/empty-decl-or-stmt.cpp.o -c clion/empty-decl-or-stmt.cpp",
+    "file": "clion/empty-decl-or-stmt.cpp"
   },
   {
     "directory": "/cygdrive/c/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
-    "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o method-can-be-static.cpp.o -c method-can-be-static.cpp",
-    "file": "method-can-be-static.cpp"
+    "command": "/usr/bin/c++.exe -O3 -DNDEBUG -std=gnu++1z -o clion/method-can-be-static.cpp.o -c clion/method-can-be-static.cpp",
+    "file": "clion/method-can-be-static.cpp"
   },
   {
     "directory": "/cygdrive/c/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",

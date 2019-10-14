@@ -16,8 +16,14 @@
 #include <iostream>
 
 namespace bugprone::argument_comment {
-void f1(bool foo) {
-  if (foo) {
+void f1(bool foo_) {
+  if (foo_) {
+    /* do something */
+  }
+}
+
+void f11(bool foo, bool bar) {
+  if (foo || bar) {
     /* do something */
   }
 }
@@ -32,10 +38,11 @@ void f2(int MeaningOfLife) {
 void check() {
   std::cout << "-- check bugprone-argument-comment" << std::endl;
   f1(/*bar=*/true); // should warn here
+  f11(/*foo=*/true, /*bar=*/false); // shouldn't warn here
   f1(/*foo=*/true); // shouldn't warn here
   f1(/*FOO=*/true); // shouldn't warn here
   f1(/*Foo=*/true); // shouldn't warn here
-  f1(/*foo__=*/true); // works only if StrictMode is 1
+  f1(/*foo=*/true); // works only if StrictMode is 1
 
   f2(/*MeaningOfLife_bad=*/1); // shouldn't warn here
   f2(/*MeaningOfLife=*/1); // shouldn't warn here
