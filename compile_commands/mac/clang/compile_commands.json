@@ -13,7 +13,20 @@
     "file": "main.cpp"
   },
   {
-    "directory": "/Users/jetbrains/CLionProjects/clang-tidy-inspections",
+    "directory": "/Users/jetbrains/CLionProjects/clang-tidy-inspections/abseil",
+    "arguments": [
+      "/usr/bin/clang++",
+      "-g",
+      "-std=gnu++1z",
+      "-o",
+      "abseil-duration-addition.cpp.o",
+      "-c",
+      "abseil-duration-addition.cpp"
+    ],
+    "file": "abseil-duration-addition.cpp"
+  },
+  {
+    "directory": "/Users/jetbrains/CLionProjects/clang-tidy-inspections/abseil",
     "arguments": [
       "/usr/bin/clang++",
       "-g",
@@ -26,7 +39,7 @@
     "file": "abseil-string-find-startswith.cpp"
   },
   {
-    "directory": "/Users/jetbrains/CLionProjects/clang-tidy-inspections",
+    "directory": "/Users/jetbrains/CLionProjects/clang-tidy-inspections/clion",
     "arguments": [
       "/usr/bin/clang++",
       "-g",
@@ -39,7 +52,7 @@
     "file": "argument-selection-defects.cpp"
   },
   {
-    "directory": "/Users/jetbrains/CLionProjects/clang-tidy-inspections",
+    "directory": "/Users/jetbrains/CLionProjects/clang-tidy-inspections/clion",
     "arguments": [
       "/usr/bin/clang++",
       "-g",
@@ -52,7 +65,7 @@
     "file": "empty-decl-or-stmt.cpp"
   },
   {
-    "directory": "/Users/jetbrains/CLionProjects/clang-tidy-inspections",
+    "directory": "/Users/jetbrains/CLionProjects/clang-tidy-inspections/clion",
     "arguments": [
       "/usr/bin/clang++",
       "-g",
