@@ -1,307 +1,307 @@
 [
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\main.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c main.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\main.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c main.cpp",
     "file": "main.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\abseil-string-find-startswith.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c abseil-string-find-startswith.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\abseil-string-find-startswith.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c abseil-string-find-startswith.cpp",
     "file": "abseil-string-find-startswith.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\bugprone\\bugprone-argument-comment.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c bugprone\\bugprone-argument-comment.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\bugprone\\bugprone-argument-comment.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c bugprone\\bugprone-argument-comment.cpp",
     "file": "bugprone/bugprone-argument-comment.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\bugprone\\bugprone-assert-side-effect.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c bugprone\\bugprone-assert-side-effect.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\bugprone\\bugprone-assert-side-effect.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c bugprone\\bugprone-assert-side-effect.cpp",
     "file": "bugprone/bugprone-assert-side-effect.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\bugprone\\bugprone-bool-pointer-implicit-conversion.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c bugprone\\bugprone-bool-pointer-implicit-conversion.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\bugprone\\bugprone-bool-pointer-implicit-conversion.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c bugprone\\bugprone-bool-pointer-implicit-conversion.cpp",
     "file": "bugprone/bugprone-bool-pointer-implicit-conversion.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\bugprone\\bugprone-copy-constructor-init.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c bugprone\\bugprone-copy-constructor-init.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\bugprone\\bugprone-copy-constructor-init.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c bugprone\\bugprone-copy-constructor-init.cpp",
     "file": "bugprone/bugprone-copy-constructor-init.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\bugprone\\bugprone-dangling-handle.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c bugprone\\bugprone-dangling-handle.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\bugprone\\bugprone-dangling-handle.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c bugprone\\bugprone-dangling-handle.cpp",
     "file": "bugprone/bugprone-dangling-handle.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\bugprone\\bugprone-fold-init-type.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c bugprone\\bugprone-fold-init-type.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\bugprone\\bugprone-fold-init-type.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c bugprone\\bugprone-fold-init-type.cpp",
     "file": "bugprone/bugprone-fold-init-type.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\bugprone\\bugprone-forward-declaration-namespace.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c bugprone\\bugprone-forward-declaration-namespace.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\bugprone\\bugprone-forward-declaration-namespace.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c bugprone\\bugprone-forward-declaration-namespace.cpp",
     "file": "bugprone/bugprone-forward-declaration-namespace.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\bugprone\\bugprone-forwarding-reference-overload.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c bugprone\\bugprone-forwarding-reference-overload.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\bugprone\\bugprone-forwarding-reference-overload.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c bugprone\\bugprone-forwarding-reference-overload.cpp",
     "file": "bugprone/bugprone-forwarding-reference-overload.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\bugprone\\bugprone-inaccurate-erase.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c bugprone\\bugprone-inaccurate-erase.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\bugprone\\bugprone-inaccurate-erase.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c bugprone\\bugprone-inaccurate-erase.cpp",
     "file": "bugprone/bugprone-inaccurate-erase.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\bugprone\\bugprone-incorrect-roundings.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c bugprone\\bugprone-incorrect-roundings.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\bugprone\\bugprone-incorrect-roundings.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c bugprone\\bugprone-incorrect-roundings.cpp",
     "file": "bugprone/bugprone-incorrect-roundings.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\bugprone\\bugprone-integer-division.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c bugprone\\bugprone-integer-division.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\bugprone\\bugprone-integer-division.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c bugprone\\bugprone-integer-division.cpp",
     "file": "bugprone/bugprone-integer-division.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\bugprone\\bugprone-lambda-function-name.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c bugprone\\bugprone-lambda-function-name.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\bugprone\\bugprone-lambda-function-name.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c bugprone\\bugprone-lambda-function-name.cpp",
     "file": "bugprone/bugprone-lambda-function-name.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\bugprone\\bugprone-macro-parentheses.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c bugprone\\bugprone-macro-parentheses.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\bugprone\\bugprone-macro-parentheses.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c bugprone\\bugprone-macro-parentheses.cpp",
     "file": "bugprone/bugprone-macro-parentheses.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\bugprone\\bugprone-macro-repeated-side-effects.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c bugprone\\bugprone-macro-repeated-side-effects.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\bugprone\\bugprone-macro-repeated-side-effects.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c bugprone\\bugprone-macro-repeated-side-effects.cpp",
     "file": "bugprone/bugprone-macro-repeated-side-effects.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\bugprone\\bugprone-misplaced-widening-cast.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c bugprone\\bugprone-misplaced-widening-cast.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\bugprone\\bugprone-misplaced-widening-cast.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c bugprone\\bugprone-misplaced-widening-cast.cpp",
     "file": "bugprone/bugprone-misplaced-widening-cast.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\bugprone\\bugprone-move-forwarding-reference.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c bugprone\\bugprone-move-forwarding-reference.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\bugprone\\bugprone-move-forwarding-reference.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c bugprone\\bugprone-move-forwarding-reference.cpp",
     "file": "bugprone/bugprone-move-forwarding-reference.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\bugprone\\bugprone-string-constructor.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c bugprone\\bugprone-string-constructor.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\bugprone\\bugprone-string-constructor.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c bugprone\\bugprone-string-constructor.cpp",
     "file": "bugprone/bugprone-string-constructor.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\bugprone\\bugprone-string-integer-assignment.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c bugprone\\bugprone-string-integer-assignment.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\bugprone\\bugprone-string-integer-assignment.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c bugprone\\bugprone-string-integer-assignment.cpp",
     "file": "bugprone/bugprone-string-integer-assignment.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\cert\\cert-dcl50-cpp.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c cert\\cert-dcl50-cpp.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\cert\\cert-dcl50-cpp.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c cert\\cert-dcl50-cpp.cpp",
     "file": "cert/cert-dcl50-cpp.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\cert\\cert-dcl58-cpp.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c cert\\cert-dcl58-cpp.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\cert\\cert-dcl58-cpp.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c cert\\cert-dcl58-cpp.cpp",
     "file": "cert/cert-dcl58-cpp.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\cert\\cert-err52-cpp.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c cert\\cert-err52-cpp.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\cert\\cert-err52-cpp.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c cert\\cert-err52-cpp.cpp",
     "file": "cert/cert-err52-cpp.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\google\\google-default-arguments.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c google\\google-default-arguments.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\google\\google-default-arguments.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c google\\google-default-arguments.cpp",
     "file": "google/google-default-arguments.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\google\\google-explicit-constructor.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c google\\google-explicit-constructor.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\google\\google-explicit-constructor.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c google\\google-explicit-constructor.cpp",
     "file": "google/google-explicit-constructor.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\modernize\\modernize-avoid-bind.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c modernize\\modernize-avoid-bind.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\modernize\\modernize-avoid-bind.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c modernize\\modernize-avoid-bind.cpp",
     "file": "modernize/modernize-avoid-bind.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\modernize\\modernize-deprecated-headers.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c modernize\\modernize-deprecated-headers.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\modernize\\modernize-deprecated-headers.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c modernize\\modernize-deprecated-headers.cpp",
     "file": "modernize/modernize-deprecated-headers.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\modernize\\modernize-loop-convert.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c modernize\\modernize-loop-convert.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\modernize\\modernize-loop-convert.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c modernize\\modernize-loop-convert.cpp",
     "file": "modernize/modernize-loop-convert.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\modernize\\modernize-make-shared.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c modernize\\modernize-make-shared.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\modernize\\modernize-make-shared.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c modernize\\modernize-make-shared.cpp",
     "file": "modernize/modernize-make-shared.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\modernize\\modernize-pass-by-value.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c modernize\\modernize-pass-by-value.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\modernize\\modernize-pass-by-value.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c modernize\\modernize-pass-by-value.cpp",
     "file": "modernize/modernize-pass-by-value.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\modernize\\modernize-raw-string-literal.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c modernize\\modernize-raw-string-literal.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\modernize\\modernize-raw-string-literal.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c modernize\\modernize-raw-string-literal.cpp",
     "file": "modernize/modernize-raw-string-literal.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\modernize\\modernize-redundant-void-arg.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c modernize\\modernize-redundant-void-arg.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\modernize\\modernize-redundant-void-arg.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c modernize\\modernize-redundant-void-arg.cpp",
     "file": "modernize/modernize-redundant-void-arg.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\modernize\\modernize-replace-auto-ptr.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c modernize\\modernize-replace-auto-ptr.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\modernize\\modernize-replace-auto-ptr.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c modernize\\modernize-replace-auto-ptr.cpp",
     "file": "modernize/modernize-replace-auto-ptr.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\modernize\\modernize-replace-random-shuffle.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c modernize\\modernize-replace-random-shuffle.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\modernize\\modernize-replace-random-shuffle.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c modernize\\modernize-replace-random-shuffle.cpp",
     "file": "modernize/modernize-replace-random-shuffle.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\modernize\\modernize-use-auto.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c modernize\\modernize-use-auto.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\modernize\\modernize-use-auto.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c modernize\\modernize-use-auto.cpp",
     "file": "modernize/modernize-use-auto.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\performance\\performance-unnecessary-value-param.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c performance\\performance-unnecessary-value-param.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\performance\\performance-unnecessary-value-param.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c performance\\performance-unnecessary-value-param.cpp",
     "file": "performance/performance-unnecessary-value-param.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-avoid-const-params-in-decls.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-avoid-const-params-in-decls.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-avoid-const-params-in-decls.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-avoid-const-params-in-decls.cpp",
     "file": "readability/readability-avoid-const-params-in-decls.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-braces-around-statements.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-braces-around-statements.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-braces-around-statements.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-braces-around-statements.cpp",
     "file": "readability/readability-braces-around-statements.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-container-size-empty.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-container-size-empty.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-container-size-empty.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-container-size-empty.cpp",
     "file": "readability/readability-container-size-empty.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-delete-null-pointer.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-delete-null-pointer.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-delete-null-pointer.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-delete-null-pointer.cpp",
     "file": "readability/readability-delete-null-pointer.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-deleted-default.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-deleted-default.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-deleted-default.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-deleted-default.cpp",
     "file": "readability/readability-deleted-default.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-else-after-return.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-else-after-return.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-else-after-return.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-else-after-return.cpp",
     "file": "readability/readability-else-after-return.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-function-size.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-function-size.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-function-size.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-function-size.cpp",
     "file": "readability/readability-function-size.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-identifier-naming.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-identifier-naming.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-identifier-naming.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-identifier-naming.cpp",
     "file": "readability/readability-identifier-naming.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-implicit-bool-conversion.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-implicit-bool-conversion.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-implicit-bool-conversion.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-implicit-bool-conversion.cpp",
     "file": "readability/readability-implicit-bool-conversion.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-inconsistent-declaration-parameter-name.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-inconsistent-declaration-parameter-name.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-inconsistent-declaration-parameter-name.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-inconsistent-declaration-parameter-name.cpp",
     "file": "readability/readability-inconsistent-declaration-parameter-name.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-misleading-indentation.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-misleading-indentation.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-misleading-indentation.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-misleading-indentation.cpp",
     "file": "readability/readability-misleading-indentation.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-misplaced-array-index.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-misplaced-array-index.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-misplaced-array-index.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-misplaced-array-index.cpp",
     "file": "readability/readability-misplaced-array-index.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-named-parameter.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-named-parameter.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-named-parameter.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-named-parameter.cpp",
     "file": "readability/readability-named-parameter.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-non-const-parameter.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-non-const-parameter.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-non-const-parameter.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-non-const-parameter.cpp",
     "file": "readability/readability-non-const-parameter.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-redundant-control-flow.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-redundant-control-flow.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-redundant-control-flow.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-redundant-control-flow.cpp",
     "file": "readability/readability-redundant-control-flow.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-redundant-declaration.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-redundant-declaration.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-redundant-declaration.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-redundant-declaration.cpp",
     "file": "readability/readability-redundant-declaration.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-redundant-function-ptr-dereference.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-redundant-function-ptr-dereference.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-redundant-function-ptr-dereference.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-redundant-function-ptr-dereference.cpp",
     "file": "readability/readability-redundant-function-ptr-dereference.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-redundant-member-init.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-redundant-member-init.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-redundant-member-init.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-redundant-member-init.cpp",
     "file": "readability/readability-redundant-member-init.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-redundant-smartptr-get.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-redundant-smartptr-get.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-redundant-smartptr-get.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-redundant-smartptr-get.cpp",
     "file": "readability/readability-redundant-smartptr-get.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-redundant-string-cstr.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-redundant-string-cstr.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-redundant-string-cstr.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-redundant-string-cstr.cpp",
     "file": "readability/readability-redundant-string-cstr.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-redundant-string-init.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-redundant-string-init.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-redundant-string-init.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-redundant-string-init.cpp",
     "file": "readability/readability-redundant-string-init.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-simplify-boolean-expr.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-simplify-boolean-expr.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-simplify-boolean-expr.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-simplify-boolean-expr.cpp",
     "file": "readability/readability-simplify-boolean-expr.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-simplify-subscript-expr.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-simplify-subscript-expr.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-simplify-subscript-expr.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-simplify-subscript-expr.cpp",
     "file": "readability/readability-simplify-subscript-expr.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-static-accessed-through-instance.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-static-accessed-through-instance.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\readability\\readability-static-accessed-through-instance.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c readability\\readability-static-accessed-through-instance.cpp",
     "file": "readability/readability-static-accessed-through-instance.cpp"
   },
   {
-    "directory": "C:/Users/maxim/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2017\\PROFES~1\\VC\\Tools\\MSVC\\1413~1.261\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\portability\\portability-simd-intrinsics.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c portability\\portability-simd-intrinsics.cpp",
+    "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\portability\\portability-simd-intrinsics.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c portability\\portability-simd-intrinsics.cpp",
     "file": "portability/portability-simd-intrinsics.cpp"
   }
 ]
