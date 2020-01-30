@@ -6,8 +6,8 @@
   },
   {
     "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
-    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\abseil-string-find-startswith.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c abseil-string-find-startswith.cpp",
-    "file": "abseil-string-find-startswith.cpp"
+    "command": "C:\\PROGRA~2\\MICROS~1\\2019\\PROFES~1\\VC\\Tools\\MSVC\\1424~1.283\\bin\\Hostx86\\x86\\cl.exe /nologo /TP /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17 /FoCMakeFiles\\CPP_12784.dir\\abseil\\abseil-string-find-startswith.cpp.obj /FdCMakeFiles\\CPP_12784.dir\\ /FS -c abseil\\abseil-string-find-startswith.cpp",
+    "file": "abseil/abseil-string-find-startswith.cpp"
   },
   {
     "directory": "C:/Users/maxim.banaev/CLionProjects/clang-tidy-inspections",
