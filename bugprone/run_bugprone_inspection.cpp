@@ -17,6 +17,7 @@
 #include <bugprone-macro-repeated-side-effects.h>
 #include <bugprone-misplaced-widening-cast.h>
 #include <bugprone-move-forwarding-reference.h>
+#include <bugprone-spuriously-wake-up-functions.h>
 #include <bugprone-string-constructor.h>
 #include <bugprone-string-integer-assignment.h>
 #include <bugprone-too-small-loop-variable.h>
@@ -38,6 +39,7 @@ int main() {
   bugprone::macro_repeated_side_effects::check();
   bugprone::misplaced_widening_cast::check();
   bugprone::move_forwarding_reference::check();
+  bugprone::spuriously_wake_up_functions::check();
   bugprone::string_constructor::check();
   bugprone::string_integer_assignment::check();
   bugprone::too_small_loop_variable::check();

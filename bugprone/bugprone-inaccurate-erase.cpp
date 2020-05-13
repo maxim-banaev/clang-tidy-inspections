@@ -23,7 +23,7 @@ void check() {
   std::cout << "-- check bugprone-inaccurate-erase FIXME" << std::endl;
 
   std::vector<int> v = {10, 20, 30, 30, 20, 10, 10, 20};
-  // ERASE(v, 15);
+  ERASE(v, 15);
 }
 } // namespace bugprone::inaccurate_erase
 

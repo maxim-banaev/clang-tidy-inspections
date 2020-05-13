@@ -44,7 +44,7 @@ void check() {
   f1(/*Foo=*/true); // shouldn't warn here
   f1(/*foo=*/true); // works only if StrictMode is 1
 
-  f2(/*MeaningOfLife_bad=*/1); // shouldn't warn here
+  f2(/*MeaningOfLife_bad=*/1); // should warn here
   f2(/*MeaningOfLife=*/1); // shouldn't warn here
 }
 } // namespace bugprone::argument_comment

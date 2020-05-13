@@ -15,6 +15,7 @@ void check() {
   std::cout << "-- check modernize-avoid-bind" << std::endl;
 
   int x = 2;
+
 #ifdef __clang__
   auto clj = std::bind(add, x);
 #endif
