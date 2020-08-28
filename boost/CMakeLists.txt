@@ -1,4 +1,4 @@
 include_directories(../include/boost)
 
 file(GLOB SOURCES "*.cpp")
-add_executable(boost boost-use-to-string.cpp ${SOURCES})
+add_executable(boost run_boost_inspection.cpp ${SOURCES})

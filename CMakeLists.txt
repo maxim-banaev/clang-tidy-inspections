@@ -24,6 +24,7 @@ add_subdirectory(bugprone)
 add_subdirectory(cert)
 add_subdirectory(clion)
 
+add_subdirectory(misc)
 add_subdirectory(modernize)
 add_subdirectory(openmp)
 
