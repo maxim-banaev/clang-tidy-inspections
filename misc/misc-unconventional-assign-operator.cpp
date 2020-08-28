@@ -14,9 +14,11 @@
 
 namespace misc::unconventional_assign_operator {
 
-class foo {
-  int operator=(foo &f) { return 0; } // should warn here
+struct X {
+  X(){};
+  int operator=(X &) { return 0; }; // should warn here
 };
+
 void check() {
   std::cout << "-- check misc-unconventional-assign-operator" << std::endl;
 }
