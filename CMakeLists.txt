@@ -26,6 +26,13 @@ add_subdirectory(clion)
 add_subdirectory(hicpp)
 add_subdirectory(misc)
 add_subdirectory(modernize)
+
+
+find_package(MPI)
+if (MPI_FOUND)
+    add_subdirectory(mpi)
+endif()
+
 add_subdirectory(openmp)
 
 add_subdirectory(cppcoreguidelines)
