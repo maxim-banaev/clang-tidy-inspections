@@ -14,7 +14,7 @@
 namespace misc::misplaced_const {
     typedef int *int_ptr;
 
-    void f(const int_ptr ptr) {
+    void f(const int_ptr ptr) { // should warn here
         *ptr = 0; // potentially quite unexpectedly the int can be modified here
     }
 

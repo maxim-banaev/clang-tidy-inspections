@@ -14,8 +14,8 @@
 
 namespace boost::use_to_string {
 void check() {
-  auto str = boost::lexical_cast<std::string>(42);
-  auto wstr = boost::lexical_cast<std::wstring>(2137LL);
+  auto str = boost::lexical_cast<std::string>(42); // should warn here
+  auto wstr = boost::lexical_cast<std::wstring>(2137LL); // should warn here
 
   std::cout << "-- check boost-use-to-string" << std::endl;
 
