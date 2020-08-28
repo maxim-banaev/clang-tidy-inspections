@@ -9,8 +9,12 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} --coverage")
 
 
 add_subdirectory(analyzer)
-if (ADD_ABSEIL)
-    add_subdirectory(lib/abseil-cpp)
+
+if (ADD_ABSEIL_CHECKS)
+    set(absl_build_dir ${CMAKE_BINARY_DIR}/abseil-build)
+    set(absl_src_dir ${CMAKE_BINARY_DIR}/abseil-src)
+    include(thirdparty/DownloadAbseil.cmake)
+
     add_subdirectory(abseil)
 endif ()
 
