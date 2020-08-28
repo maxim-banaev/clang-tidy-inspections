@@ -26,7 +26,7 @@ void check() {
   std::cout << "-- check abseil-string-find-startswith" << std::endl;
 
   std::string s = "...";
-  if (s.find("Hello World") == 0) { // warn here!
+  if (s.find("Hello World") == 0) { // should warn here!
     /* do something */
   }
 }
