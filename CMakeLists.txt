@@ -14,6 +14,12 @@ if (ADD_ABSEIL)
     add_subdirectory(abseil)
 endif ()
 
+find_package(Boost)
+if (Boost_FOUND)
+    include_directories(${Boost_INCLUDE_DIR})
+    add_subdirectory(boost)
+endif ()
+
 add_subdirectory(bugprone)
 add_subdirectory(cert)
 add_subdirectory(clion)
