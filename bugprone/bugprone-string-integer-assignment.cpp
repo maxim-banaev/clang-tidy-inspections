@@ -14,7 +14,7 @@ void check() {
 
   std::string s;
   int x = 5965;
-  s = 6;
-  s = x;
+  s = 6; // should warn here
+  s = x; // should warn here
 }
 } // namespace bugprone::string_integer_assignment

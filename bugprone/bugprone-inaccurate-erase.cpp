@@ -9,10 +9,6 @@
 
 // https://clang.llvm.org/extra/clang-tidy/checks/bugprone-inaccurate-erase.html
 
-#pragma clang diagnostic push
-#pragma ide diagnostic ignored "OCUnusedMacroInspection"
-#pragma ide diagnostic ignored "fuchsia-default-arguments"
-
 #include <iostream>
 #include <vector>
 
@@ -23,8 +19,6 @@ void check() {
   std::cout << "-- check bugprone-inaccurate-erase FIXME" << std::endl;
 
   std::vector<int> v = {10, 20, 30, 30, 20, 10, 10, 20};
-  ERASE(v, 15);
+  ERASE(v, 15); // should warn here
 }
 } // namespace bugprone::inaccurate_erase
-
-#pragma clang diagnostic pop

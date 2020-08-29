@@ -13,7 +13,7 @@
 namespace bugprone::move_forwarding_reference {
 template <typename T> void bar(T && /*t*/) { /* Do nothing*/ }
 
-template <typename T> void foo(T &&t) { bar(std::move(t)); }
+template <typename T> void foo(T &&t) { bar(std::move(t)); } // should warn here
 
 void check() {
   std::cout << "-- check bugprone-move-forwarding-reference" << std::endl;

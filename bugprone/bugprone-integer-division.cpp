@@ -14,35 +14,18 @@
 
 #include <iostream>
 
-#pragma clang diagnostic push
-#pragma ide diagnostic ignored "clang-analyzer-deadcode.DeadStores"
-#pragma ide diagnostic ignored "UnusedValue"
-#pragma clang diagnostic ignored "-Wunused-variable"
 namespace bugprone::integer_division {
 
 float floatFunc(double) { return 0; }
-int intFunc(int) { return 0; }
 
 void check() {
-
   std::cout << "-- check bugprone-integer-division" << std::endl;
 
   double d;
   int i = 42;
 
-  // Warn, floating-point values expected.
-  d = 32 * 8 / (2 + i);
-  d = 8 * floatFunc(1 + 7 / 2);
-  d = i / (1 << 4);
-
-  // OK, no integer division.
-  d = 32 * 8.0 / (2 + i);
-  d = 8 * floatFunc(1 + 7.0 / 2);
-  d = static_cast<double>(i) / (1 << 4); // NOLINT(hicpp-signed-bitwise)
-
-  // OK, there are signs of deliberateness.
-  d = 1 << (i / 2); // NOLINT(hicpp-signed-bitwise)
-  d = 9 + intFunc(6 * i / 32);
+  d = 32 * 8 / (2 + i); // should warn here
+  d = 8 * floatFunc(1 + 7 / 2); // should warn here
+  d = i / (1 << 4); // should warn here
 }
 } // namespace bugprone::integer_division
-#pragma clang diagnostic pop

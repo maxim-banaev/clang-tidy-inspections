@@ -19,9 +19,10 @@
 #include <iostream>
 
 namespace bugprone::assert_side_effect {
+
 void check() {
   std::cout << "-- check bugprone-assert-side-effect FIXME" << std::endl;
-  assert(
-      true); // NOLINT(cppcoreguidelines-pro-bounds-array-to-pointer-decay,cert-dcl03-c,hicpp-static-assert,misc-static-assert,hicpp-no-array-decay)
+  // TODO Fix check
+  assert(true);
 }
 } // namespace bugprone::assert_side_effect

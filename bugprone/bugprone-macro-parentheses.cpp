@@ -23,11 +23,11 @@
 #include <iostream>
 #include <vector>
 
-#define ERASE(x, y) x.erase(remove(x.begin(), x.end(), y))
+#define ERASE(x, y) x.erase(remove(x.begin(), x.end(), y)) // should warn here
 
 namespace bugprone::macro_parentheses {
 void check() {
-  std::cout << "-- check bugprone-macro-parentheses TODO" << std::endl;
+  std::cout << "-- check bugprone-macro-parentheses" << std::endl;
 
   std::vector<int> v = {10, 20, 30, 30, 20, 10, 10, 20};
   // ERASE(v, 1);

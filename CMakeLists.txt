@@ -26,6 +26,7 @@ endif ()
 
 add_subdirectory(bugprone)
 add_subdirectory(cert)
+add_subdirectory(cppcoreguidelines)
 add_subdirectory(clion)
 add_subdirectory(fuchsia)
 add_subdirectory(google)
@@ -33,18 +34,14 @@ add_subdirectory(hicpp)
 add_subdirectory(misc)
 add_subdirectory(modernize)
 
-
 find_package(MPI)
 if (MPI_FOUND)
     add_subdirectory(mpi)
 endif()
 
 add_subdirectory(openmp)
+add_subdirectory(performance)
 
-add_subdirectory(cppcoreguidelines)
-
-file(GLOB GOOGLE_SRC "google/*.cpp")
-file(GLOB PERFORMANCE_SRC "performance/*.cpp")
 file(GLOB READABILITY_SRC "readability/*.cpp")
 file(GLOB PORTABILITY_SRC "portability/*.cpp")
 file(GLOB SRC "*.cpp")

@@ -10,14 +10,10 @@
 
 #include <iostream>
 
-#pragma clang diagnostic push
-#pragma ide diagnostic ignored "OCUnusedStructInspection"
-#pragma clang diagnostic ignored "-Wunused-variable"
-
 namespace bugprone::forward_declaration_namespace {
 
 namespace na {
-struct A;
+struct A; // should warn here!
 }
 
 namespace nb {
@@ -31,4 +27,3 @@ void check() {
   // 'A' found in another namespace 'nb::'
 }
 } // namespace bugprone::forward_declaration_namespace
-#pragma clang diagnostic pop

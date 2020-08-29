@@ -51,8 +51,6 @@
 
 // https://clang.llvm.org/extra/clang-tidy/checks/list.html
 
-#include "include/performance/performance-unnecessary-value-param.h"
-
 #include "include/readability/readability-avoid-const-params-in-decls.h"
 #include "include/readability/readability-braces-around-statements.h"
 #include "include/readability/readability-container-size-empty.h"
@@ -78,10 +76,6 @@
 #include "include/readability/readability-static-accessed-through-instance.h"
 
 int main() {
-  std::cout << std::endl;
-
-  performance::unnecessary_value_param::check();
-
   std::cout << std::endl;
 
   readability::avoid_const_params_in_decls::check();

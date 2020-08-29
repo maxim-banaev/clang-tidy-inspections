@@ -6,7 +6,11 @@
 #include <iostream>
 
 namespace bugprone::macro_repeated_side_effects {
+
+#define badA(x, y) ((x) + ((x) + (y)) + (y))
+
+void bad(int ret, int a, int b) { ret = badA(a++, b); } // should warn here
 void check() {
-  // TODO(unknown): Add check
+  std::cout << "-- check bugprone-macro-repeated-side-effects" << std::endl;
 }
 } // namespace bugprone::macro_repeated_side_effects

@@ -16,8 +16,6 @@
 
 // https://clang.llvm.org/extra/clang-tidy/checks/performance-unnecessary-value-param.html
 
-#include <iostream>
-
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wunused-variable"
 #pragma ide diagnostic ignored "OCUnusedGlobalDeclarationInspection"
@@ -43,15 +41,15 @@ ExpensiveToCopy::ExpensiveToCopy(const ExpensiveToCopy &value) { a = value.a; }
 void ExpensiveToCopy::ConstMethd() { /*do nothing*/
 }
 
-void ExpensiveToCopy::setValue(std::string s) {
+void ExpensiveToCopy::setValue(std::string s) { // should warn here
   // a = static_cast<int>(s.length());
 }
 
-void foo(const std::string value) {
+void foo(const std::string value) { // should warn here
   // The warning will suggest making Value a reference.
 }
 
-void g(ExpensiveToCopy value) {
+void g(ExpensiveToCopy value) { // should warn here
   // The warning will suggest making Value a const reference.
   value.ConstMethd();
   ExpensiveToCopy Copy(value);
