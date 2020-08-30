@@ -20,7 +20,7 @@ private:
 };
 
 void check() {
-  std::cout << "-- check readability-redundant-member-init turn off by default"
+  std::cout << "-- check readability-redundant-member-init [turn off by default]"
             << std::endl;
 }
 } // namespace readability

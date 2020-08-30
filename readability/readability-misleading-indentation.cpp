@@ -25,7 +25,7 @@ void foo1() {}
 void foo2() {}
 
 void check() {
-  std::cout << "-- check misleading_indentation" << std::endl;
+  std::cout << "-- check readability-misleading_indentation" << std::endl;
 
   srand(static_cast<unsigned int>(time(nullptr)));
 

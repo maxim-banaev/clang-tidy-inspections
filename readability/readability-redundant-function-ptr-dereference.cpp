@@ -10,13 +10,14 @@
 
 namespace readability::redundant_function_ptr_dereference {
 
-        int f(int i, int j) {}
-        int (*p)(int, int) = &f;
-        int i = (**p)(10, 50); // NOLINT(readability-redundant-function-ptr-dereference)
+int f(int i, int j) {}
+int (*p)(int, int) = &f;
+int i = (**p)(10, 50); // NOLINT(readability-redundant-function-ptr-dereference)
 
-        void check() {
-            std::cout << "-- check readability-redundant-function-ptr-dereference" << std::endl;
-        }
-    } // namespace readability
+void check() {
+  std::cout << "-- check readability-redundant-function-ptr-dereference"
+            << std::endl;
+}
+} // namespace readability::redundant_function_ptr_dereference
 
 #pragma clang diagnostic pop

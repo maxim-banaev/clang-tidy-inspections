@@ -24,7 +24,8 @@ void check() {
   X F = X();
   func(X());
 
-  std::cout << "-- check zircon-temporary-objects" << std::endl;
+  std::cout << "-- check zircon-temporary-objects [turn off by default]"
+            << std::endl;
   // TODO Fix check
 }
 } // namespace zircon::temporary_objects

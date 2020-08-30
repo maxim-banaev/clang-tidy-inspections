@@ -25,7 +25,7 @@ int add(int first, int second, ...) {
 }
 
 void check() {
-  std::cout << "-- check cert-dcl50-cpp" << std::endl;
+  std::cout << "-- check cert-dcl50-cpp [turn off by default]" << std::endl;
 
   add(1, 2);
 }

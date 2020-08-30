@@ -8,14 +8,12 @@
 
 #include <iostream>
 
-
 namespace fuchsia::default_arguments_calls {
-    int foo(int value = 5) { return value; }
-    void check() {
-        std::cout << "-- check fuchsia-default-arguments-calls" << std::endl;
+int foo(int value = 5) { return value; }
+void check() {
+  std::cout << "-- check fuchsia-default-arguments-calls [turn off by default]"
+            << std::endl;
 
-        foo();  // should be warn here
-    }
+  foo(); // should be warn here
+}
 } // namespace fuchsia::default_arguments_calls
-
-

@@ -32,7 +32,7 @@ void foo(int Value) {
 }
 
 void check() {
-  std::cout << "-- check readability-else-after-return turn off by default"
+  std::cout << "-- check readability-else-after-return [turn off by default]"
             << std::endl;
 
   foo(0);

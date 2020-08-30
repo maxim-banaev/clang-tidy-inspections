@@ -19,7 +19,7 @@ void check() {
   std::cout << "-- check readability-container-size-empty" << std::endl;
 
   std::vector<int> v;
-  if (v.size() == 0) {
+  if (v.size() == 0) { // should warn here
     /**/
   }
 }

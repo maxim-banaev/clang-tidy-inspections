@@ -10,7 +10,7 @@
 
 namespace bugprone::bool_pointer_implicit_conversion {
 void check() {
-  std::cout << "-- check bugprone-bool-pointer-implicit-conversion"
+  std::cout << "-- check bugprone-bool-pointer-implicit-conversion [turn off by default]"
             << std::endl;
 
   bool *p;

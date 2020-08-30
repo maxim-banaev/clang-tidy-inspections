@@ -26,7 +26,7 @@ void use(Foo &foo) {
 
 void check() {
   std::cout
-      << "-- check readability-implicit-bool-conversion turn off by default"
+      << "-- check readability-implicit-bool-conversion [turn off by default]"
       << std::endl;
 }
 } // namespace readability

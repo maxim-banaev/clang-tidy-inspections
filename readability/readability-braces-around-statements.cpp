@@ -15,12 +15,14 @@
 
 // https://clang.llvm.org/extra/clang-tidy/checks/readability-braces-around-statements.html
 
+// Turn of by default!
+
 #include <iostream>
 
 namespace readability::brace_around_statements {
 void check() {
   std::cout
-      << "-- check readability-braces-around-statements turn off by default"
+      << "-- check readability-braces-around-statements [turn off by default]"
       << std::endl;
 
   srand(static_cast<unsigned int>( // NOLINT(cert-msc32-c,cert-msc51-cpp)

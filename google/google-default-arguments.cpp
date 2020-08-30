@@ -11,6 +11,6 @@ struct X {
   virtual void foo(int x = 1){}; // should warn here
 };
 void check() {
-  std::cout << "-- check google-default-arguments TODO" << std::endl;
+  std::cout << "-- check google-default-arguments" << std::endl;
 }
 } // namespace google::default_arguments

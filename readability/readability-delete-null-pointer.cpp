@@ -7,17 +7,12 @@
 
 #include <iostream>
 
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Wuninitialized"
-
 namespace readability::delete_null_pointer {
 void check() {
   std::cout << "-- check readability-delete-null-pointer" << std::endl;
 
   int *p;
-  if (p)
+  if (p) // should warn here!
     delete p;
 }
 } // namespace readability::delete_null_pointer
-
-#pragma clang diagnostic pop

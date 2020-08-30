@@ -17,7 +17,7 @@
 
 namespace readability::named_parameter {
 void check() {
-  std::cout << "-- check readability-named-parameter turn off by default"
+  std::cout << "-- check readability-named-parameter [turn off by default]"
             << std::endl;
 }
 } // namespace readability
