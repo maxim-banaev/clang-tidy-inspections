@@ -39,6 +39,7 @@ if (MPI_FOUND)
     add_subdirectory(mpi)
 endif()
 
+#add_subdirectory(objc)
 add_subdirectory(openmp)
 add_subdirectory(performance)
 add_subdirectory(zircon)
