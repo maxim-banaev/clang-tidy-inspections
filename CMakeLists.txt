@@ -41,6 +41,7 @@ endif()
 
 add_subdirectory(openmp)
 add_subdirectory(performance)
+add_subdirectory(zircon)
 
 file(GLOB READABILITY_SRC "readability/*.cpp")
 file(GLOB PORTABILITY_SRC "portability/*.cpp")

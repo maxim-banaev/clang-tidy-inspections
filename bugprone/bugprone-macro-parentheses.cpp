@@ -15,11 +15,6 @@
 
 // https://clang.llvm.org/extra/clang-tidy/checks/bugprone-macro-parentheses.html
 
-#pragma clang diagnostic push
-#pragma ide diagnostic ignored "OCUnusedMacroInspection"
-#pragma ide diagnostic ignored "fuchsia-default-arguments"
-#pragma ide diagnostic ignored "bugprone-inaccurate-erase"
-
 #include <iostream>
 #include <vector>
 
@@ -33,5 +28,3 @@ void check() {
   // ERASE(v, 1);
 }
 } // namespace bugprone::macro_parentheses
-
-#pragma clang diagnostic pop
