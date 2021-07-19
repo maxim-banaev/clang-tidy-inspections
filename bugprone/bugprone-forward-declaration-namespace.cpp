@@ -13,7 +13,7 @@
 namespace bugprone::forward_declaration_namespace {
 
 namespace na {
-struct A; // should warn here!
+struct A; // warn here!
 }
 
 namespace nb {

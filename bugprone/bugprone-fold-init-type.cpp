@@ -16,7 +16,7 @@
 namespace bugprone::fold_init_type {
 void check() {
   auto a = {0.5f, 0.5f, 0.5f, 0.5f};
-  std::accumulate(std::begin(a), std::end(a), 0); // should warn here
+  std::accumulate(std::begin(a), std::end(a), 0); // warn here!
 
   std::cout << "-- check bugprone-fold-init-type" << std::endl;
 }

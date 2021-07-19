@@ -17,7 +17,7 @@ void check() {
   int x = 2;
 
 #ifdef __clang__
-  auto clj = std::bind(add, x);
+  auto clj = std::bind(add, x); // warn here!
 #endif
 }
 } // namespace modernize::avoid_bind

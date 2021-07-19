@@ -21,7 +21,7 @@
 namespace readability::non_const_parameter {
 // warning here; the declaration "const char *p" would make the function
 // interface safer.
-char f1(char *p) { return *p; }
+char f1(char *p) { return *p; } // warn here!
 
 // no warning; the declaration could be more const "const int * const p" but
 // that does not make the function interface safer.

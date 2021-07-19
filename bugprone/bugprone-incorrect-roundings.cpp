@@ -9,7 +9,7 @@
 namespace bugprone::incorrect_rounding {
 void check() {
   std::cout << "-- check bugprone-incorrect-roundings" << std::endl;
-  auto a = static_cast<int>(1.00000000001 + 0.5); // should warn here
+  auto a = static_cast<int>(1.00000000001 + 0.5); // warn here!
   if (a < 1.5) { /* do nothing*/
   }
 }

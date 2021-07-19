@@ -19,6 +19,6 @@ void check() {
   std::cout << "-- check bugprone-inaccurate-erase" << std::endl;
 
   std::vector<int> v = {10, 20, 30, 30, 20, 10, 10, 20};
-  ERASE(v, 15); // should warn here
+  ERASE(v, 15); // warn here!
 }
 } // namespace bugprone::inaccurate_erase

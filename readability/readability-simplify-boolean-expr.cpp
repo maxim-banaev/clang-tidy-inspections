@@ -36,28 +36,28 @@ void check() {
 
   srand(static_cast<unsigned int>(time(nullptr)));
   auto b = random() % 2 == 0;
-  if (b == true) {
+  if (b == true) { // warn here!
   }
-  if (b == false) {
+  if (b == false) { // warn here!
   }
-  if (b && true) {
+  if (b && true) { // warn here!
   }
-  if (b && false) {
+  if (b && false) { // warn here!
   }
-  if (b || true) {
+  if (b || true) { // warn here!
   }
-  if (b || false) {
+  if (b || false) { // warn here!
   }
 
   auto e = random() % 2 == 0;
 
-  e ? true : false;
-  e ? false : true;
-  if (true)
+  e ? true : false; // warn here!
+  e ? false : true; // warn here!
+  if (true) // warn here!
     t();
   else
     f();
-  if (false)
+  if (false) // warn here!
     t();
   else
     f();

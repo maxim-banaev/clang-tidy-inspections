@@ -21,7 +21,7 @@ public:
 void check() {
   std::cout << "-- check readability-redundant-smartptr-get" << std::endl;
   std::shared_ptr<A> s_a;
-  s_a.get()->func();
+  s_a.get()->func(); // warn here!
 }
 } // namespace readability::redundant_smartptr_get
 #pragma clang diagnostic pop

@@ -18,7 +18,7 @@ void check() {
 
   std::string s = "check readability-simplify-subscript-expr";
   int i = random() % s.size();
-  char c = s.data()[i]; // char c = s[i];
+  char c = s.data()[i]; // char c = s[i]; // warn here!
 
   if (c == 0) {
   }

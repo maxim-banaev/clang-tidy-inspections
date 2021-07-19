@@ -10,9 +10,9 @@ class Foo {
   static char p;
 
 public:
-  char getP() { return p; }
+  char getP() { return p; } // warn here!
 
-  int getI() const { return i; }
+  int getI() const { return i; } // warn here!
 
   void bar() {
     // do something

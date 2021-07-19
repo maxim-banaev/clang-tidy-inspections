@@ -16,7 +16,7 @@ void check() {
   std::cout << "-- check readability-static-accessed-through-instance"
             << std::endl;
   auto *c1 = new C();
-  c1->foo();
-  c1->x;
+  c1->foo(); // warn here!
+  c1->x; // warn here!
 }
 } // namespace readability::static_accessed_through_instance

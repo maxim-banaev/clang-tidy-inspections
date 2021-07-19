@@ -27,8 +27,8 @@ const char *const SingleLine{"Single line.\n"};
 const char *const TrailingSpace{"Look here -> \n"};
 const char *const Tab{"One\tTwo\n"};
 const char *const Bell{"Hello!\a  And welcome!"};
-const char *const Path{"C:\\Program Files\\Vendor\\Application.exe"};
-const char *const RegEx{"\\w\\([a-z]\\)"};
+const char *const Path{"C:\\Program Files\\Vendor\\Application.exe"}; // warn here!
+const char *const RegEx{"\\w\\([a-z]\\)"}; // warn here!
 
 void check() {
   std::cout << "-- check modernize-raw-string-literal" << std::endl;

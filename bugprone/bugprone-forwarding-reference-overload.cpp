@@ -36,10 +36,10 @@ namespace bugprone::forwarding_reference_overload {
 class Person {
 public:
   // C1: perfect forwarding ctor
-  template <typename T> explicit Person(T &&n) {} // should warn here
+  template <typename T> explicit Person(T &&n) {} // warn here!
 
   // C2: perfect forwarding ctor with parameter default value
-  template <typename T> explicit Person(T &&n, int x = 1) {} // should warn here
+  template <typename T> explicit Person(T &&n, int x = 1) {} // warn here!
 
   // (possibly compiler generated) copy ctor
   Person(const Person &rhs) = default;

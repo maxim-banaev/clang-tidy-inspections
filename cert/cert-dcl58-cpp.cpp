@@ -7,7 +7,7 @@
 
 #include <iostream>
 
-namespace std {
+namespace std { // warn here!
 int x; // May cause undefined behavior.
 }
 

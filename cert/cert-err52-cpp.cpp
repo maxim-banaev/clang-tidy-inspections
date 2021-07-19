@@ -23,12 +23,12 @@ int Counter::instances = 0;
 
 void f() {
   Counter c;
-  std::longjmp(env, 1);
+  std::longjmp(env, 1); // warn here!
 }
 
 void check() {
   std::cout << "-- check cert-err52-cpp" << std::endl;
-  if (setjmp(env) == 0) {
+  if (setjmp(env) == 0) { // warn here!
     f();
   }
 }

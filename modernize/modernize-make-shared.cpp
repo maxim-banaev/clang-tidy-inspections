@@ -42,8 +42,8 @@ public:
 void check() {
   std::cout << "-- check modernize-make-shared" << std::endl;
 
-  auto my_ptr = std::shared_ptr<MyPair>(new MyPair(1, 2)); // warn here!
+  auto my_ptr = std::shared_ptr<MyPair>(new MyPair(1, 2));
 
-  my_ptr.reset(new MyPair(1, 2));
+  my_ptr.reset(new MyPair(1, 2)); // warn here!
 }
 } // namespace modernize::make_shared

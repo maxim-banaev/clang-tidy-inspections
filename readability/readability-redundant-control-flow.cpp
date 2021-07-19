@@ -17,12 +17,12 @@ extern void g() {}
 
 void f() {
   g();
-  return;
+  return; // warn here!
 }
 
 void k() {
   for (int i = 0; i < 10; ++i) {
-    continue;
+    continue; // warn here!
   }
 }
 
