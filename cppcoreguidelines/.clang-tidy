@@ -1,1 +1,1 @@
-Checks: '-*,google-*'
+Checks: '-*,cppcoreguidelines-*'
