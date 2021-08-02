@@ -24,4 +24,4 @@ void test2() {
 void check() {
   std::cout << "-- check clang-analyzer-core.StackAddrEscapeBase" << std::endl;
 }
-}
+} // namespace analyzer::core::stack_addr_escape_base

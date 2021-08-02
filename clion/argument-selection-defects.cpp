@@ -8,10 +8,7 @@ void foo(const std::string &name, const std::string &role) {}
 
 void f(const std::string &one, const std::string &two) {}
 
-int bar(int x, int y) {
-  return  x + y;
-  
-}
+int bar(int x, int y) { return x + y; }
 
 void check() {
   std::cout << "-- check argument-selection-defects" << std::endl;

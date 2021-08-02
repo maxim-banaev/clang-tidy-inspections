@@ -13,9 +13,7 @@
 namespace google::runtime_operator {
 struct X {
 public:
-  void operator&(){} // should warn here
+  void operator&() {} // should warn here
 };
-void check() {
-  std::cout << "-- check google-runtime-operator" << std::endl;
-}
+void check() { std::cout << "-- check google-runtime-operator" << std::endl; }
 } // namespace google::runtime_operator

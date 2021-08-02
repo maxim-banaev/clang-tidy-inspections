@@ -8,17 +8,14 @@
 
 // https://clang.llvm.org/extra/clang-tidy/checks/boost-use-to-string.html
 
-
-#include <iostream>
 #include <boost/lexical_cast.hpp>
+#include <iostream>
 
 namespace boost::use_to_string {
 void check() {
-  auto str = boost::lexical_cast<std::string>(42); // should warn here
+  auto str = boost::lexical_cast<std::string>(42);       // should warn here
   auto wstr = boost::lexical_cast<std::wstring>(2137LL); // should warn here
 
   std::cout << "-- check boost-use-to-string" << std::endl;
-
-
 }
 } // namespace boost::use_to_string
