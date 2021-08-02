@@ -15,7 +15,6 @@
 //
 // https://clang.llvm.org/extra/clang-tidy/checks/performance-faster-string-find.html
 
-
 namespace performance::faster_string_find {
 void check() {
   std::cout << "-- check performance-faster-string-find" << std::endl;

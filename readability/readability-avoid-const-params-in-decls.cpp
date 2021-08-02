@@ -14,4 +14,4 @@ void f(const std::string &); // Good: const is not top level.
 void check() {
   std::cout << "-- check readability-avoid-const-params-in-decls" << std::endl;
 }
-} // namespace readability
+} // namespace readability::avoid_const_params_in_decls

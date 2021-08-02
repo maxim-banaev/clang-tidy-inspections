@@ -44,4 +44,4 @@ void check() {
   foo(0);
   templateFunctionWithSeparateDeclarationAndDefinition<int>(0);
 }
-} // namespace readability
+} // namespace readability::inconsistent_declaration_parameter_name

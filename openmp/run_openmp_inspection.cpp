@@ -1,6 +1,6 @@
 #include <openmp-use-default-none.h>
 
-int main () {
+int main() {
   openmp::use_default_none::check();
   return 0;
 }

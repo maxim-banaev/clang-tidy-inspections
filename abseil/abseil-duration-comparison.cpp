@@ -19,8 +19,10 @@ void check() {
 
   double x;
   absl::Duration d;
-  if (x < absl::ToDoubleSeconds(d)) {} // should warn here
+  if (x < absl::ToDoubleSeconds(d)) {
+  } // should warn here
 
-  if (x < absl::ToInt64Microseconds(d)) {} // should warn here
+  if (x < absl::ToInt64Microseconds(d)) {
+  } // should warn here
 }
 } // namespace abseil::duration_comparison

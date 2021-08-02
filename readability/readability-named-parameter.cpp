@@ -20,4 +20,4 @@ void check() {
   std::cout << "-- check readability-named-parameter [turn off by default]"
             << std::endl;
 }
-} // namespace readability
+} // namespace readability::named_parameter

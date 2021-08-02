@@ -16,6 +16,6 @@
 
 @implementation Foo
 - (void)check {
-NSError *theError = [[NSError alloc] init]; // should warn here
+  NSError *theError = [[NSError alloc] init]; // should warn here
 }
 @end

@@ -16,6 +16,9 @@
 
 #include <iostream>
 
+#pragma clang diagnostic push
+#pragma ide diagnostic ignored "Simplify"
+
 namespace readability::simplify_boolean_expr {
 void t() {}
 void f() {}
@@ -53,7 +56,7 @@ void check() {
 
   e ? true : false; // warn here!
   e ? false : true; // warn here!
-  if (true) // warn here!
+  if (true)         // warn here!
     t();
   else
     f();
@@ -84,3 +87,5 @@ void check() {
   // if (i & 1) return true; else return false;
 }
 } // namespace readability::simplify_boolean_expr
+
+#pragma clang diagnostic pop

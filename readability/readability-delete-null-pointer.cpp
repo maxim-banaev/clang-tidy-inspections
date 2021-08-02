@@ -12,7 +12,7 @@ void check() {
   std::cout << "-- check readability-delete-null-pointer" << std::endl;
 
   int *p;
-  if (p) // should warn here!
+  if (p) // warn here!
     delete p;
 }
 } // namespace readability::delete_null_pointer

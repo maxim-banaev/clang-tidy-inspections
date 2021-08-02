@@ -8,7 +8,7 @@
 #include <iostream>
 
 namespace std { // warn here!
-int x; // May cause undefined behavior.
+int x;          // May cause undefined behavior.
 }
 
 namespace cert::dcl58_cpp {

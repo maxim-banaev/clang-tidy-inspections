@@ -1,7 +1,7 @@
 #include <mpi-buffer-deref.h>
 #include <mpi-type-mismatch.h>
 
-int main () {
+int main() {
   mpi::buffer_deref::check();
   mpi::type_mismatch::check();
 

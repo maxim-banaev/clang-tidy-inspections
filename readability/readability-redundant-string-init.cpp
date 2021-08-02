@@ -11,6 +11,6 @@ void check() {
 
   // Initializing string with empty string literal is unnecessary.
   std::string a = ""; // warn here!
-  std::string b(""); // warn here!
+  std::string b("");  // warn here!
 }
 } // namespace readability::redundant_string_init

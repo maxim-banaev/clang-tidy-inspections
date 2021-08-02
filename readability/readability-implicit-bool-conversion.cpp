@@ -29,4 +29,4 @@ void check() {
       << "-- check readability-implicit-bool-conversion [turn off by default]"
       << std::endl;
 }
-} // namespace readability
+} // namespace readability::implicit_bool_conversion
