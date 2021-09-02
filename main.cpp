@@ -51,61 +51,6 @@
 
 // https://clang.llvm.org/extra/clang-tidy/checks/list.html
 
-#include "include/readability/readability-avoid-const-params-in-decls.h"
-#include "include/readability/readability-braces-around-statements.h"
-#include "include/readability/readability-container-size-empty.h"
-#include "include/readability/readability-deleted-default.h"
-#include "include/readability/readability-else-after-return.h"
-#include "include/readability/readability-function-size.h"
-#include "include/readability/readability-identifier-naming.h"
-#include "include/readability/readability-implicit-bool-conversion.h"
-#include "include/readability/readability-inconsistent-declaration-parameter-name.h"
-#include "include/readability/readability-misleading-indentation.h"
-#include "include/readability/readability-misplaced-array-index.h"
-#include "include/readability/readability-named-parameter.h"
-#include "include/readability/readability-non-const-parameter.h"
-#include "include/readability/readability-redundant-control-flow.h"
-#include "include/readability/readability-redundant-declaration.h"
-#include "include/readability/readability-redundant-function-ptr-dereference.h"
-#include "include/readability/readability-redundant-member-init.h"
-#include "include/readability/readability-redundant-smartptr-get.h"
-#include "include/readability/readability-redundant-string-cstr.h"
-#include "include/readability/readability-redundant-string-init.h"
-#include "include/readability/readability-simplify-boolean-expr.h"
-#include "include/readability/readability-simplify-subscript-expr.h"
-#include "include/readability/readability-static-accessed-through-instance.h"
-
 int main() {
-  std::cout << std::endl;
-
-  readability::avoid_const_params_in_decls::check();
-  readability::brace_around_statements::check();
-  readability::container_size_empty::check();
-  readability::deleted_default::check();
-  readability::else_after_return::check();
-  readability::function_size::check();
-  readability::identifier_naming::check();
-  readability::implicit_bool_conversion::check();
-  readability::inconsistent_declaration_parameter_name::check();
-  readability::misleading_indentation::check();
-  readability::misplaced_array_index::check();
-  readability::named_parameter::check();
-  readability::non_const_parameter::check();
-  readability::redundant_control_flow::check();
-  readability::redundant_declaration::check();
-  readability::redundant_function_ptr_dereference::check();
-  readability::redundant_member_init::check();
-  readability::redundant_smartptr_get::check();
-  readability::redundant_string_cstr::check();
-  readability::redundant_string_init::check();
-  readability::simplify_boolean_expr::check();
-
-  readability::simplify_subscript_expr::check();
-
-  readability::static_accessed_through_instance::check();
-
-  std::cout << std::endl;
-
-
   return 0;
 }

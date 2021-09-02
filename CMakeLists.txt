@@ -43,12 +43,12 @@ endif()
 add_subdirectory(openmp)
 add_subdirectory(performance)
 add_subdirectory(zircon)
+add_subdirectory(readability)
 
-file(GLOB READABILITY_SRC "readability/*.cpp")
 file(GLOB PORTABILITY_SRC "portability/*.cpp")
 file(GLOB SRC "*.cpp")
 
 add_executable(run_inspections main.cpp
         ${SRC} ${GOOGLE_SRC}
-        ${PERFORMANCE_SRC} ${READABILITY_SRC} ${PORTABILITY_SRC}
-        )
+        ${PERFORMANCE_SRC} ${PORTABILITY_SRC}
+        readability/readability-convert-member-functions-to-static.cpp)
