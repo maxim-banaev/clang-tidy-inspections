@@ -10,6 +10,7 @@
 #include <modernize-replace-random-shuffle.h>
 #include <modernize-use-auto.h>
 #include <modernize-use-bool-literals.h>
+#include <modernize-use-trailing-return-type.h>
 
 int main() {
   modernize::avoid_bind::check();
