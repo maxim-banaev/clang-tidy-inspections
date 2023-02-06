@@ -5,14 +5,14 @@
 // This check allows the compiler to take care of choosing the best way to
 // construct the copy.
 //
-// The transformation is usually beneficial when the calling code passes an
+// The transformation is usually beneficial when the calling code passes a
 // rvalue and assumes the move construction is a cheap operation.
 //
 // Replaces the uses of const-references constructor parameters that are copied
 // into class fields. The parameter is then moved with std::move().
 //
 // Since std::move() is a library function declared in <utility> it may be
-// necessary to add this include. The check will add the include directive when
+// necessary to add this includes. The check will add the include directive when
 // necessary.
 //
 // Options
@@ -25,7 +25,7 @@
 // When non-zero, the check only warns about copied parameters that are already
 // passed by value. Default is 0.
 
-// https://clang.llvm.org/extra/clang-tidy/checks/modernize-pass-by-value.html
+// https://clang.llvm.org/extra/clang-tidy/checks/modernize/pass-by-value.html
 
 #pragma clang diagnostic push
 #pragma ide diagnostic ignored "OCUnusedGlobalDeclarationInspection"
@@ -37,15 +37,20 @@
 namespace modernize::pass_by_value {
 class Foo {
 public:
+#pragma clang diagnostic push
+#pragma ide diagnostic ignored "UnusedValue"
   Foo(const std::string &Copied, const std::string &ReadOnly) // warn here!
       : Copied(Copied), ReadOnly(ReadOnly) {}
+#pragma clang diagnostic pop
 
 private:
   std::string Copied;
   const std::string &ReadOnly;
 };
 
-std::string get_cwd() { return ""; }
+auto get_cwd() -> std::string {
+  return "";
+}
 
 void f(const std::string &Path) {
   // The parameter corresponding to 'get_cwd()' is move-constructed. By

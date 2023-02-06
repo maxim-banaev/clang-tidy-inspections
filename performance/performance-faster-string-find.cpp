@@ -13,13 +13,13 @@
 // find_first_of, find_first_not_of, find_last_of, or find_last_not_of within
 // these classes.
 //
-// https://clang.llvm.org/extra/clang-tidy/checks/performance-faster-string-find.html
+// https://clang.llvm.org/extra/clang-tidy/checks/performance/faster-string-find.html
 
 namespace performance::faster_string_find {
 void check() {
   std::cout << "-- check performance-faster-string-find" << std::endl;
 
   std::string str = "Who am I?";
-  str.find("A"); // should warn here!
+  str.find("A"); // warn here!
 }
 } // namespace performance::faster_string_find

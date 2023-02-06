@@ -16,7 +16,7 @@
 // Boolean flag that activates a warning for missing else branches. Default is
 // 0.
 //
-// https://clang.llvm.org/extra/clang-tidy/checks/hicpp-multiway-paths-covered.html
+// https://clang.llvm.org/extra/clang-tidy/checks/hicpp/multiway-paths-covered.html
 
 #include <iostream>
 
@@ -26,7 +26,7 @@ void check() {
   std::cout << "-- check hicpp-multiway-paths-covered" << std::endl;
 
   int i = 42;
-  switch (i) { // should warn here
+  switch (i) { // warn here!
   }
 }
 } // namespace hicpp::multiway_paths_covered

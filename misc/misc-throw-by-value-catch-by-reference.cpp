@@ -5,7 +5,7 @@
 // as well as the CERT C++ Coding Standard rule ERR61-CPP. Catch exceptions
 // by lvalue reference.
 //
-// https://clang.llvm.org/extra/clang-tidy/checks/misc-throw-by-value-catch-by-reference.html
+// https://clang.llvm.org/extra/clang-tidy/checks/misc/throw-by-value-catch-by-reference.html
 
 #include <iostream>
 
@@ -19,7 +19,7 @@ void check() {
 
   try {
     throw S();
-  } catch (std::exception e) { // should warn here
+  } catch (std::exception e) { // warn here!
   }
 
   std::cout << "-- check misc-throw-by-value-catch-by-reference" << std::endl;

@@ -10,7 +10,7 @@
 // all the same functions in the global namespace. The check in its current form
 // can break the code that uses library symbols from the global namespace.
 
-// https://clang.llvm.org/extra/clang-tidy/checks/modernize-deprecated-headers.html
+// https://clang.llvm.org/extra/clang-tidy/checks/modernize/deprecated-headers.html
 
 #include <iostream>
 
@@ -34,7 +34,7 @@
 #include <string.h>
 #include <tgmath.h> // deprecated since C++11
 #include <time.h>
-//#include <uchar.h> // deprecated since C++11
+#include <uchar.h> // deprecated since C++11
 #include <wchar.h>
 #include <wctype.h>
 

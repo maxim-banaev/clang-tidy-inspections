@@ -22,7 +22,7 @@
 // If set to non-zero, the check will not give warnings inside macros. Default
 // is 1.
 
-// https://clang.llvm.org/extra/clang-tidy/checks/modernize-make-shared.html
+// https://clang.llvm.org/extra/clang-tidy/checks/modernize/make-shared.html
 
 #include <iostream>
 #include <memory>
@@ -42,7 +42,7 @@ public:
 void check() {
   std::cout << "-- check modernize-make-shared" << std::endl;
 
-  auto my_ptr = std::shared_ptr<MyPair>(new MyPair(1, 2));
+  auto my_ptr = std::shared_ptr<MyPair>(new MyPair(1, 2)); // warn here!
 
   my_ptr.reset(new MyPair(1, 2)); // warn here!
 }

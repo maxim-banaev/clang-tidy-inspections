@@ -3,12 +3,12 @@
 // This check warns for such modifications. This check corresponds to the CERT
 // C++ Coding Standard rule DCL58-CPP. Do not modify the standard namespaces.
 
-// https://clang.llvm.org/extra/clang-tidy/checks/cert-dcl58-cpp.html
+// https://clang.llvm.org/extra/clang-tidy/checks/cert/dcl58-cpp.html
 
 #include <iostream>
 
-namespace std { // warn here!
-int x;          // May cause undefined behavior.
+namespace std {
+int x; // warn here!
 }
 
 namespace cert::dcl58_cpp {

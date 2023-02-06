@@ -11,7 +11,7 @@
 //
 // Corresponding cpplint.py check name: readability/function.
 
-// https://clang.llvm.org/extra/clang-tidy/checks/readability-named-parameter.html
+// https://clang.llvm.org/extra/clang-tidy/checks/readability/named-parameter.html
 
 #include <iostream>
 

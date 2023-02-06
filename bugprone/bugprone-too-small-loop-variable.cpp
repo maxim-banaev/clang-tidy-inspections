@@ -9,18 +9,17 @@
 // Upper limit for the magnitude bits of the loop variable. If it’s set the
 // check filters out those catches in which the loop variable’s type has more
 // magnitude bits as the specified upper limit. The default value is 16. For
-// example, if the user sets this option to 31 (bits), then a 32-bit unsigend
+// example, if the user sets this option to 31 (bits), then a 32-bit unsigned
 // int is ignored by the check, however a 32-bit int is not (A 32-bit signed int
 // has 31 magnitude bits).
 //
-// https://clang.llvm.org/extra/clang-tidy/checks/bugprone-too-small-loop-variable.html
+// https://clang.llvm.org/extra/clang-tidy/checks/bugprone/too-small-loop-variable.html
 
 #include <iostream>
-#include <string>
 
 namespace bugprone::too_small_loop_variable {
 void check() {
-  std::cout << "-- check bugprone-too-small-loop-variable" << std::endl;
+  std::cout << "-- check bugprone-too-small-loop-variable FIXME" << std::endl;
 
   long size = 294967296L;
   for (unsigned i = 0; i < size; ++i) {

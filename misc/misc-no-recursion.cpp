@@ -14,13 +14,13 @@
 // Limitations: * The check does not handle calls done through function
 // pointers * The check does not handle C++ destructors
 
-// https://clang.llvm.org/extra/clang-tidy/checks/misc-no-recursion.html
+// https://clang.llvm.org/extra/clang-tidy/checks/misc/no-recursion.html
 
 #include <iostream>
 #include <stdexcept>
 namespace misc::no_recursion {
 
-int fact(int i) noexcept(false) { // should warn here
+int fact(int i) noexcept(false) { // warn here!
   if (i < 0) {
     // Negative factorials are undefined.
     throw std::domain_error("i must be >= 0");

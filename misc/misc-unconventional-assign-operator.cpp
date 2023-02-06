@@ -8,7 +8,7 @@
 // Private and deleted operators are ignored.
 // The operator must always return *this.
 //
-// https://clang.llvm.org/extra/clang-tidy/checks/misc-unconventional-assign-operator.html
+// https://clang.llvm.org/extra/clang-tidy/checks/misc/unconventional-assign-operator.html
 
 #include <iostream>
 
@@ -16,7 +16,7 @@ namespace misc::unconventional_assign_operator {
 
 struct X {
   X(){};
-  int operator=(X &) { return 0; }; // should warn here
+  int operator=(X &) { return 0; }; // warn here twice!
 };
 
 void check() {

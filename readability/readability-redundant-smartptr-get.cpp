@@ -4,7 +4,7 @@
 //
 // Find and remove redundant calls to smart pointer’s .get() method.
 
-// https://clang.llvm.org/extra/clang-tidy/checks/readability-redundant-smartptr-get.html
+// https://clang.llvm.org/extra/clang-tidy/checks/readability/redundant-smartptr-get.html
 
 #include <iostream>
 #include <memory>

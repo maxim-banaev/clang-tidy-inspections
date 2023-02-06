@@ -3,7 +3,7 @@
 // operators are marked explicit to avoid the risk of unintentional implicit
 // conversions.
 
-// https://clang.llvm.org/extra/clang-tidy/checks/google-explicit-constructor.html
+// https://clang.llvm.org/extra/clang-tidy/checks/google/explicit-constructor.html
 
 #include <iostream>
 

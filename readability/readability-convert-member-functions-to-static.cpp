@@ -10,21 +10,21 @@
 // readability-static-accessed-through-instance to replace calls like
 // Instance.method() by Class::method().
 
-// https://clang.llvm.org/extra/clang-tidy/checks/readability-convert-member-functions-to-static.html
+// https://clang.llvm.org/extra/clang-tidy/checks/readability/convert-member-functions-to-static.html
 
 #include <iostream>
 
 namespace readability::convert_member_functions_to_static {
-class Foo {
+class [[maybe_unused]] Foo {
   int i;
-  static char p;
+  static char p; // NOLINT(readability-identifier-length)
 
 public:
   [[maybe_unused]] char getP() { return p; } // warn here!
 
   [[maybe_unused]] int getI() const { return i; } // do not warn here!
 
-  int bar() { // warn here!
+  [[maybe_unused]] int bar() { // warn here!
     return 0;
   }
 };

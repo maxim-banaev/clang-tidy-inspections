@@ -5,7 +5,7 @@
 // Loop statements (for, while, do while) are checked for redundant continue
 // statements at the end of the loop body.
 
-// https://clang.llvm.org/extra/clang-tidy/checks/readability-redundant-control-flow.html
+// https://clang.llvm.org/extra/clang-tidy/checks/readability/redundant-control-flow.html
 
 #include <iostream>
 
@@ -21,7 +21,7 @@ void f() {
 }
 
 void k() {
-  for (int i = 0; i < 10; ++i) {
+  for (int i = 0; i < 10; ++i) { // NOLINT(readability-magic-numbers)
     continue; // warn here!
   }
 }

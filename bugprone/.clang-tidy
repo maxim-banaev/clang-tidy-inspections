@@ -1,4 +1,3 @@
 Checks: '-*,bugprone-*'
 CheckOptions:
-  - key:             bugprone-argument-comment.StrictMode
-    value:           0
+  bugprone-argument-comment.StrictMode: false

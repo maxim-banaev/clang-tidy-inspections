@@ -11,7 +11,7 @@
 // underscores and case when comparing names – otherwise they are taken into
 // account.
 
-// https://clang.llvm.org/extra/clang-tidy/checks/bugprone-argument-comment.html
+// https://clang.llvm.org/extra/clang-tidy/checks/bugprone/argument-comment.html
 
 #include <iostream>
 

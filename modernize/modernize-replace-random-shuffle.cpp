@@ -1,6 +1,6 @@
 // modernize-replace-random-shuffle
 // This check will find occurrences of std::random_shuffle and replace it with
-// std::shuffle. In C++17 std::random_shuffle will no longer be available and
+// std::shuffle. In C++17 std::random_shuffle will no longer be available, and
 // thus we need to replace it.
 
 // https://clang.llvm.org/extra/clang-tidy/checks/modernize-replace-random-shuffle.html

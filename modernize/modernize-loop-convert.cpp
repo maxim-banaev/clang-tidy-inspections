@@ -51,7 +51,7 @@
 // for (int i = 0; i < 3; ++i)
 //   cout << arr[i];
 
-// https://clang.llvm.org/extra/clang-tidy/checks/modernize-loop-convert.html
+// https://clang.llvm.org/extra/clang-tidy/checks/modernize/loop-convert.html
 
 #include <iostream>
 #include <vector>
@@ -61,7 +61,7 @@ void check() {
   std::cout << "-- check modernize-loop-convert" << std::endl;
 
   const int N = 5;
-  int arr[] = {1, 2, 3, 4, 5};
+  int arr[] = {1, 2, 3, 4, 5}; // NOLINT(modernize-avoid-c-arrays)
   int tmp = 1;
 
   std::vector<int> v;
@@ -82,7 +82,7 @@ void check() {
     tmp = v[i];
 
   if (tmp == 0) {
-    // do smthg
+    // do something
   }
 }
 } // namespace modernize::loop_convert

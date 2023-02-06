@@ -12,11 +12,20 @@
 // If non-zero, conditional boolean assignments at the end of an if/else if
 // chain will be transformed. Default is 0.
 
-// https://clang.llvm.org/extra/clang-tidy/checks/readability-simplify-boolean-expr.html
+// https://clang.llvm.org/extra/clang-tidy/checks/readability/simplify-boolean-expr.html
 
 #include <iostream>
 
+#ifdef _MSC_VER
+#define random rand
+#endif
+
 #pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wunused-value"
+#pragma ide diagnostic ignored "UnusedValue"
+#pragma ide diagnostic ignored "UnreachableCode"
+#pragma ide diagnostic ignored "readability-identifier-length"
+#pragma ide diagnostic ignored "readability-braces-around-statements"
 #pragma ide diagnostic ignored "Simplify"
 
 namespace readability::simplify_boolean_expr {

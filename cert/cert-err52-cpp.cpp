@@ -3,7 +3,7 @@
 // This check corresponds to the CERT C++ Coding Standard rule ERR52-CPP. Do not
 // use setjmp() or longjmp().
 
-// https://clang.llvm.org/extra/clang-tidy/checks/cert-err52-cpp.html
+// https://clang.llvm.org/extra/clang-tidy/checks/cert/err52-cpp.html
 
 #include <csetjmp>
 #include <iostream>

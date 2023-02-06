@@ -33,7 +33,7 @@
 // parameters and variables declared in lambdas, GNU Statement Expressions, and
 // nested class inline functions are not counted.
 
-// https://clang.llvm.org/extra/clang-tidy/checks/readability-function-size.html
+// https://clang.llvm.org/extra/clang-tidy/checks/readability/function-size.html
 
 #include <iostream>
 

@@ -3,7 +3,7 @@
 // variadic functions. This check corresponds to the CERT C++ Coding Standard
 // rule DCL50-CPP. Do not define a C-style variadic function.
 
-// https://clang.llvm.org/extra/clang-tidy/checks/cert-dcl50-cpp.html
+// https://clang.llvm.org/extra/clang-tidy/checks/cert/dcl50-cpp.html
 // https://wiki.sei.cmu.edu/confluence/display/cplusplus/DCL50-CPP.+Do+not+define+a+C-style+variadic+function
 
 // Turn off by default!
@@ -13,7 +13,7 @@
 
 namespace cert::dcl50_cpp {
 
-int add(int first, int second, ...) {
+int add(int first, int second, ...) { // warn here!
   int r = first + second;
   va_list va;
   va_start(va, second);

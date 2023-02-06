@@ -12,7 +12,7 @@
 // different rules for different kind of identifier. In general, the rules are
 // falling back to a more generic rule if the specific case is not configured.
 
-// https://clang.llvm.org/extra/clang-tidy/checks/readability-identifier-naming.html
+// https://clang.llvm.org/extra/clang-tidy/checks/readability/identifier-naming.html
 
 #include <iostream>
 

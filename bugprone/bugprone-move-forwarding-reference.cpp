@@ -3,17 +3,17 @@
 //
 // Forwarding references should typically be passed to std::forward instead of
 // std::move, and this is the fix that will be suggested. (A forwarding
-// reference is an rvalue reference of a type that is a deduced function
+// reference is a rvalue reference of a type that is a deduced function
 // template argument.)
 
-// https://clang.llvm.org/extra/clang-tidy/checks/bugprone-move-forwarding-reference.html
+// https://clang.llvm.org/extra/clang-tidy/checks/bugprone/move-forwarding-reference.html
 
 #include <iostream>
 
 namespace bugprone::move_forwarding_reference {
 template <typename T> void bar(T && /*t*/) { /* Do nothing*/ }
 
-template <typename T> void foo(T &&t) { bar(std::move(t)); } // should warn here
+template <typename T> void foo(T &&t) { bar(std::move(t)); } // warn here!
 
 void check() {
   std::cout << "-- check bugprone-move-forwarding-reference" << std::endl;

@@ -2,7 +2,7 @@
 // Checks the usage of patterns known to produce incorrect rounding.
 // Programmers often round the double expression to an integer.
 
-// https://clang.llvm.org/extra/clang-tidy/checks/bugprone-incorrect-roundings.html
+// https://clang.llvm.org/extra/clang-tidy/checks/bugprone/incorrect-roundings.html
 
 #include <iostream>
 

@@ -2,7 +2,7 @@
 //
 // This check will warn when there is a cast of a calculation result to a bigger
 // type. If the intention of the cast is to avoid loss of precision then the
-// cast is misplaced, and there can be loss of precision. Otherwise the cast is
+// cast is misplaced, and there can be loss of precision. Otherwise, the cast is
 // ineffective.
 //
 // Options
@@ -10,14 +10,14 @@
 // CheckImplicitCasts
 // If non-zero, enables detection of implicit casts. Default is non-zero.
 
-// https://clang.llvm.org/extra/clang-tidy/checks/bugprone-misplaced-widening-cast.html
+// https://clang.llvm.org/extra/clang-tidy/checks/bugprone/misplaced-widening-cast.html
 
 #include <iostream>
 
 namespace bugprone::misplaced_widening_cast {
 
 long f(int x) {
-  return static_cast<long>(x * 1000); // should warn here
+  return static_cast<long>(x * 1000); // warn here!
 }
 
 void check() {

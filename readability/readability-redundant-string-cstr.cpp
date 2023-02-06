@@ -1,7 +1,7 @@
 // readability-redundant-string-cstr
 // Finds unnecessary calls to std::string::c_str() and std::string::data().
 
-// https://clang.llvm.org/extra/clang-tidy/checks/readability-redundant-string-cstr.html
+// https://clang.llvm.org/extra/clang-tidy/checks/readability/redundant-string-cstr.html
 
 #include <cstring>
 #include <iostream>
@@ -18,7 +18,7 @@ void check() {
 
   // cstr now contains a c-string copy of str
 
-  char *p = std::strtok(cstr, " ");
+  char *p = std::strtok(cstr, " "); // NOLINT(readability-identifier-length)
   while (p != nullptr) {
     p = std::strtok(nullptr, " ");
   }

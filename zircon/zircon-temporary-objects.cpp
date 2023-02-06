@@ -17,7 +17,7 @@
 namespace zircon::temporary_objects {
 
 struct X {};
-void func(X x) {}
+void func([[maybe_unused]] X x) {}
 
 void check() {
   X();

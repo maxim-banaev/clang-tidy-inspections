@@ -18,15 +18,18 @@
 // applications of binary operators with a narrowing conversions. For example:
 // int i; i+= 0.1;.
 //
-// https://clang.llvm.org/extra/clang-tidy/checks/cppcoreguidelines-narrowing-conversions.html
+// https://clang.llvm.org/extra/clang-tidy/checks/cppcoreguidelines/narrowing-conversions.html
 
 #include <iostream>
 
+#pragma clang diagnostic push
+#pragma ide diagnostic ignored "UnusedValue"
 namespace cppcoreguidelines::narrowing_conversions {
 void check() {
   std::cout << "-- check narrowing-conversions" << std::endl;
 
   int i = 0;
-  i += 0.1;
+  i += 0.1; // NOLINT(cppcoreguidelines-avoid-magic-numbers)
 }
 } // namespace cppcoreguidelines::narrowing_conversions
+#pragma clang diagnostic pop

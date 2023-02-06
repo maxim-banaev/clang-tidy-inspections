@@ -21,6 +21,7 @@
 #include <bugprone-string-constructor.h>
 #include <bugprone-string-integer-assignment.h>
 #include <bugprone-too-small-loop-variable.h>
+#include <bugprone-unchecked-optional-access.h>
 
 int main() {
   bugprone::argument_comment::check();
@@ -43,6 +44,7 @@ int main() {
   bugprone::string_constructor::check();
   bugprone::string_integer_assignment::check();
   bugprone::too_small_loop_variable::check();
+  bugprone::unchecked_optional_access::check();
 
   return 0;
 }

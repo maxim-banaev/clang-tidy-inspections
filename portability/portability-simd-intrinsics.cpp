@@ -30,7 +30,7 @@
 // The namespace used to suggest P0214 alternatives. If not specified, std:: for
 // -std=c++2a and std::experimental:: for -std=c++11.
 
-// https://clang.llvm.org/extra/clang-tidy/checks/portability-simd-intrinsics.html
+// https://clang.llvm.org/extra/clang-tidy/checks/portability/simd-intrinsics.html
 
 #include <iostream>
 #include <vector>

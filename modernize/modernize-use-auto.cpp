@@ -10,7 +10,7 @@
 // format, the type specifier can be replaced without obscuring the meaning of
 // code while improving readability and maintainability.
 //
-// The check will only replace iterator type-specifiers when all of the
+// The check will only replace iterator type-specifiers when all the
 // following conditions are satisfied:
 //
 // The iterator is for one of the standard container in std namespace:
@@ -40,16 +40,39 @@
 // types for which a type like std::vector<int>::iterator is itself a typedef
 // will not be transformed.
 
-// https://clang.llvm.org/extra/clang-tidy/checks/modernize-use-auto.html
+// https://clang.llvm.org/extra/clang-tidy/checks/modernize/use-auto.html
 
 #include <iostream>
 #include <vector>
 
 namespace modernize::use_auto {
+#pragma clang diagnostic push
+#pragma ide diagnostic ignored "UnusedValue"
+
+struct InfoStruct {};
+struct myObj {
+  InfoStruct& info;
+
+  explicit myObj(InfoStruct &info) : info(info) {}
+  auto getInfo() -> InfoStruct& {
+    return info;
+  }
+};
+
 void check() {
   std::cout << "-- check modernize-use-auto" << std::endl;
   std::string str("Please split this sentence into tokens");
 
-  char *cstr = new char[str.length() + 1];
+  [[maybe_unused]] char *cstr = new char[str.length() + 1];
+
+  std::vector<int> my_container;
+  [[maybe_unused]] std::vector<int>::iterator I = my_container.begin(); // warn here!
+
+  [[maybe_unused]] int val = 42;
+
+  InfoStruct info;
+  myObj SomeObject(info);
+  [[maybe_unused]] InfoStruct &infoSt = SomeObject.getInfo();
 }
+#pragma clang diagnostic pop
 } // namespace modernize::use_auto

@@ -1,1 +1,1 @@
-Checks: '-*,cert-*'
+Checks: '-*,cert-*,readability-uppercase-literal-suffix'

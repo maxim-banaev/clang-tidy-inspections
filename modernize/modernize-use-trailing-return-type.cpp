@@ -11,8 +11,8 @@
 namespace modernize::use_trailing_return_type {
 void check() { std::cout << "-- check modernize-use-auto" << std::endl; }
 
-int f1();                        // warn here!
-inline int f2(int arg) noexcept; // warn here!
+int f1();                                         // warn here!
+[[maybe_unused]] inline int f2(int arg) noexcept; // warn here!
 
 void b(); // should warn here
 

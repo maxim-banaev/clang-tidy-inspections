@@ -11,14 +11,16 @@
 // statement in it. Although in that case you should begin the next statement in
 // the same column with the if.
 
-// https://clang.llvm.org/extra/clang-tidy/checks/readability-misleading-indentation.html
+// https://clang.llvm.org/extra/clang-tidy/checks/readability/misleading-indentation.html
 
 #include <ctime>
 #include <iostream>
 #include <random>
 
 #pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdangling-else"
 #pragma ide diagnostic ignored "cert-msc30-c"
+#pragma ide diagnostic ignored "readability-braces-around-statements"
 
 namespace readability::misleading_indentation {
 void foo1() {}
@@ -36,8 +38,8 @@ void check() {
   if (cond1)
     if (cond2)
       foo1();
-    else
-      foo2(); // Wrong indentation: else belongs to if(cond2) statement.
+  else
+    foo2(); // Wrong indentation: else belongs to if(cond2) statement.
 
   // Missing braces:
   if (cond1)

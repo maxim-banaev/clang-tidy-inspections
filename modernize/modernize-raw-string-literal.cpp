@@ -1,6 +1,6 @@
 // modernize-raw-string-literal
 // This check selectively replaces string literals containing escaped characters
-// with raw string literals. The presence of any of the following escapes can
+// with raw string literals. The presence of the following escapes can
 // cause the string to be converted to a raw string literal: \\, \', \", \?, and
 // octal or hexadecimal escapes for printable ASCII characters.
 //
@@ -13,7 +13,7 @@
 // literal from being converted. The presence of a horizontal tab, form feed or
 // vertical tab in source code is not visually obvious.
 
-// https://clang.llvm.org/extra/clang-tidy/checks/modernize-raw-string-literal.html
+// https://clang.llvm.org/extra/clang-tidy/checks/modernize/raw-string-literal.html
 
 #include <iostream>
 

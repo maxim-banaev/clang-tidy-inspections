@@ -4,10 +4,10 @@
 // Algorithms like remove() do not actually remove any element from the
 // container but return an iterator to the first redundant element at the end of
 // the container. These redundant elements must be removed using the erase()
-// method. This check warns when not all of the elements will be removed due to
+// method. This check warns when not all the elements will be removed due to
 // using an inappropriate overload.
 
-// https://clang.llvm.org/extra/clang-tidy/checks/bugprone-inaccurate-erase.html
+// https://clang.llvm.org/extra/clang-tidy/checks/bugprone/inaccurate-erase.html
 
 #include <iostream>
 #include <vector>

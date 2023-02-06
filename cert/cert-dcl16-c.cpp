@@ -10,7 +10,7 @@
 //
 // All valid combinations of suffixes are supported.
 //
-// https://clang.llvm.org/extra/clang-tidy/checks/readability-uppercase-literal-suffix.html
+// https://clang.llvm.org/extra/clang-tidy/checks/readability/uppercase-literal-suffix.html
 
 // Turn off by default!
 

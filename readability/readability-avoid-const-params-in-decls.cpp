@@ -3,7 +3,7 @@
 // const. const values in declarations do not affect the signature of a
 // function, so they should not be put there.
 
-// https://clang.llvm.org/extra/clang-tidy/checks/readability-avoid-const-params-in-decls.html
+// https://clang.llvm.org/extra/clang-tidy/checks/readability/avoid-const-params-in-decls.html
 
 #include <iostream>
 

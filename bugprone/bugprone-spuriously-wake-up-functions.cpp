@@ -8,7 +8,7 @@
 // functions that can spuriously wake up in a loop. and CERT C Coding Standard
 // rule CON36-C. Wrap functions that can spuriously wake up in a loop.
 //
-// https://clang.llvm.org/extra/clang-tidy/checks/bugprone-spuriously-wake-up-functions.html
+// https://clang.llvm.org/extra/clang-tidy/checks/bugprone/spuriously-wake-up-functions.html
 #include <iostream>
 
 namespace bugprone::spuriously_wake_up_functions {

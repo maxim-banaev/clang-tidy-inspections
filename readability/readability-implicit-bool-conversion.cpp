@@ -4,7 +4,7 @@
 // the code, or in some cases, point to potential bugs which remain unnoticed
 // due to implicit conversions.
 
-// https://clang.llvm.org/extra/clang-tidy/checks/readability-implicit-bool-conversion.html
+// https://clang.llvm.org/extra/clang-tidy/checks/readability/implicit-bool-conversion.html
 
 #include <iostream>
 
@@ -14,14 +14,15 @@ class Foo {
   int m_foo;
 
 public:
-  void setFoo(bool foo) {
-    m_foo = foo;
-  } // warning: implicit conversion bool -> int
-  int getFoo() { return m_foo; }
+  [[maybe_unused]] void setFoo(bool foo) {
+    m_foo = foo; // warning: implicit conversion bool -> int
+  }
+  int getFoo() const { return m_foo; }
 };
 
 void use(Foo &foo) {
-  bool value = foo.getFoo(); // warning: implicit conversion int -> bool
+  [[maybe_unused]] bool value =
+      foo.getFoo(); // warning: implicit conversion int -> bool
 }
 
 void check() {

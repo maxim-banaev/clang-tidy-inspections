@@ -11,11 +11,12 @@
 // This check is not strict about constness, it only warns when the constness
 // will make the function interface safer.
 
-// https://clang.llvm.org/extra/clang-tidy/checks/readability-non-const-parameter.html
+// https://clang.llvm.org/extra/clang-tidy/checks/readability/non-const-parameter.html
 
 #include <iostream>
 
 #pragma clang diagnostic push
+#pragma ide diagnostic ignored "readability-identifier-length"
 #pragma ide diagnostic ignored "OCUnusedGlobalDeclarationInspection"
 
 namespace readability::non_const_parameter {
@@ -38,7 +39,9 @@ struct S {
   int *b;
 };
 
-int f3(struct S *p) { *(p->a) = 0; }
+int f3(struct S *p) { *(p->a) = 0;
+  return 0;
+}
 
 void check() {
   std::cout << "-- check readability-non-const-parameter" << std::endl;

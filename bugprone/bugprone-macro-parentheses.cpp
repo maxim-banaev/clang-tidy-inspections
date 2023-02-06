@@ -13,18 +13,15 @@
 // with parentheses. This ensures that the argument value is calculated
 // properly.
 
-// https://clang.llvm.org/extra/clang-tidy/checks/bugprone-macro-parentheses.html
+// https://clang.llvm.org/extra/clang-tidy/checks/bugprone/macro-parentheses.html
 
 #include <iostream>
-#include <vector>
 
-#define ERASE(x, y) x.erase(remove(x.begin(), x.end(), y)) // should warn here
+#define V 0 + 0 // warn here!
 
 namespace bugprone::macro_parentheses {
 void check() {
   std::cout << "-- check bugprone-macro-parentheses" << std::endl;
-
-  std::vector<int> v = {10, 20, 30, 30, 20, 10, 10, 20};
-  // ERASE(v, 1);
+  V;
 }
 } // namespace bugprone::macro_parentheses

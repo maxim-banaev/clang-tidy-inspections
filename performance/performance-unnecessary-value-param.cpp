@@ -1,6 +1,6 @@
 // performance-unnecessary-value-param
 // Flags value parameter declarations of expensive to copy types that are copied
-// for each invocation but it would suffice to pass them by const reference.
+// for each invocation, but it would suffice to pass them by const reference.
 //
 // The check is only applied to parameters of types that are expensive to copy
 // which means they are not trivially copyable or have a non-trivial copy
@@ -14,7 +14,7 @@
 // on it, or it is used as const reference or value argument in constructors or
 // function calls.
 
-// https://clang.llvm.org/extra/clang-tidy/checks/performance-unnecessary-value-param.html
+// https://clang.llvm.org/extra/clang-tidy/checks/performance/unnecessary-value-param.html
 
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wunused-variable"
@@ -30,29 +30,29 @@ public:
   ExpensiveToCopy();
   ExpensiveToCopy(const ExpensiveToCopy &value);
 
-  static void ConstMethd();
-  static void setValue(std::string s);
+  static void ConstMethod();
+  static void setValue([[maybe_unused]] std::string s);
 };
 
 ExpensiveToCopy::ExpensiveToCopy() { a = 0; }
 
 ExpensiveToCopy::ExpensiveToCopy(const ExpensiveToCopy &value) { a = value.a; }
 
-void ExpensiveToCopy::ConstMethd() { /*do nothing*/
+void ExpensiveToCopy::ConstMethod() { /*do nothing*/
 }
 
-void ExpensiveToCopy::setValue(std::string s) { // should warn here
+void ExpensiveToCopy::setValue([[maybe_unused]] std::string s) { // warn here!
   // a = static_cast<int>(s.length());
 }
 
-void foo(const std::string value) { // should warn here
+void foo([[maybe_unused]] const std::string value) { // warn here!
   // The warning will suggest making Value a reference.
 }
 
-void g(ExpensiveToCopy value) { // should warn here
+void g(ExpensiveToCopy value) { // warn here!
   // The warning will suggest making Value a const reference.
-  value.ConstMethd();
-  ExpensiveToCopy Copy(value);
+  value.ConstMethod();
+  [[maybe_unused]] ExpensiveToCopy Copy(value);
 }
 
 void check() {

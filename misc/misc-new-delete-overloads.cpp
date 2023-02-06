@@ -9,7 +9,7 @@
 // The check does not flag implicitly-defined operators, deleted or private
 // operators, or placement operators.
 
-// https://clang.llvm.org/extra/clang-tidy/checks/misc-new-delete-overloads.html
+// https://clang.llvm.org/extra/clang-tidy/checks/misc/new-delete-overloads.html
 
 #include <iostream>
 #include <new>
@@ -19,8 +19,8 @@ namespace misc::new_delete_overloads {
 extern "C++" void update_bookkeeping(void *allocated_ptr, std::size_t size,
                                      bool alloc);
 
-struct S {
-  void *operator new(std::size_t size) noexcept(false) { // should warn here
+struct [[maybe_unused]] S {
+  void *operator new(std::size_t size) noexcept(false) { // warn here!
     void *ptr = ::operator new(size);
     update_bookkeeping(ptr, size, true);
     return ptr;

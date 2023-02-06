@@ -3,13 +3,13 @@
 // Lambdas will use value-capture where required.
 // Right now it only handles free functions, not member functions.
 
-// https://clang.llvm.org/extra/clang-tidy/checks/modernize-avoid-bind.html
+// https://clang.llvm.org/extra/clang-tidy/checks/modernize/avoid-bind.html
 
 #include <functional>
 #include <iostream>
 
 namespace modernize::avoid_bind {
-int add(int x, int y) { return x + y; }
+int add(int x, int y) { return x + y; } // NOLINT(modernize-use-trailing-return-type)
 
 void check() {
   std::cout << "-- check modernize-avoid-bind" << std::endl;
@@ -17,7 +17,7 @@ void check() {
   int x = 2;
 
 #ifdef __clang__
-  auto clj = std::bind(add, x); // warn here!
+  [[maybe_unused]] auto clj = std::bind(add, x); // warn here!
 #endif
 }
 } // namespace modernize::avoid_bind

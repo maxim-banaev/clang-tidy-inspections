@@ -16,7 +16,7 @@
 // LargeLengthThreshold
 // An integer specifying the large length threshold. Default is 0x800000.
 
-// https://clang.llvm.org/extra/clang-tidy/checks/bugprone-string-constructor.html
+// https://clang.llvm.org/extra/clang-tidy/checks/bugprone/string-constructor.html
 
 #include <iostream>
 
@@ -26,7 +26,7 @@ void check() {
 
   std::string str('x', 50); // should be str(50, 'x')
 
-  std::string("test", 200); // Will include random characters after "test".
+  std::string("test", 200); // Will include random characters after "test". NOLINT(bugprone-unused-raii)
 
   std::string("test", 0); // Creation of an empty string.
 }

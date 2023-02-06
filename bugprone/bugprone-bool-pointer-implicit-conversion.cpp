@@ -3,7 +3,7 @@
 // Checks for conditions based on implicit conversion from a bool pointer to
 // bool.
 //
-//  https://clang.llvm.org/extra/clang-tidy/checks/bugprone-bool-pointer-implicit-conversion.html
+//  https://clang.llvm.org/extra/clang-tidy/checks/bugprone/bool-pointer-implicit-conversion.html
 
 // Turn off by default!
 #include <iostream>

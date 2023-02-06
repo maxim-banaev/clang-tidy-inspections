@@ -13,11 +13,13 @@
 // (do/else) until the last line of the inner statement. Default value 0 means
 // that braces will be added to all statements (not having them already).
 
-// https://clang.llvm.org/extra/clang-tidy/checks/readability-braces-around-statements.html
+// https://clang.llvm.org/extra/clang-tidy/checks/readability/braces-around-statements.html
 
 // Turn of by default!
 
 #include <iostream>
+
+#define random rand
 
 namespace readability::brace_around_statements {
 void check() {
@@ -28,7 +30,7 @@ void check() {
   srand(static_cast<unsigned int>( // NOLINT(cert-msc32-c,cert-msc51-cpp)
       time(nullptr)));
 
-  if (random() % 2 == 0)
+  if (random() % 2 == 0) // warn here!
     std::cout << "";
 }
 } // namespace readability::brace_around_statements

@@ -2,7 +2,7 @@
 // Finds member initializations that are unnecessary because the same default
 // constructor would be called if they were not present.
 
-// https://clang.llvm.org/extra/clang-tidy/checks/readability-redundant-member-init.html
+// https://clang.llvm.org/extra/clang-tidy/checks/readability/redundant-member-init.html
 
 #include <iostream>
 
@@ -13,7 +13,7 @@ namespace readability::redundant_member_init {
 // Explicitly initializing the member s is unnecessary.
 class Foo {
 public:
-  Foo() : s() {}
+  Foo() : s() {} // warn here!
 
 private:
   std::string s;

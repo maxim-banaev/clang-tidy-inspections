@@ -2,7 +2,7 @@
 // Checks that constructors and assignment operators marked as = default are not
 // actually deleted by the compiler.
 
-// https://clang.llvm.org/extra/clang-tidy/checks/readability-deleted-default.html
+// https://clang.llvm.org/extra/clang-tidy/checks/readability/deleted-default.html
 
 #include <iostream>
 
@@ -11,9 +11,9 @@
 
 namespace readability::deleted_default {
 
-class Example {
+class [[maybe_unused]] Example {
 public:
-  // This constructor is deleted because I is missing a default value.
+  // This constructor is deleted because I am missing a default value.
   Example() = default;
 
   // This is fine.
@@ -27,7 +27,7 @@ private:
 };
 
 void check() {
-  std::cout << "-- check readability-deleted-default" << std::endl;
+  std::cout << "-- check readability-deleted-default [deprecated]" << std::endl;
 }
 } // namespace readability::deleted_default
 

@@ -20,7 +20,7 @@
 // parameters. If any part of these types is std::enable_if or std::enable_if_t,
 // we assume the constructor is guarded.
 
-// https://clang.llvm.org/extra/clang-tidy/checks/bugprone-forwarding-reference-overload.html
+// https://clang.llvm.org/extra/clang-tidy/checks/bugprone/forwarding-reference-overload.html
 
 #include <iostream>
 
@@ -36,10 +36,12 @@ namespace bugprone::forwarding_reference_overload {
 class Person {
 public:
   // C1: perfect forwarding ctor
-  template <typename T> explicit Person(T &&n) {} // warn here!
+  template <typename T> explicit Person([[maybe_unused]] T &&n) {} // warn here!
 
   // C2: perfect forwarding ctor with parameter default value
-  template <typename T> explicit Person(T &&n, int x = 1) {} // warn here!
+  template <typename T>
+  explicit Person([[maybe_unused]] T &&n, [[maybe_unused]] int x = 1) { // warn here!
+  }
 
   // (possibly compiler generated) copy ctor
   Person(const Person &rhs) = default;
