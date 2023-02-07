@@ -26,7 +26,7 @@ namespace readability::misleading_indentation {
 void foo1() {}
 void foo2() {}
 
-void check() {
+void check() { // NOLINT(readability-function-size)
   std::cout << "-- check readability-misleading_indentation" << std::endl;
 
   srand(static_cast<unsigned int>(time(nullptr)));

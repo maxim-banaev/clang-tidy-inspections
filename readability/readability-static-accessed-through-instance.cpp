@@ -16,7 +16,7 @@ struct C {
   static int x;
 };
 
-void check() {
+void check() { // NOLINT(readability-function-size)
   std::cout << "-- check readability-static-accessed-through-instance"
             << std::endl;
   auto *c1 = new C();

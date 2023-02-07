@@ -10,7 +10,7 @@
 namespace readability::delete_null_pointer {
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wuninitialized"
-void check() {
+void check() { // NOLINT(readability-function-size)
   std::cout << "-- check readability-delete-null-pointer" << std::endl;
 
   int *p; // NOLINT(readability-identifier-length)

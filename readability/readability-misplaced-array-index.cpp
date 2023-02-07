@@ -14,7 +14,7 @@ void f(int *X, int Y) {
   Y[X] = 0;
 }
 
-void check() {
+void check() { // NOLINT(readability-function-size)
   std::cout << "-- check readability-misplaced-array-index" << std::endl;
 
   auto *x = new int[1];

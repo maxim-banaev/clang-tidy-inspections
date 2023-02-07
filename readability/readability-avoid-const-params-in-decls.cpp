@@ -8,7 +8,7 @@
 #include <iostream>
 
 namespace readability::avoid_const_params_in_decls {
-void f(const std::string);   // Bad: const is top level.
+void f(const std::string);   // warn here! Bad: const is top level.
 void f(const std::string &); // Good: const is not top level.
 
 void check() {

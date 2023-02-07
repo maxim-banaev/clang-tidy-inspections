@@ -39,7 +39,7 @@ void templateFunctionWithSeparateDeclarationAndDefinition(T b) {
 DECLARE_FUNCTION_WITH_PARAM_NAME(macroFunction, a);
 DECLARE_FUNCTION_WITH_PARAM_NAME(macroFunction, b);
 
-void check() {
+void check() { // NOLINT(readability-function-size)
   std::cout << "-- check readability-inconsistent-declaration-parameter-name"
             << std::endl;
   foo_in_header(0, 1, 2);

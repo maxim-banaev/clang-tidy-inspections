@@ -8,7 +8,7 @@
 #include <string>
 
 namespace readability::redundant_string_cstr {
-void check() {
+void check() { // NOLINT(readability-function-size)
   std::cout << "-- check readability-redundant-string-cstr" << std::endl;
 
   std::string str("Please split this sentence into tokens");

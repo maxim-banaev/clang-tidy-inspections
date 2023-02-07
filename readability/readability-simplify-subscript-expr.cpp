@@ -20,7 +20,7 @@
 #pragma ide diagnostic ignored "readability-identifier-length"
 
 namespace readability::simplify_subscript_expr {
-void check() {
+void check() { // NOLINT(readability-function-size)
   std::cout << "-- check readability-simplify-subscript-expr" << std::endl;
 
   std::string s = "check readability-simplify-subscript-expr";

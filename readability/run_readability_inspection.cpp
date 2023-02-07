@@ -26,7 +26,7 @@
 
 #include <iostream>
 
-int main() {
+int main() { // NOLINT(readability-function-size)
   readability::avoid_const_params_in_decls::check();
   readability::brace_around_statements::check();
   readability::container_size_empty::check();

@@ -43,7 +43,7 @@ bool foo() {
   return false;
 }
 
-void check() {
+void check() { // NOLINT(readability-function-size)
   std::cout << "-- check readability-simplify-boolean-expr" << std::endl;
 
   srand(static_cast<unsigned int>(time(nullptr)));

@@ -1,1 +1,3 @@
 Checks: '-*,readability-*'
+CheckOptions:
+  readability-function-size.LineThreshold: 5

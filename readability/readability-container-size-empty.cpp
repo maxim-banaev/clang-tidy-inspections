@@ -15,7 +15,7 @@
 #include <vector>
 
 namespace readability::container_size_empty {
-void check() {
+void check() { // NOLINT(readability-function-size)
   std::cout << "-- check readability-container-size-empty" << std::endl;
 
   std::vector<int> v; // NOLINT(readability-identifier-length)

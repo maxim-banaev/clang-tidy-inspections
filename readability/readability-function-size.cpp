@@ -38,7 +38,11 @@
 #include <iostream>
 
 namespace readability::function_size {
-void check() {
+
+void check() { // warn here! LineThreshold
+  // long body of the function
+  //
+  //
   std::cout << "-- check readability-function-size [turn off by default]"
             << std::endl;
 }

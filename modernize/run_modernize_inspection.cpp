@@ -25,6 +25,7 @@ auto main() -> int {
   modernize::replace_random_shuffle::check();
   modernize::use_auto::check();
   modernize::use_bool_literals::check();
+  modernize::use_trailing_return_type::check();
 
   return 0;
 }

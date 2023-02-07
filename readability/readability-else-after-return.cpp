@@ -11,7 +11,7 @@
 #pragma clang diagnostic push
 #pragma ide diagnostic ignored "readability-magic-numbers"
 namespace readability::else_after_return {
-void foo(int Value) {
+void foo(int Value) { // NOLINT(readability-function-size)
   int Local = 0;
   for (int i = 0; i < 42; i++) {
     if (Value == 1) {

@@ -22,7 +22,7 @@
 #define random rand
 
 namespace readability::brace_around_statements {
-void check() {
+void check() { // NOLINT(readability-function-size)
   std::cout
       << "-- check readability-braces-around-statements [turn off by default]"
       << std::endl;

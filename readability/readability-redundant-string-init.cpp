@@ -10,7 +10,7 @@
 #pragma ide diagnostic ignored "readability-identifier-length"
 
 namespace readability::redundant_string_init {
-void check() {
+void check() { // NOLINT(readability-function-size)
   std::cout << "-- check readability-redundant-string-init" << std::endl;
 
   // Initializing string with empty string literal is unnecessary.
