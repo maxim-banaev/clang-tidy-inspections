@@ -10,15 +10,15 @@
 // https://clang.llvm.org/extra/clang-tidy/checks/bugprone/inaccurate-erase.html
 
 #include <iostream>
+#include <memory>
 #include <vector>
-
-#define ERASE(x, y) x.erase(remove(x.begin(), x.end(), y))
 
 namespace bugprone::inaccurate_erase {
 void check() {
   std::cout << "-- check bugprone-inaccurate-erase" << std::endl;
 
-  std::vector<int> v = {10, 20, 30, 30, 20, 10, 10, 20};
-  ERASE(v, 15); // warn here!
+  std::vector<std::unique_ptr<int>> vupi;
+  auto iter = vupi.begin();
+  vupi.erase(iter++);
 }
 } // namespace bugprone::inaccurate_erase

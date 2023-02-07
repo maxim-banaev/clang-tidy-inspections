@@ -1,6 +1,6 @@
 #include <core/StackAddrEscapeBase.h>
 
-int main() {
+auto main() -> int {
   analyzer::core::stack_addr_escape_base::check();
   return 0;
 }

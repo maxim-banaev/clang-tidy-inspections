@@ -17,7 +17,7 @@ void check() {
   bool *p;
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wuninitialized"
-  if (p) { /* Never used in a pointer-specific way. */
+  if (p) { // warn here!
   }
 #pragma clang diagnostic pop
 }

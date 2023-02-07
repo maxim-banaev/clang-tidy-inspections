@@ -1,27 +1,31 @@
 #include <iostream>
 
+#pragma clang diagnostic push
+#pragma ide diagnostic ignored "LocalValueEscapesScope"
 namespace analyzer::core::stack_addr_escape_base {
 
 extern "C" {
-char const *p;
+[[maybe_unused]] char const *p;
 
-void test() {
+[[maybe_unused]] void test() {
   char const kStr[] = "string";
-  p = kStr; // warn
+  p = kStr; // warn here!
 }
 
-void *test1() {
-  return __builtin_alloca(12); // warn
+[[maybe_unused]] void *test1() {
+  return __builtin_alloca(12); // warn here!
 }
 
-void test2() {
+[[maybe_unused]] void test2() {
   static int *x;
   int y;
-  x = &y; // warn
+  x = &y; // warn here!
 }
 }
 
 void check() {
-  std::cout << "-- check clang-analyzer-core.StackAddrEscapeBase" << std::endl;
+  std::cout << "-- check clang-analyzer-core.StackAddrEscapeBase FIXME"
+            << std::endl;
 }
 } // namespace analyzer::core::stack_addr_escape_base
+#pragma clang diagnostic pop

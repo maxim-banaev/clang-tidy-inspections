@@ -12,7 +12,7 @@
 #include <modernize-use-bool-literals.h>
 #include <modernize-use-trailing-return-type.h>
 
-int main() {
+auto main() -> int {
   modernize::avoid_bind::check();
   modernize::avoid_c_arrays::check();
   modernize::deprecated_headers::check();

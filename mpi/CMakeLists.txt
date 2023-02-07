@@ -5,5 +5,5 @@ add_executable(mpi run_mpi_inspection.cpp ${SOURCES} )
 
 target_precompile_headers(mpi PUBLIC
         <iostream>
-        <mpi.h>
+        #<mpi.h>
         )
