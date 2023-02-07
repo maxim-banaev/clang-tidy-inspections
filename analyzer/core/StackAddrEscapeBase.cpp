@@ -1,5 +1,8 @@
 #include <iostream>
 
+// Known limitation
+// https://youtrack.jetbrains.com/issue/CPP-17610/clang-tidy-clang-analyzer-warnings-not-shown-in-IDE
+
 #pragma clang diagnostic push
 #pragma ide diagnostic ignored "LocalValueEscapesScope"
 namespace analyzer::core::stack_addr_escape_base {
