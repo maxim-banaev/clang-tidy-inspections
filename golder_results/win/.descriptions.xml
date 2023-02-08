@@ -1,0 +1,8 @@
+<inspections profile="Clang-Tidy"><group name="Static Analysis Tools" path="C/C++"><inspection shortName="ClangTidy" defaultSeverity="WARNING" displayName="Clang-Tidy" enabled="true" isGlobalTool="false">&lt;html&gt;
+&lt;body&gt;
+Reports various issues related to The C++ Core Guidelines, Modernize, Readability and Performance. &lt;br/&gt;
+CLion's default configuration is described &lt;a href="https://youtrack.jetbrains.com/articles/CPP-A-90276519/Clang-Tidy-in-CLion:-default-configuration"&gt;here&lt;/a&gt;. &lt;br/&gt;
+For more information, visit the official &lt;a href="https://clang.llvm.org/extra/clang-tidy/"&gt;Clang-Tidy&lt;/a&gt; page.
+&lt;p&gt;Use the checkbox below to have this inspection ignore the IDE settings and use a list of checks specified in the &lt;b&gt;.clang-tidy&lt;/b&gt; file if any exist.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</inspection></group></inspections>

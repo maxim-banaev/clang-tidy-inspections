@@ -3,7 +3,7 @@
 // std::wstring using boost::lexical_cast, and replace it with calls to
 // std::to_string and std::to_wstring.
 //
-// It doesn’t replace conversion from floating points despite the to_string
+// It doesn't replace conversion from floating points despite the to_string
 // overloads, because it would change the behaviour.
 
 // https://clang.llvm.org/extra/clang-tidy/checks/boost-use-to-string.html
