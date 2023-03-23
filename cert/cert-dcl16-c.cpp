@@ -20,6 +20,6 @@ namespace cert::dcl16_c {
 void check() {
   std::cout << "-- check cert-dcl16-c" << std::endl;
 
-  auto x = 1u; // warning: integer literal suffix 'u' is not upper-case
+  [[maybe_unused]] auto x = 1u; // warning: integer literal suffix 'u' is not upper-case
 }
 } // namespace cert::dcl16_c
