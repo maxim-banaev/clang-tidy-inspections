@@ -1,0 +1,1970 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/analyzer/core/StackAddrEscapeBase.cpp</file>
+  <line>16</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/analyzer/core/StackAddrEscapeBase.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Address of stack memory associated with local variable 'kStr' is still referred to by the global variable 'p' upon returning to the caller.  This will be a dangling reference</description>
+  <highlighted_element>}</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>0</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/analyzer/core/StackAddrEscapeBase.cpp</file>
+  <line>19</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/analyzer/core/StackAddrEscapeBase.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Address of stack memory allocated by call to alloca() on line 19 returned to caller</description>
+  <highlighted_element>return</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>2</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/analyzer/core/StackAddrEscapeBase.cpp</file>
+  <line>26</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/analyzer/core/StackAddrEscapeBase.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Address of stack memory associated with local variable 'y' is still referred to by the static variable 'x' upon returning to the caller.  This will be a dangling reference</description>
+  <highlighted_element>}</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>0</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/boost/boost-use-to-string.cpp</file>
+  <line>16</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/boost/boost-use-to-string.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Use std::to_string instead of boost::lexical_cast&lt;std::string&gt;</description>
+  <highlighted_element>boost::lexical_cast&lt;std::string&gt;</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>13</offset>
+  <length>32</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/boost/boost-use-to-string.cpp</file>
+  <line>17</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/boost/boost-use-to-string.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Use std::to_wstring instead of boost::lexical_cast&lt;std::wstring&gt;</description>
+  <highlighted_element>boost::lexical_cast&lt;std::wstring&gt;</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>14</offset>
+  <length>33</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/bugprone/bugprone-argument-comment.cpp</file>
+  <line>39</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/bugprone/bugprone-argument-comment.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Argument name 'bar' in comment does not match parameter name 'foo_'</description>
+  <highlighted_element>/*bar=*/</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>5</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/bugprone/bugprone-argument-comment.cpp</file>
+  <line>46</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/bugprone/bugprone-argument-comment.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Argument name 'MeaningOfLife_bad' in comment does not match parameter name 'MeaningOfLife'</description>
+  <highlighted_element>/*MeaningOfLife_bad=*/</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>5</offset>
+  <length>22</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/bugprone/bugprone-assert-side-effect.cpp</file>
+  <line>36</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/bugprone/bugprone-assert-side-effect.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Side effect in assert() condition discarded in release builds</description>
+  <highlighted_element>assert</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>2</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/bugprone/bugprone-bool-pointer-implicit-conversion.cpp</file>
+  <line>20</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/bugprone/bugprone-bool-pointer-implicit-conversion.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Dubious check of 'bool *' against 'nullptr', did you mean to dereference it?</description>
+  <highlighted_element>p</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>6</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/bugprone/bugprone-copy-constructor-init.cpp</file>
+  <line>24</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/bugprone/bugprone-copy-constructor-init.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Calling a base constructor other than the copy constructor</description>
+  <highlighted_element>X2</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>2</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/bugprone/bugprone-copy-constructor-init.cpp</file>
+  <line>29</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/bugprone/bugprone-copy-constructor-init.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Calling a base constructor other than the copy constructor</description>
+  <highlighted_element>X4</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>2</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/bugprone/bugprone-dangling-handle.cpp</file>
+  <line>24</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/bugprone/bugprone-dangling-handle.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Std::basic_string_view outlives its value</description>
+  <highlighted_element>std::string</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>43</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/bugprone/bugprone-dangling-handle.cpp</file>
+  <line>26</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/bugprone/bugprone-dangling-handle.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Std::basic_string_view outlives its value</description>
+  <highlighted_element>View</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>2</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/bugprone/bugprone-dangling-handle.cpp</file>
+  <line>29</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/bugprone/bugprone-dangling-handle.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Std::basic_string_view outlives its value</description>
+  <highlighted_element>V</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>2</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/bugprone/bugprone-dangling-handle.cpp</file>
+  <line>30</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/bugprone/bugprone-dangling-handle.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Std::basic_string_view outlives its value</description>
+  <highlighted_element>V</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>2</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/bugprone/bugprone-fold-init-type.cpp</file>
+  <line>21</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/bugprone/bugprone-fold-init-type.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Folding type 'float' into type 'int' might result in loss of precision</description>
+  <highlighted_element>std::accumulate</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>2</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/bugprone/bugprone-forward-declaration-namespace.cpp</file>
+  <line>16</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/bugprone/bugprone-forward-declaration-namespace.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>No definition found for 'A', but a definition with the same name 'A' found in another namespace 'bugprone::forward_declaration_namespace::nb'</description>
+  <highlighted_element>A</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>7</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/bugprone/bugprone-forwarding-reference-overload.cpp</file>
+  <line>39</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/bugprone/bugprone-forwarding-reference-overload.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Constructor accepting a forwarding reference can hide the copy and move constructors</description>
+  <highlighted_element>Person</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>33</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/bugprone/bugprone-forwarding-reference-overload.cpp</file>
+  <line>43</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/bugprone/bugprone-forwarding-reference-overload.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Constructor accepting a forwarding reference can hide the copy and move constructors</description>
+  <highlighted_element>Person</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>11</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/bugprone/bugprone-incorrect-roundings.cpp</file>
+  <line>12</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/bugprone/bugprone-incorrect-roundings.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Casting (double + 0.5) to integer leads to incorrect rounding; consider using lround (#include &lt;cmath&gt;) instead</description>
+  <highlighted_element>1.00000000001</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>28</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/bugprone/bugprone-integer-division.cpp</file>
+  <line>29</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/bugprone/bugprone-integer-division.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Result of integer division used in a floating point context; possible loss of precision</description>
+  <highlighted_element>32</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>6</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/bugprone/bugprone-integer-division.cpp</file>
+  <line>30</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/bugprone/bugprone-integer-division.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Result of integer division used in a floating point context; possible loss of precision</description>
+  <highlighted_element>7</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>24</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/bugprone/bugprone-integer-division.cpp</file>
+  <line>31</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/bugprone/bugprone-integer-division.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Result of integer division used in a floating point context; possible loss of precision</description>
+  <highlighted_element>i</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>6</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/bugprone/bugprone-lambda-function-name.cpp</file>
+  <line>16</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/bugprone/bugprone-lambda-function-name.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inside a lambda, '__func__' expands to the name of the function call operator; consider capturing the name of the enclosing function explicitly</description>
+  <highlighted_element>__func__</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>31</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/bugprone/bugprone-lambda-function-name.cpp</file>
+  <line>19</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/bugprone/bugprone-lambda-function-name.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inside a lambda, '__FUNCTION__' expands to the name of the function call operator; consider capturing the name of the enclosing function explicitly</description>
+  <highlighted_element>__FUNCTION__</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>35</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/bugprone/bugprone-macro-parentheses.cpp</file>
+  <line>20</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/bugprone/bugprone-macro-parentheses.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Macro replacement list should be enclosed in parentheses</description>
+  <highlighted_element>+</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>12</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/bugprone/bugprone-macro-repeated-side-effects.cpp</file>
+  <line>13</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/bugprone/bugprone-macro-repeated-side-effects.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Side effects in the 1st macro argument 'x' are repeated in macro expansion</description>
+  <highlighted_element>a</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>13</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/bugprone/bugprone-misplaced-widening-cast.cpp</file>
+  <line>20</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/bugprone/bugprone-misplaced-widening-cast.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Either cast from 'int' to 'long' is ineffective, or there is loss of precision before the conversion</description>
+  <highlighted_element>static_cast</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>9</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/bugprone/bugprone-move-forwarding-reference.cpp</file>
+  <line>16</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/bugprone/bugprone-move-forwarding-reference.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Forwarding reference passed to std::move(), which may unexpectedly cause lvalues to be moved; use std::forward() instead</description>
+  <highlighted_element>std::move</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>44</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/bugprone/bugprone-string-constructor.cpp</file>
+  <line>27</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/bugprone/bugprone-string-constructor.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>String constructor parameters are probably swapped; expecting string(count, character)</description>
+  <highlighted_element>str</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>14</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/bugprone/bugprone-string-constructor.cpp</file>
+  <line>29</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/bugprone/bugprone-string-constructor.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Length is bigger than string literal size</description>
+  <highlighted_element>std::string</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>2</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/bugprone/bugprone-string-constructor.cpp</file>
+  <line>31</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/bugprone/bugprone-string-constructor.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Constructor creating an empty string</description>
+  <highlighted_element>std::string</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>2</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/bugprone/bugprone-string-integer-assignment.cpp</file>
+  <line>19</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/bugprone/bugprone-string-integer-assignment.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>An integer is interpreted as a character code when assigning it to a string; if this is intended, cast the integer to the appropriate character type; if you want a string representation, use the appropriate conversion facility</description>
+  <highlighted_element>6</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>6</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/bugprone/bugprone-string-integer-assignment.cpp</file>
+  <line>20</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/bugprone/bugprone-string-integer-assignment.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>An integer is interpreted as a character code when assigning it to a string; if this is intended, cast the integer to the appropriate character type; if you want a string representation, use the appropriate conversion facility</description>
+  <highlighted_element>x</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>6</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/bugprone/bugprone-unchecked-optional-access.cpp</file>
+  <line>38</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/bugprone/bugprone-unchecked-optional-access.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Unchecked access to optional value</description>
+  <highlighted_element>opt</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>60</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/cert/cert-dcl16-c.cpp</file>
+  <line>23</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/cert/cert-dcl16-c.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Integer literal has suffix 'u', which is not uppercase</description>
+  <highlighted_element>1u</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>28</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/cert/cert-dcl50-cpp.cpp</file>
+  <line>16</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/cert/cert-dcl50-cpp.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Do not define a C-style variadic function; consider using a function parameter pack or currying instead</description>
+  <highlighted_element>add</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>4</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/cert/cert-dcl58-cpp.cpp</file>
+  <line>11</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/cert/cert-dcl58-cpp.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Modification of 'std' namespace can result in undefined behavior</description>
+  <highlighted_element>x</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>4</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/cert/cert-err52-cpp.cpp</file>
+  <line>26</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/cert/cert-err52-cpp.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Do not call 'longjmp'; consider using exception handling instead</description>
+  <highlighted_element>std::longjmp</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>2</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/cert/cert-err52-cpp.cpp</file>
+  <line>31</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/cert/cert-err52-cpp.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Do not call 'setjmp'; consider using exception handling instead</description>
+  <highlighted_element>setjmp</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>6</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/cppcoreguidelines/avoid-non-const-global-variables.cpp</file>
+  <line>13</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/cppcoreguidelines/avoid-non-const-global-variables.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Variable 'nonConstInt' is non-const and globally accessible, consider making it const</description>
+  <highlighted_element>nonConstInt</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>4</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/cppcoreguidelines/avoid-non-const-global-variables.cpp</file>
+  <line>14</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/cppcoreguidelines/avoid-non-const-global-variables.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Variable 'nonConstIntReference' provides global access to a non-const object; consider making the referenced data 'const'</description>
+  <highlighted_element>nonConstIntReference</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>22</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/cppcoreguidelines/avoid-non-const-global-variables.cpp</file>
+  <line>15</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/cppcoreguidelines/avoid-non-const-global-variables.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Variable 'pointerToNonConstInt' is non-const and globally accessible, consider making it const</description>
+  <highlighted_element>pointerToNonConstInt</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>22</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/cppcoreguidelines/avoid-non-const-global-variables.cpp</file>
+  <line>15</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/cppcoreguidelines/avoid-non-const-global-variables.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Variable 'pointerToNonConstInt' provides global access to a non-const object; consider making the pointed-to data 'const'</description>
+  <highlighted_element>pointerToNonConstInt</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>22</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/cppcoreguidelines/narrowing-conversions.cpp</file>
+  <line>32</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/cppcoreguidelines/narrowing-conversions.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Narrowing conversion from constant 'double' to 'int'</description>
+  <highlighted_element>0.1</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>7</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/fuchsia/fuchsia-default-arguments-calls.cpp</file>
+  <line>19</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/fuchsia/fuchsia-default-arguments-calls.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Calling a function that uses a default argument is disallowed</description>
+  <highlighted_element>foo</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>2</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/google/google-default-arguments.cpp</file>
+  <line>11</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/google/google-default-arguments.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Default arguments on virtual or override methods are prohibited</description>
+  <highlighted_element>foo</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>15</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/google/google-explicit-constructor.cpp</file>
+  <line>14</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/google/google-explicit-constructor.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Single-argument constructors must be marked explicit to avoid unintentional implicit conversions</description>
+  <highlighted_element>S</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>2</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/google/google-explicit-constructor.cpp</file>
+  <line>16</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/google/google-explicit-constructor.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>'operator bool' must be marked explicit to avoid unintentional implicit conversions</description>
+  <highlighted_element>bool</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>11</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/google/google-readability-casting.cpp</file>
+  <line>22</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/google/google-readability-casting.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Redundant cast to the same type</description>
+  <highlighted_element>(const char *)cpc</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>38</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/google/google-readability-casting.cpp</file>
+  <line>27</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/google/google-readability-casting.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>C-style casts are discouraged; use static_cast (if needed, the cast may be redundant)</description>
+  <highlighted_element>(Typedef2)t1</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>2</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/google/google-runtime-operator.cpp</file>
+  <line>16</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/google/google-runtime-operator.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Do not overload unary operator&amp;, it is dangerous.</description>
+  <highlighted_element>void</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>2</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/hicpp/hicpp-exception-baseclass.cpp</file>
+  <line>16</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/hicpp/hicpp-exception-baseclass.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Throwing an exception whose type 'int' is not derived from 'std::exception'</description>
+  <highlighted_element>int</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>8</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/hicpp/hicpp-exception-baseclass.cpp</file>
+  <line>21</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/hicpp/hicpp-exception-baseclass.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Throwing an exception whose type 'custom_exception' is not derived from 'std::exception'</description>
+  <highlighted_element>custom_exception</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>8</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/hicpp/hicpp-multiway-paths-covered.cpp</file>
+  <line>29</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/hicpp/hicpp-multiway-paths-covered.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Switch statement without labels has no effect</description>
+  <highlighted_element>switch</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>2</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/hicpp/hicpp-signed-bitwise.cpp</file>
+  <line>27</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/hicpp/hicpp-signed-bitwise.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Use of a signed integer operand with a binary bitwise operator</description>
+  <highlighted_element>SValue</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>12</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/misc/misc-misplaced-const.cpp</file>
+  <line>19</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/misc/misc-misplaced-const.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>'ptr' declared with a const-qualified typedef; results in the type being 'int *const' instead of 'const int *'</description>
+  <highlighted_element>ptr</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>21</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/misc/misc-new-delete-overloads.cpp</file>
+  <line>23</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/misc/misc-new-delete-overloads.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Declaration of 'operator new' has no matching declaration of 'operator delete' at the same scope</description>
+  <highlighted_element>new</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>17</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/misc/misc-no-recursion.cpp</file>
+  <line>23</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/misc/misc-no-recursion.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Function 'fact' is within a recursive call chain</description>
+  <highlighted_element>fact</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>4</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/misc/misc-non-copyable-objects.cpp</file>
+  <line>12</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/misc/misc-non-copyable-objects.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>'my_stdout' declared as type 'FILE', which is unsafe to copy; did you mean 'FILE *'?</description>
+  <highlighted_element>my_stdout</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>24</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/misc/misc-non-copyable-objects.cpp</file>
+  <line>12</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/misc/misc-non-copyable-objects.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Expression has opaque data structure type 'FILE'; type should only be used as a pointer and not dereferenced</description>
+  <highlighted_element>*stdout</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>36</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/misc/misc-throw-by-value-catch-by-reference.cpp</file>
+  <line>22</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/misc/misc-throw-by-value-catch-by-reference.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Catch handler catches by value; should catch by reference instead</description>
+  <highlighted_element>std::exception</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>11</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/misc/misc-unconventional-assign-operator.cpp</file>
+  <line>19</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/misc/misc-unconventional-assign-operator.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Operator=() should return 'X&amp;'</description>
+  <highlighted_element>int</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>2</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/misc/misc-unconventional-assign-operator.cpp</file>
+  <line>19</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/misc/misc-unconventional-assign-operator.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Operator=() should take 'X const&amp;', 'X&amp;&amp;' or 'X'</description>
+  <highlighted_element>int</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>2</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/misc/misc-uniqueptr-reset-release.cpp</file>
+  <line>16</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/misc/misc-uniqueptr-reset-release.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Prefer 'unique_ptr&lt;&gt;' assignment over 'release' and 'reset'</description>
+  <highlighted_element>reset</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>4</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-avoid-bind.cpp</file>
+  <line>24</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-avoid-bind.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Prefer a lambda to std::bind</description>
+  <highlighted_element>[[maybe_unused]] auto clj = std::bind(add, x); // warn here!</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>2</offset>
+  <length>60</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-avoid-c-arrays.cpp</file>
+  <line>17</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-avoid-c-arrays.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Do not declare C-style arrays, use std::array&lt;&gt; instead</description>
+  <highlighted_element>int</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>0</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-avoid-c-arrays.cpp</file>
+  <line>20</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-avoid-c-arrays.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Do not declare C-style arrays, use std::array&lt;&gt; instead</description>
+  <highlighted_element>int</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>0</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-avoid-c-arrays.cpp</file>
+  <line>23</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-avoid-c-arrays.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Do not declare C VLA arrays, use std::vector&lt;&gt; instead</description>
+  <highlighted_element>int</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>19</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-avoid-c-arrays.cpp</file>
+  <line>28</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-avoid-c-arrays.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Do not declare C-style arrays, use std::array&lt;&gt; instead</description>
+  <highlighted_element>T</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>19</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-avoid-c-arrays.cpp</file>
+  <line>31</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-avoid-c-arrays.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Do not declare C-style arrays, use std::array&lt;&gt; instead</description>
+  <highlighted_element>int</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>19</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-avoid-c-arrays.cpp</file>
+  <line>35</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-avoid-c-arrays.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Do not declare C-style arrays, use std::array&lt;&gt; instead</description>
+  <highlighted_element>int[4]</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>23</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-avoid-c-arrays.cpp</file>
+  <line>39</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-avoid-c-arrays.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Do not declare C-style arrays, use std::array&lt;&gt; instead</description>
+  <highlighted_element>int[4]</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>4</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp</file>
+  <line>17</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'assert.h'; consider using 'cassert' instead</description>
+  <highlighted_element>&lt;assert.h&gt;</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>9</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp</file>
+  <line>18</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'complex.h'; consider using 'complex' instead</description>
+  <highlighted_element>&lt;complex.h&gt;</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>9</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp</file>
+  <line>19</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'ctype.h'; consider using 'cctype' instead</description>
+  <highlighted_element>&lt;ctype.h&gt;</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>9</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp</file>
+  <line>20</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'errno.h'; consider using 'cerrno' instead</description>
+  <highlighted_element>&lt;errno.h&gt;</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>9</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp</file>
+  <line>21</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'fenv.h'; consider using 'cfenv' instead</description>
+  <highlighted_element>&lt;fenv.h&gt;</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>9</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp</file>
+  <line>22</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'float.h'; consider using 'cfloat' instead</description>
+  <highlighted_element>&lt;float.h&gt;</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>9</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp</file>
+  <line>23</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'inttypes.h'; consider using 'cinttypes' instead</description>
+  <highlighted_element>&lt;inttypes.h&gt;</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>9</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp</file>
+  <line>24</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'limits.h'; consider using 'climits' instead</description>
+  <highlighted_element>&lt;limits.h&gt;</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>9</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp</file>
+  <line>25</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'locale.h'; consider using 'clocale' instead</description>
+  <highlighted_element>&lt;locale.h&gt;</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>9</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp</file>
+  <line>26</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'math.h'; consider using 'cmath' instead</description>
+  <highlighted_element>&lt;math.h&gt;</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>9</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp</file>
+  <line>27</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'setjmp.h'; consider using 'csetjmp' instead</description>
+  <highlighted_element>&lt;setjmp.h&gt;</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>9</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp</file>
+  <line>28</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'signal.h'; consider using 'csignal' instead</description>
+  <highlighted_element>&lt;signal.h&gt;</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>9</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp</file>
+  <line>29</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'stdarg.h'; consider using 'cstdarg' instead</description>
+  <highlighted_element>&lt;stdarg.h&gt;</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>9</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp</file>
+  <line>30</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'stddef.h'; consider using 'cstddef' instead</description>
+  <highlighted_element>&lt;stddef.h&gt;</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>9</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp</file>
+  <line>31</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'stdint.h'; consider using 'cstdint' instead</description>
+  <highlighted_element>&lt;stdint.h&gt;</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>9</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp</file>
+  <line>32</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'stdio.h'; consider using 'cstdio' instead</description>
+  <highlighted_element>&lt;stdio.h&gt;</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>9</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp</file>
+  <line>33</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'stdlib.h'; consider using 'cstdlib' instead</description>
+  <highlighted_element>&lt;stdlib.h&gt;</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>9</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp</file>
+  <line>34</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'string.h'; consider using 'cstring' instead</description>
+  <highlighted_element>&lt;string.h&gt;</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>9</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp</file>
+  <line>35</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'tgmath.h'; consider using 'ctgmath' instead</description>
+  <highlighted_element>&lt;tgmath.h&gt;</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>9</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp</file>
+  <line>36</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'time.h'; consider using 'ctime' instead</description>
+  <highlighted_element>&lt;time.h&gt;</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>9</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp</file>
+  <line>37</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'uchar.h'; consider using 'cuchar' instead</description>
+  <highlighted_element>&lt;uchar.h&gt;</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>9</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp</file>
+  <line>38</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'wchar.h'; consider using 'cwchar' instead</description>
+  <highlighted_element>&lt;wchar.h&gt;</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>9</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp</file>
+  <line>39</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-deprecated-headers.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Inclusion of deprecated C++ header 'wctype.h'; consider using 'cwctype' instead</description>
+  <highlighted_element>&lt;wctype.h&gt;</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>9</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-loop-convert.cpp</file>
+  <line>73</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-loop-convert.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Use range-based for loop instead</description>
+  <highlighted_element>for</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>2</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-loop-convert.cpp</file>
+  <line>81</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-loop-convert.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Use range-based for loop instead</description>
+  <highlighted_element>for</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>2</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-make-shared.cpp</file>
+  <line>45</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-make-shared.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Use std::make_shared instead</description>
+  <highlighted_element>std::shared_ptr&lt;MyPair&gt;</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>16</offset>
+  <length>23</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-make-shared.cpp</file>
+  <line>47</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-make-shared.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Use std::make_shared instead</description>
+  <highlighted_element>reset</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>9</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-pass-by-value.cpp</file>
+  <line>42</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-pass-by-value.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Pass by value and use std::move</description>
+  <highlighted_element>const std::string</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>6</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-raw-string-literal.cpp</file>
+  <line>30</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-raw-string-literal.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Escaped string literal can be written as a raw string literal</description>
+  <highlighted_element>&quot;C:\\Program Files\\Vendor\\Application.exe&quot;</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>23</offset>
+  <length>44</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-raw-string-literal.cpp</file>
+  <line>31</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-raw-string-literal.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Escaped string literal can be written as a raw string literal</description>
+  <highlighted_element>&quot;\\w\\([a-z]\\)&quot;</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>24</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-redundant-void-arg.cpp</file>
+  <line>13</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-redundant-void-arg.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Redundant void argument list in function declaration</description>
+  <highlighted_element>void</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>6</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-redundant-void-arg.cpp</file>
+  <line>14</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-redundant-void-arg.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Redundant void argument list in function declaration</description>
+  <highlighted_element>void</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>9</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-redundant-void-arg.cpp</file>
+  <line>14</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-redundant-void-arg.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Redundant void argument list in function declaration</description>
+  <highlighted_element>void</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>16</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-redundant-void-arg.cpp</file>
+  <line>15</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-redundant-void-arg.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Redundant void argument list in typedef</description>
+  <highlighted_element>void</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>18</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-redundant-void-arg.cpp</file>
+  <line>15</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-redundant-void-arg.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Redundant void argument list in typedef</description>
+  <highlighted_element>void</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>25</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-use-auto.cpp</file>
+  <line>69</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-use-auto.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Use auto when declaring iterators</description>
+  <highlighted_element>std::vector&lt;int&gt;::iterator</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>19</offset>
+  <length>26</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-use-bool-literals.cpp</file>
+  <line>13</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-use-bool-literals.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Converting integer literal to bool, use bool literal instead</description>
+  <highlighted_element>1</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>11</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-use-bool-literals.cpp</file>
+  <line>14</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-use-bool-literals.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Converting integer literal to bool, use bool literal instead</description>
+  <highlighted_element>static_cast</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>28</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-use-bool-literals.cpp</file>
+  <line>15</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-use-bool-literals.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Converting integer literal to bool, use bool literal instead</description>
+  <highlighted_element>0</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>33</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-use-bool-literals.cpp</file>
+  <line>16</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-use-bool-literals.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Converting integer literal to bool, use bool literal instead</description>
+  <highlighted_element>1</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>32</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-use-bool-literals.cpp</file>
+  <line>16</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-use-bool-literals.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Converting integer literal to bool, use bool literal instead</description>
+  <highlighted_element>0</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>36</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-use-trailing-return-type.cpp</file>
+  <line>14</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-use-trailing-return-type.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Use a trailing return type for this function</description>
+  <highlighted_element>f1</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>4</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/modernize/modernize-use-trailing-return-type.cpp</file>
+  <line>15</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/modernize/modernize-use-trailing-return-type.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Use a trailing return type for this function</description>
+  <highlighted_element>f2</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>28</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/performance/performance-faster-string-find.cpp</file>
+  <line>26</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/performance/performance-faster-string-find.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>'find' called with a string literal consisting of a single character; consider using the more effective overload accepting a character</description>
+  <highlighted_element>&quot;A&quot;</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>11</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/performance/performance-unnecessary-value-param.cpp</file>
+  <line>44</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/performance/performance-unnecessary-value-param.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>The parameter 's' is copied for each invocation but only used as a const reference; consider making it a const reference</description>
+  <highlighted_element>s</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>60</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/performance/performance-unnecessary-value-param.cpp</file>
+  <line>48</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/performance/performance-unnecessary-value-param.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>The const qualified parameter 'value' is copied for each invocation; consider making it a reference</description>
+  <highlighted_element>value</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>44</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/performance/performance-unnecessary-value-param.cpp</file>
+  <line>52</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/performance/performance-unnecessary-value-param.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>The parameter 'value' is copied for each invocation but only used as a const reference; consider making it a const reference</description>
+  <highlighted_element>value</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>23</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/performance/performance-unnecessary-value-param.cpp</file>
+  <line>59</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/performance/performance-unnecessary-value-param.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Do not use 'std::endl' with streams; use '\n' instead</description>
+  <highlighted_element>std::endl</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>65</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-avoid-const-params-in-decls.cpp</file>
+  <line>11</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-avoid-const-params-in-decls.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Parameter 1 is const-qualified in the function declaration; const-qualification of parameters only has an effect in function definitions</description>
+  <highlighted_element>const std::string</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>7</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-braces-around-statements.cpp</file>
+  <line>33</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-braces-around-statements.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Statement should be inside braces</description>
+  <highlighted_element>if</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>2</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-container-size-empty.cpp</file>
+  <line>22</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-container-size-empty.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>The 'empty' method should be used to check for emptiness instead of 'size'</description>
+  <highlighted_element>v</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>6</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-convert-member-functions-to-static.cpp</file>
+  <line>23</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-convert-member-functions-to-static.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Method 'getP' can be made static</description>
+  <highlighted_element>getP</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>24</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-convert-member-functions-to-static.cpp</file>
+  <line>27</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-convert-member-functions-to-static.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Method 'bar' can be made static</description>
+  <highlighted_element>bar</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>23</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-delete-null-pointer.cpp</file>
+  <line>17</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-delete-null-pointer.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>'if' statement is unnecessary; deleting null pointer has no effect</description>
+  <highlighted_element>if</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>2</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-else-after-return.cpp</file>
+  <line>19</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-else-after-return.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Do not use 'else' after 'return'</description>
+  <highlighted_element>else</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>6</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-else-after-return.cpp</file>
+  <line>25</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-else-after-return.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Do not use 'else' after 'continue'</description>
+  <highlighted_element>else</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>4</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-else-after-return.cpp</file>
+  <line>30</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-else-after-return.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Do not use 'else' after 'throw'</description>
+  <highlighted_element>else</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>6</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-function-size.cpp</file>
+  <line>42</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-function-size.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Function 'check' exceeds recommended size/complexity thresholds</description>
+  <highlighted_element>check</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>5</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-implicit-bool-conversion.cpp</file>
+  <line>18</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-implicit-bool-conversion.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Implicit conversion bool -&gt; 'int'</description>
+  <highlighted_element>foo</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>12</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-implicit-bool-conversion.cpp</file>
+  <line>25</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-implicit-bool-conversion.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Implicit conversion 'int' -&gt; bool</description>
+  <highlighted_element>foo</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>6</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-inconsistent-declaration-parameter-name.cpp</file>
+  <line>16</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-inconsistent-declaration-parameter-name.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Function 'readability::inconsistent_declaration_parameter_name::foo' has a definition with different parameter names</description>
+  <highlighted_element>foo</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>4</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-inconsistent-declaration-parameter-name.cpp</file>
+  <line>19</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-inconsistent-declaration-parameter-name.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Function 'readability::inconsistent_declaration_parameter_name::foo_in_source' has a definition with different parameter names</description>
+  <highlighted_element>foo_in_source</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>4</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-inconsistent-declaration-parameter-name.cpp</file>
+  <line>26</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-inconsistent-declaration-parameter-name.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Function 'readability::inconsistent_declaration_parameter_name::templateFunctionWithSeparateDeclarationAndDefinition' has a definition with different parameter names</description>
+  <highlighted_element>templateFunctionWithSeparateDeclarationAndDefinition</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>5</offset>
+  <length>52</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-misleading-indentation.cpp</file>
+  <line>41</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-misleading-indentation.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Different indentation for 'if' and corresponding 'else'</description>
+  <highlighted_element>else</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>2</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-misplaced-array-index.cpp</file>
+  <line>14</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-misplaced-array-index.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Confusing array subscript expression, usually the index is inside the []</description>
+  <highlighted_element>Y</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>2</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-non-const-parameter.cpp</file>
+  <line>25</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-non-const-parameter.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Pointer parameter 'p' can be pointer to const</description>
+  <highlighted_element>p</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>14</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-redundant-control-flow.cpp</file>
+  <line>20</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-redundant-control-flow.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Redundant return statement at the end of a function with a void return type</description>
+  <highlighted_element>return</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>2</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-redundant-control-flow.cpp</file>
+  <line>25</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-redundant-control-flow.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Redundant continue statement at the end of loop statement</description>
+  <highlighted_element>continue</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>4</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-redundant-declaration.cpp</file>
+  <line>30</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-redundant-declaration.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Redundant 'X' declaration</description>
+  <highlighted_element>X</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>11</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-redundant-function-ptr-dereference.cpp</file>
+  <line>16</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-redundant-function-ptr-dereference.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Redundant repeated dereference of function pointer</description>
+  <highlighted_element>**p</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>9</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-redundant-member-init.cpp</file>
+  <line>16</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-redundant-member-init.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Initializer for member 's' is redundant</description>
+  <highlighted_element>Foo</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>2</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-redundant-smartptr-get.cpp</file>
+  <line>24</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-redundant-smartptr-get.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Redundant get() call on smart pointer</description>
+  <highlighted_element>s_a</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>2</offset>
+  <length>3</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-redundant-string-init.cpp</file>
+  <line>17</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-redundant-string-init.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Redundant string initialization</description>
+  <highlighted_element>a</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>14</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-redundant-string-init.cpp</file>
+  <line>18</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-redundant-string-init.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Redundant string initialization</description>
+  <highlighted_element>b</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>14</offset>
+  <length>1</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-simplify-boolean-expr.cpp</file>
+  <line>42</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-simplify-boolean-expr.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Redundant boolean literal in conditional return statement</description>
+  <highlighted_element>true</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>11</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-simplify-boolean-expr.cpp</file>
+  <line>51</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-simplify-boolean-expr.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Redundant boolean literal supplied to boolean operator</description>
+  <highlighted_element>true</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>11</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-simplify-boolean-expr.cpp</file>
+  <line>53</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-simplify-boolean-expr.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Redundant boolean literal supplied to boolean operator</description>
+  <highlighted_element>false</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>11</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-simplify-boolean-expr.cpp</file>
+  <line>55</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-simplify-boolean-expr.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Redundant boolean literal supplied to boolean operator</description>
+  <highlighted_element>true</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>11</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-simplify-boolean-expr.cpp</file>
+  <line>57</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-simplify-boolean-expr.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Redundant boolean literal supplied to boolean operator</description>
+  <highlighted_element>false</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>11</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-simplify-boolean-expr.cpp</file>
+  <line>59</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-simplify-boolean-expr.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Redundant boolean literal supplied to boolean operator</description>
+  <highlighted_element>true</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>11</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-simplify-boolean-expr.cpp</file>
+  <line>61</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-simplify-boolean-expr.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Redundant boolean literal supplied to boolean operator</description>
+  <highlighted_element>false</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>11</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-simplify-boolean-expr.cpp</file>
+  <line>66</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-simplify-boolean-expr.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Redundant boolean literal in ternary expression result</description>
+  <highlighted_element>true</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>6</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-simplify-boolean-expr.cpp</file>
+  <line>67</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-simplify-boolean-expr.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Redundant boolean literal in ternary expression result</description>
+  <highlighted_element>false</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>6</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-simplify-boolean-expr.cpp</file>
+  <line>68</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-simplify-boolean-expr.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Redundant boolean literal in if statement condition</description>
+  <highlighted_element>true</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>6</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-simplify-boolean-expr.cpp</file>
+  <line>72</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-simplify-boolean-expr.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Redundant boolean literal in if statement condition</description>
+  <highlighted_element>false</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>6</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-simplify-boolean-expr.cpp</file>
+  <line>81</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-simplify-boolean-expr.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Redundant boolean literal in conditional assignment</description>
+  <highlighted_element>true</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>8</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-simplify-boolean-expr.cpp</file>
+  <line>85</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-simplify-boolean-expr.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Redundant boolean literal in conditional assignment</description>
+  <highlighted_element>false</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>8</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-simplify-boolean-expr.cpp</file>
+  <line>93</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-simplify-boolean-expr.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Redundant boolean literal in ternary expression result</description>
+  <highlighted_element>true</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>16</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-simplify-subscript-expr.cpp</file>
+  <line>28</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-simplify-subscript-expr.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Accessing an element of the container does not require a call to 'data()'; did you mean to use 'operator[]'?</description>
+  <highlighted_element>data</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>13</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-static-accessed-through-instance.cpp</file>
+  <line>23</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-static-accessed-through-instance.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Static member accessed through instance</description>
+  <highlighted_element>c1</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>2</offset>
+  <length>2</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/readability/readability-static-accessed-through-instance.cpp</file>
+  <line>24</line>
+  <module>clang-tidy-inspections</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/readability/readability-static-accessed-through-instance.cpp" />
+  <problem_class id="ClangTidy" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Clang-Tidy</problem_class>
+  <description>Static member accessed through instance</description>
+  <highlighted_element>c1</highlighted_element>
+  <language>ObjectiveC</language>
+  <offset>2</offset>
+  <length>2</length>
+</problem>
+</problems>

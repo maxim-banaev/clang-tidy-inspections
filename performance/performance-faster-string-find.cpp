@@ -15,6 +15,9 @@
 //
 // https://clang.llvm.org/extra/clang-tidy/checks/performance/faster-string-find.html
 
+#pragma clang diagnostic push
+#pragma ide diagnostic ignored "performance-avoid-endl"
+
 namespace performance::faster_string_find {
 void check() {
   std::cout << "-- check performance-faster-string-find" << std::endl;
@@ -23,3 +26,4 @@ void check() {
   str.find("A"); // warn here!
 }
 } // namespace performance::faster_string_find
+#pragma clang diagnostic pop
